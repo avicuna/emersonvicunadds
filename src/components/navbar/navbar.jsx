@@ -1,12 +1,48 @@
 import React from 'react';
-import { Animation } from "mdbreact";
+import {Collapse, Navbar, NavbarBrand, NavbarNav, NavbarToggler, NavItem, NavLink} from "mdbreact";
+import tooth from "../../assets/happytooth.jpg";
 
-const Navbar = (props) => (
-  <div>
-      <Animation type="bounce" infinite>
-          <img className="img-fluid" src="https://mdbootstrap.com/img/logo/mdb-transparent-250px.png"/>
-      </Animation>
-      <p>Hello World!</p>
-  </div>
-);
-export default Navbar;
+class Nav extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            collapse: false,
+        };
+        this.onClick = this.onClick.bind(this);
+    }
+    onClick(){
+        this.setState({
+            collapse: !this.state.collapse,
+        });
+    }
+
+    render() {
+        return (
+            <>
+                <Navbar color="white" expand="md" scrolling>
+                    <NavbarBrand href="/">
+                        <img src={tooth} alt="happy-tooth" className="logo"/>
+                    </NavbarBrand>
+                    <NavbarToggler onClick = { this.onClick } />
+                    <Collapse isOpen = { this.state.collapse } navbar>
+                        <NavbarNav right>
+                            <NavItem active>
+                                <NavLink to="#">About</NavLink>
+                            </NavItem>
+                            <NavItem>
+                                <NavLink to="#">Services</NavLink>
+                            </NavItem>
+                            <NavItem>
+                                <NavLink to="#">Insurance Providers</NavLink>
+                            </NavItem>
+                        </NavbarNav>
+                    </Collapse>
+                </Navbar>
+            </>
+        )
+    }
+
+
+}
+
+export default Nav;

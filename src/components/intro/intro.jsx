@@ -1,66 +1,35 @@
 import React from 'react';
 import abq from "../../assets/albuquerque-skyline.jpg";
-import { Navbar, NavbarBrand, NavbarNav, NavbarToggler, Collapse, NavItem, NavLink, Mask, View } from 'mdbreact';
+import { Mask, View } from 'mdbreact';
+import Nav from "../navbar/navbar";
+import FooterPage from "../footer/footer";
 
-class FullPageIntroWithNonFixedTransparentNavbar extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            collapse: false,
-        };
-        this.onClick = this.onClick.bind(this);
-    }
-    onClick(){
-        this.setState({
-            collapse: !this.state.collapse,
-        });
-    }
+
+class Intro extends React.Component {
     render() {
         return (
             <div>
                 <header>
-                        <Navbar color="light-blue darken-3" dark expand="md" scrolling>
-                            <NavbarBrand href="/">
-                                <strong>Navbar</strong>
-                            </NavbarBrand>
-                            <NavbarToggler onClick = { this.onClick } />
-                            <Collapse isOpen = { this.state.collapse } navbar>
-                                <NavbarNav left>
-                                    <NavItem active>
-                                        <NavLink to="#">Home</NavLink>
-                                    </NavItem>
-                                    <NavItem>
-                                        <NavLink to="#">Link</NavLink>
-                                    </NavItem>
-                                    <NavItem>
-                                        <NavLink to="#">Profile</NavLink>
-                                    </NavItem>
-                                </NavbarNav>
-                            </Collapse>
-                        </Navbar>
+                    <Nav/>
                     <View>
                         <img
                             src={abq}
                             alt="stuff"
-                            className="img-fluid"
+                            className="img-fluid abq"
                         />
                         <Mask overlay="indigo-light"
                               style={{ flexDirection: "column" }}
                               className="flex-center  text-white text-center"
                         >
                             <h1 className="display-4">Emerson Vicuna, DDS Family Dentistry</h1>
+                            <p></p>
                         </Mask>
                     </View>
                 </header>
-
-                {/*<img*/}
-                    {/*src={abq}*/}
-                    {/*alt="stuff"*/}
-                    {/*className="img-fluid"*/}
-                {/*/>*/}
+                <FooterPage/>
             </div>
         );
     }
 }
 
-export default FullPageIntroWithNonFixedTransparentNavbar;
+export default Intro;

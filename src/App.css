@@ -2,10 +2,23 @@
   text-align: center;
 }
 
-.navbar {
-    background-color: transparent;
-    z-index: 1;
+.abq {
+
 }
+
+.logo {
+    /*width: auto;*/
+    /*height: 2em;*/
+    /*margin-right: 2em;*/
+    font-size: 25px;
+    /*color: rgb(255, 255, 255);*/
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    border-radius: 5px;
+    /*background-color: rgb(30, 143, 30);*/
+}
+
 @media only screen and (max-width: 768px) {
     .navbar {
         background-color: #1C2331;
