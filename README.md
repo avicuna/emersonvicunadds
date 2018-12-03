@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-https://travis-ci.org/avicuna/emersonvicunadds.svg?branch=master
+[![Build Status](https://travis-ci.org/avicuna/emersonvicunadds.svg?branch=master)](https://travis-ci.org/avicuna/emersonvicunadds)
 
 ## Available Scripts
 
