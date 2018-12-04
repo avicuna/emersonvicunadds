@@ -3,12 +3,13 @@ import abq from "../../assets/albuquerque-skyline.jpg";
 import { Mask, View } from 'mdbreact';
 import Nav from "../navbar/navbar";
 import FooterPage from "../footer/footer";
+import MapContainer from "../map/map-container";
 
 
 class Intro extends React.Component {
     render() {
         return (
-            <div>
+            <>
                 <header>
                     <Nav/>
                     <View>
@@ -22,12 +23,14 @@ class Intro extends React.Component {
                               className="flex-center  text-white text-center"
                         >
                             <h1 className="display-4">Emerson Vicuna, DDS Family Dentistry</h1>
-                            <p></p>
                         </Mask>
                     </View>
                 </header>
+                <main>
+                    <MapContainer/>
+                </main>
                 <FooterPage/>
-            </div>
+            </>
         );
     }
 }
