@@ -2,22 +2,31 @@
   text-align: center;
 }
 
-.page-footer {
-    padding-top: 460px;
+.app {
+    min-height: 100vh; /* will cover the 100% of viewport */
+    overflow: hidden;
+    display: block;
+    position: relative;
+    padding-bottom: 630px; /* height of your footer */
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 .logo {
-    /*width: auto;*/
-    /*height: 2em;*/
-    /*margin-right: 2em;*/
     font-size: 25px;
-    /*color: rgb(255, 255, 255);*/
     height: 40px;
     width: 40px;
     text-align: center;
     border-radius: 5px;
-    /*background-color: rgb(30, 143, 30);*/
 }
+
+/*.headshot {*/
+    /*width: 40%;*/
+/*}*/
 
 @media only screen and (max-width: 768px) {
     .navbar {

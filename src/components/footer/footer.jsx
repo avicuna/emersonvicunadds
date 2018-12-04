@@ -4,11 +4,12 @@ import { Col, Container, Row, Footer } from "mdbreact";
 class FooterPage extends React.Component {
     render() {
         return (
-            <>
+            <div className="footer">
                 <footer color="blue" className="page-footer font-small blue">
                     <Container fluid className="text-center text-md-left">
                         <Row>
                             <Col md="6">
+                                <br/>
                                 <h5 className="title">Get In Touch</h5>
                                 <br/>
                                 <p>
@@ -23,6 +24,7 @@ class FooterPage extends React.Component {
                                 </p>
                             </Col>
                             <Col md="6">
+                                <br/>
                                 <h5 className="title">Hours</h5>
                                     <Col>
                                         <ul>
@@ -43,7 +45,7 @@ class FooterPage extends React.Component {
                         </Container>
                     </div>
                 </footer>
-            </>
+            </div>
         );
     }
 }

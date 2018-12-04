@@ -2,14 +2,14 @@ import React from 'react';
 import abq from "../../assets/albuquerque-skyline.jpg";
 import { Mask, View } from 'mdbreact';
 import Nav from "../navbar/navbar";
-import FooterPage from "../footer/footer";
+// import FooterPage from "../footer/footer";
 import MapContainer from "../map/map-container";
 
 
 class Intro extends React.Component {
     render() {
         return (
-            <>
+            <div className="intro">
                 <header>
                     <Nav/>
                     <View>
@@ -26,11 +26,12 @@ class Intro extends React.Component {
                         </Mask>
                     </View>
                 </header>
-                <main>
-                    <MapContainer/>
-                </main>
-                <FooterPage/>
-            </>
+                {/*<main>*/}
+                    {/*<MapContainer/>*/}
+                {/*</main>*/}
+                <MapContainer/>
+                {/*<FooterPage/>*/}
+            </div>
         );
     }
 }

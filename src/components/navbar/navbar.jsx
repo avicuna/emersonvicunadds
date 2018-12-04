@@ -20,14 +20,14 @@ class Nav extends React.Component {
         return (
             <>
                 <Navbar color="white" expand="md" scrolling>
-                    <NavbarBrand href="/">
+                    <NavbarBrand href="/intro">
                         <img src={tooth} alt="happy-tooth" className="logo"/>
                     </NavbarBrand>
                     <NavbarToggler onClick = { this.onClick } />
                     <Collapse isOpen = { this.state.collapse } navbar>
                         <NavbarNav right>
                             <NavItem active>
-                                <NavLink to="#">About</NavLink>
+                                <NavLink to="/about">About</NavLink>
                             </NavItem>
                             <NavItem>
                                 <NavLink to="#">Services</NavLink>
