@@ -4,9 +4,17 @@ node_js:
 branches:
   only:
     - master
+
 script:
-  - echo "Building!"
+  - echo "Starting!"
+
 install:
+  - echo "Installing!"
   - npm i
+
+build:
+  - echo "Building!"
+  - npm run build
+
 after_success:
   - echo "Finished!"
