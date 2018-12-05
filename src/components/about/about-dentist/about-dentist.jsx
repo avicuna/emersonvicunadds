@@ -1,17 +1,21 @@
 import React from 'react';
+import {Animation} from 'mdbreact';
 import dentist from '../../../assets/EVHeadshot.png';
 
 const AboutDentist = () => {
     return (
-        <>
-            <p>Hello World!</p>
-            <img
-                src={dentist}
-                alt="Dr.Vicuna"
-                width="400"
-                className="img-fluid z-depth-1 rounded-circle headshot"
-            />
-        </>
+        <div className="about-dentist">
+            <br/>
+            <h1>About Dr.Vicuña</h1>
+            <Animation type="zoomInDown" duration="1s">
+                <img
+                    src={dentist}
+                    alt="Dr.Vicuña"
+                    width="500"
+                    className="img-fluid z-depth-1 rounded-circle headshot"
+                />
+            </Animation>
+        </div>
     )
 }
 export default AboutDentist;

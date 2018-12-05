@@ -4,25 +4,30 @@ import './App.css';
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Intro from "./components/intro/intro";
 import About from "./components/about/about";
-import FooterPage from "./components/footer/footer";
+import Nav from "./components/navbar/navbar";
 
 class App extends Component {
-  render() {
+    constructor(props){
+        super(props);
+        this.state = {lang: "eng"}
+    }
+
+    render() {
     return (
         <div>
           <BrowserRouter>
               <div className="app">
+                  <Nav/>
                   <Switch>
-                      <Route path="/intro" component={Intro}/>
+                      <Route path="/home" component={Intro}/>
                       <Route path="/about" component={About} />
                       <Route component={Intro} />
                   </Switch>
-                  <FooterPage/>
               </div>
           </BrowserRouter>
         </div>
     );
-  }
+    }
 }
 
 export default App;

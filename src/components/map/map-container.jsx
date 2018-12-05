@@ -2,10 +2,10 @@ import {Map, Marker, GoogleApiWrapper} from "google-maps-react";
 import React from "react";
 
 export class MapContainer extends React.Component {
-    render(){
+    render() {
         const style = {
             width: '100%',
-            height: '400px',
+            height: '630px',
         };
         const lat = 35.067539;
         const lng = -106.667059;

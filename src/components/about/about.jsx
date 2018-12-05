@@ -1,18 +1,15 @@
 import React from 'react';
-import Nav from "../navbar/navbar";
-import FooterPage from "../footer/footer";
 import AboutDentist from "./about-dentist/about-dentist";
+import FooterPage from "../footer/footer";
+import AboutTextEn from "./about-text/about-text-en";
 
-class About extends React.Component {
-    render(){
-        return (
-            <>
-                <Nav/>
-                <p>About page</p>
-                <AboutDentist/>
-                <FooterPage/>
-            </>
-        )
-    }
+const About = () => {
+    return (
+        <>
+            <AboutDentist/>
+            <AboutTextEn/>
+            <FooterPage/>
+        </>
+    )
 }
 export default About;

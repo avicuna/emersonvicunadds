@@ -3,17 +3,12 @@
 }
 
 .app {
-    min-height: 100vh; /* will cover the 100% of viewport */
+    /*min-height: 100vh; !* will cover the 100% of viewport *!*/
     overflow: hidden;
     display: block;
     position: relative;
-    padding-bottom: 630px; /* height of your footer */
-}
-
-footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
+    /*padding-bottom: 630px; !* height of your footer *!*/
+    background-color: azure;
 }
 
 .logo {
@@ -23,10 +18,6 @@ footer {
     text-align: center;
     border-radius: 5px;
 }
-
-/*.headshot {*/
-    /*width: 40%;*/
-/*}*/
 
 @media only screen and (max-width: 768px) {
     .navbar {
@@ -38,3 +29,50 @@ footer {
         overflow: visible;
     }
 }
+
+/**********************
+  Intro Page
+ **********************/
+
+.intro .footer {
+    /*min-height: 100vh; !* will cover the 100% of viewport *!*/
+    overflow: hidden;
+    display: block;
+    position: relative;
+    margin-top: 630px; /* height of your footer */
+    background-color: azure;
+    bottom: 0;
+    width: 100%;
+}
+
+.testimonials {
+    display: block;
+    text-align: center;
+    padding-top: 650px;
+
+}
+
+/**********************
+  About Page
+ **********************/
+.about-dentist h1 {
+    display: block;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.about-dentist img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ .about-text{
+    padding: 40px;
+}
+
+ .about-text p {
+     padding-bottom: 10px;
+     font-size: 130%;
+     color: black;
+ }

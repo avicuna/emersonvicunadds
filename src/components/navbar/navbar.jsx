@@ -20,7 +20,7 @@ class Nav extends React.Component {
         return (
             <>
                 <Navbar color="white" expand="md" scrolling>
-                    <NavbarBrand href="/intro">
+                    <NavbarBrand href="/home">
                         <img src={tooth} alt="happy-tooth" className="logo"/>
                     </NavbarBrand>
                     <NavbarToggler onClick = { this.onClick } />

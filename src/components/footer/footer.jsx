@@ -1,5 +1,5 @@
 import React from "react";
-import { Col, Container, Row, Footer } from "mdbreact";
+import { Col, Container, Row} from "mdbreact";
 
 class FooterPage extends React.Component {
     render() {
@@ -41,7 +41,7 @@ class FooterPage extends React.Component {
                     </Container>
                     <div className="footer-copyright text-center py-3">
                         <Container fluid>
-                            <p> HANDMADE FOR EMERSON VICUNA, DDS BY ALEJANDRO VICUNA </p>
+                            <p> HANDMADE FOR EMERSON VICUÑA, DDS BY ALEJANDRO VICUÑA </p>
                         </Container>
                     </div>
                 </footer>
