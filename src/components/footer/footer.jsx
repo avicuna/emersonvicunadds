@@ -1,11 +1,11 @@
 import React from "react";
-import { Col, Container, Row} from "mdbreact";
+import { Col, Container, Row, Footer} from "mdbreact";
 
 class FooterPage extends React.Component {
     render() {
         return (
             <div className="footer">
-                <footer color="blue" className="page-footer font-small blue">
+                <Footer color="unique-color" className="page-footer font-small">
                     <Container fluid className="text-center text-md-left">
                         <Row>
                             <Col md="6">
@@ -44,7 +44,7 @@ class FooterPage extends React.Component {
                             <p> HANDMADE FOR EMERSON VICUÑA, DDS BY ALEJANDRO VICUÑA </p>
                         </Container>
                     </div>
-                </footer>
+                </Footer>
             </div>
         );
     }

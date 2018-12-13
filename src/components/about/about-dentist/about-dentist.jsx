@@ -5,8 +5,7 @@ import dentist from '../../../assets/EVHeadshot.png';
 const AboutDentist = () => {
     return (
         <div className="about-dentist">
-            <br/>
-            <h1>About Dr.Vicuña</h1>
+            <h1>Meet Doctor Vicuña</h1>
             <Animation type="zoomInDown" duration="1s">
                 <img
                     src={dentist}

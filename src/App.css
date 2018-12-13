@@ -3,13 +3,18 @@
 }
 
 .app {
-    /*min-height: 100vh; !* will cover the 100% of viewport *!*/
+    min-height: 100vh; /* will cover the 100% of viewport */
     overflow: hidden;
     display: block;
     position: relative;
     /*padding-bottom: 630px; !* height of your footer *!*/
-    background-color: azure;
+    /*background-color: azure;*/
 }
+
+/*.footer {*/
+    /*bottom: 0;*/
+    /*padding-top: 630px;*/
+/*}*/
 
 .logo {
     font-size: 25px;
@@ -33,10 +38,13 @@
 /**********************
   Intro Page
  **********************/
+.abq {
+    height: 100vh;
+}
 
 .intro .footer {
     /*min-height: 100vh; !* will cover the 100% of viewport *!*/
-    overflow: hidden;
+    /*overflow: hidden;*/
     display: block;
     position: relative;
     margin-top: 630px; /* height of your footer */
@@ -45,12 +53,12 @@
     width: 100%;
 }
 
-.testimonials {
-    display: block;
-    text-align: center;
-    padding-top: 650px;
+/*.testimonials {*/
+    /*display: block;*/
+    /*text-align: center;*/
+    /*padding-top: 650px;*/
 
-}
+/*}*/
 
 /**********************
   About Page
@@ -58,6 +66,7 @@
 .about-dentist h1 {
     display: block;
     text-align: center;
+    padding-top: 80px;
     padding-bottom: 15px;
 }
 
@@ -76,3 +85,52 @@
      font-size: 130%;
      color: black;
  }
+
+/**********************
+ Services Page
+**********************/
+.services h1 {
+    display: block;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.services .footer {
+    /*min-height: 100vh; !* will cover the 100% of viewport *!*/
+    overflow: hidden;
+    display: block;
+    position: relative;
+    padding-top: 600px; /* height of your footer */
+    /*background-color: azure;*/
+    bottom: 0;
+    /*width: 100%;*/
+}
+
+/**********************
+ Contact Page
+**********************/
+.contact .footer {
+    /*min-height: 100vh; !* will cover the 100% of viewport *!*/
+    overflow: hidden;
+    display: block;
+    position: relative;
+    margin-top: 630px; /* height of your footer */
+    /*background-color: azure;*/
+    /*bottom: 0;*/
+    /*width: 100%;*/
+}
+
+/**********************
+ Forms Page
+**********************/
+
+.forms .footer {
+    /*min-height: 100vh; !* will cover the 100% of viewport *!*/
+    overflow: hidden;
+    display: block;
+    position: relative;
+    margin-top: 630px; /* height of your footer */
+    /*background-color: azure;*/
+    /*bottom: 0;*/
+    /*width: 100%;*/
+}

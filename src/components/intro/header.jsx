@@ -12,11 +12,12 @@ const Header = () => {
                         alt="stuff"
                         className="img-fluid abq"
                     />
-                    <Mask overlay="indigo-light"
+                    <Mask overlay=""
                           style={{ flexDirection: "column" }}
                           className="flex-center  text-white text-center"
                     >
-                        <h1 className="display-4">Emerson Vicuña, DDS Family Dentistry</h1>
+                        <h1 className="display-3">Emerson Vicuña, DDS Family Dentistry</h1>
+                        <h2>Albuquerque, New Mexico</h2>
                     </Mask>
                 </View>
             </header>

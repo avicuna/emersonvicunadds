@@ -2,7 +2,7 @@ import React from 'react';
 import {Collapse, Navbar, NavbarBrand, NavbarNav, NavbarToggler, NavItem, NavLink} from "mdbreact";
 import tooth from "../../assets/happytooth.jpg";
 
-class Nav extends React.Component {
+class HomeNav extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -19,21 +19,30 @@ class Nav extends React.Component {
     render() {
         return (
             <>
-                <Navbar color="white" expand="md" scrolling>
+                <Navbar color="unique-color" dark expand="md" fixed="top" scrolling transparent>
                     <NavbarBrand href="/home">
                         <img src={tooth} alt="happy-tooth" className="logo"/>
                     </NavbarBrand>
                     <NavbarToggler onClick = { this.onClick } />
                     <Collapse isOpen = { this.state.collapse } navbar>
+                        {/*<NavbarNav left>*/}
+                            {/*<p>Espanol <input id="lang-select" type="checkbox" data-toggle="toggle"/></p>*/}
+                        {/*</NavbarNav>*/}
                         <NavbarNav right>
-                            <NavItem active>
+                            <NavItem>
                                 <NavLink to="/about">About</NavLink>
                             </NavItem>
-                            <NavItem>
-                                <NavLink to="#">Services</NavLink>
+                            <NavItem >
+                                <NavLink to="/services">General Services</NavLink>
+                            </NavItem>
+                            <NavItem >
+                                <NavLink to="/services">Cosmetic Services</NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink to="#">Insurance Providers</NavLink>
+                                <NavLink to="/forms">Forms</NavLink>
+                            </NavItem>
+                            <NavItem>
+                                <NavLink to="/contact">Contact</NavLink>
                             </NavItem>
                         </NavbarNav>
                     </Collapse>
@@ -41,8 +50,6 @@ class Nav extends React.Component {
             </>
         )
     }
-
-
 }
 
-export default Nav;
+export default HomeNav;
