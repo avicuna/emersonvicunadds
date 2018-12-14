@@ -36,13 +36,18 @@
 }
 
 /**********************
-  Intro Page
+  Home Page
  **********************/
 .abq {
     height: 100vh;
 }
 
-.intro .footer {
+.home .intro {
+    text-align: center;
+    padding: 15px;
+}
+
+.home .footer {
     /*min-height: 100vh; !* will cover the 100% of viewport *!*/
     /*overflow: hidden;*/
     display: block;

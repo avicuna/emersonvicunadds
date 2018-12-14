@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import './include/mdb';
-// import './include/bootstrap-toggle';
 import './App.css';
 import { BrowserRouter, Route, Switch } from "react-router-dom";
-import Intro from "./components/intro/intro";
+import Home from "./components/home/home";
 import About from "./components/about/about";
 import Services from "./components/services/services";
 import Contact from "./components/contact/contact";
@@ -37,12 +36,12 @@ class App extends Component {
           <BrowserRouter>
               <div className="app">
                   <Switch>
-                      <Route path="/home" render={(props) => <Intro {...props} lang={this.state.lang} langSwitch={this.langSwitchES}/>} />
+                      <Route path="/home" render={(props) => <Home {...props} lang={this.state.lang} langSwitch={this.langSwitchES}/>} />
                       <Route path="/about" component={About}/>
                       <Route path="/services" component={Services}/>
                       <Route path="/forms" component={Forms}/>
                       <Route path="/contact" component={Contact}/>
-                      <Route render={(props) => <Intro {...props} lang={this.state.lang} langSwitch={this.langSwitchES}/>} />
+                      <Route render={(props) => <Home {...props} lang={this.state.lang} langSwitch={this.langSwitchES}/>} />
                   </Switch>
               </div>
           </BrowserRouter>

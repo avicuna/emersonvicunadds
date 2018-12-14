@@ -3,13 +3,14 @@ import MapContainer from "../map/map-container";
 import FooterPage from "../footer/footer";
 import Header from "./header";
 import HomeNav from "../navbars/home-nav";
+import Intro from "../home/intro";
 
-const Intro = (props) => {
+const Home = (props) => {
     return (
-        <div className="intro">
+        <div className="home">
             <HomeNav/>
             <Header/>
-            <h1>Business Intro</h1>
+            <Intro/>
             <MapContainer/>
             <FooterPage/>
             {/*<p>{"Current language is " + props.lang}</p>*/}
@@ -18,4 +19,4 @@ const Intro = (props) => {
     );
 };
 
-export default Intro;
+export default Home;

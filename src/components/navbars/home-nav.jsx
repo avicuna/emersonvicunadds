@@ -25,17 +25,14 @@ class HomeNav extends React.Component {
                     </NavbarBrand>
                     <NavbarToggler onClick = { this.onClick } />
                     <Collapse isOpen = { this.state.collapse } navbar>
-                        {/*<NavbarNav left>*/}
-                            {/*<p>Espanol <input id="lang-select" type="checkbox" data-toggle="toggle"/></p>*/}
-                        {/*</NavbarNav>*/}
                         <NavbarNav right>
                             <NavItem>
                                 <NavLink to="/about">About</NavLink>
                             </NavItem>
-                            <NavItem >
+                            <NavItem>
                                 <NavLink to="/services">General Services</NavLink>
                             </NavItem>
-                            <NavItem >
+                            <NavItem>
                                 <NavLink to="/services">Cosmetic Services</NavLink>
                             </NavItem>
                             <NavItem>
