@@ -8,15 +8,16 @@ class HomeNav extends React.Component {
         this.state = {
             collapse: false,
         };
-        this.onClick = this.onClick.bind(this);
+        // this.onClick = this.onClick.bind(this);
     }
-    onClick(){
+    onClick = () => {
         this.setState({
             collapse: !this.state.collapse,
         });
-    }
+    };
 
     render() {
+        let {text} = this.props;
         return (
             <>
                 <Navbar color="unique-color" dark expand="md" fixed="top" scrolling transparent>
@@ -27,28 +28,28 @@ class HomeNav extends React.Component {
                     <Collapse isOpen = { this.state.collapse } navbar>
                         <NavbarNav right>
                             <NavItem>
-                                <NavLink to="/about">About</NavLink>
+                                <NavLink to="/about">{text.nav.nav1}</NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink to="/services">General Services</NavLink>
+                                <NavLink to="/services">{text.nav.nav2}</NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink to="/services">Cosmetic Services</NavLink>
+                                <NavLink to="/services">{text.nav.nav3}</NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink to="/forms">Forms</NavLink>
+                                <NavLink to="/forms">{text.nav.nav4}</NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink to="/contact">Contact</NavLink>
+                                <NavLink to="/contact">{text.nav.nav5}</NavLink>
                             </NavItem>
                             <NavItem>
                                 <MDBDropdown size="sm">
                                     <MDBDropdownToggle nav caret color="primary">
-                                        Select Language
+                                        {text.nav.nav6}
                                     </MDBDropdownToggle>
                                     <MDBDropdownMenu basic>
-                                        <MDBDropdownItem>English</MDBDropdownItem>
-                                        <MDBDropdownItem>Spanish</MDBDropdownItem>
+                                        <MDBDropdownItem onClick={this.props.langSwitchEN}>{text.nav.nav7}</MDBDropdownItem>
+                                        <MDBDropdownItem onClick={this.props.langSwitchES}>{text.nav.nav8}</MDBDropdownItem>
                                     </MDBDropdownMenu>
                                 </MDBDropdown>
                             </NavItem>

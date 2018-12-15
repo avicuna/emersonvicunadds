@@ -1,9 +1,12 @@
-export const test = {
-    test1: 'Can you see me?'
-};
-
 export const nav = {
-
+    nav1: 'About',
+    nav2: 'General Services',
+    nav3: 'Cosmetic Services',
+    nav4: 'Forms',
+    nav5: 'Contact',
+    nav6: 'Select Language',
+    nav7: 'English',
+    nav8: 'Spanish'
 };
 
 export const footer = {

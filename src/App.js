@@ -36,11 +36,6 @@ class App extends Component {
         });
     };
 
-    componentDidMount(){
-        console.log(english.home.intro.header);
-    }
-
-
     render() {
     return (
         <div>

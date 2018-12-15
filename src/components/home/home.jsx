@@ -7,7 +7,7 @@ import Intro from "../home/intro";
 import {Button} from "mdbreact";
 
 const Home = (props) => {
-    const lang = props.lang;
+    const {lang, text} = props;
     const langSwitchEN = (e) => {
         props.langSwitchEN(e);
     };
@@ -16,9 +16,9 @@ const Home = (props) => {
     };
     return (
         <div className="home">
-            <HomeNav/>
+            <HomeNav lang={lang} text={text} langSwitchEN={langSwitchEN} langSwitchES={langSwitchES}/>
             <Header/>
-            <Intro lang={lang}/>
+            <Intro lang={lang} text={text}/>
             <MapContainer/>
             <FooterPage/>
             <p>{"Current language is " + props.lang}</p>
