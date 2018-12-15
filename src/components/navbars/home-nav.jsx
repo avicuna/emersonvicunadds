@@ -1,5 +1,5 @@
 import React from 'react';
-import {Collapse, Navbar, NavbarBrand, NavbarNav, NavbarToggler, NavItem, NavLink} from "mdbreact";
+import {Collapse, MDBDropdown, MDBDropdownToggle, MDBDropdownMenu, MDBDropdownItem, Navbar, NavbarBrand, NavbarNav, NavbarToggler, NavItem, NavLink} from "mdbreact";
 import tooth from "../../assets/happytooth.jpg";
 
 class HomeNav extends React.Component {
@@ -40,6 +40,17 @@ class HomeNav extends React.Component {
                             </NavItem>
                             <NavItem>
                                 <NavLink to="/contact">Contact</NavLink>
+                            </NavItem>
+                            <NavItem>
+                                <MDBDropdown size="sm">
+                                    <MDBDropdownToggle nav caret color="primary">
+                                        Select Language
+                                    </MDBDropdownToggle>
+                                    <MDBDropdownMenu basic>
+                                        <MDBDropdownItem>English</MDBDropdownItem>
+                                        <MDBDropdownItem>Spanish</MDBDropdownItem>
+                                    </MDBDropdownMenu>
+                                </MDBDropdown>
                             </NavItem>
                         </NavbarNav>
                     </Collapse>
