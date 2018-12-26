@@ -1,5 +1,5 @@
 import React from 'react';
-import {Collapse, Navbar, NavbarBrand, NavbarNav, NavbarToggler, NavItem, NavLink} from "mdbreact";
+import {Collapse, MDBDropdown, MDBDropdownItem, MDBDropdownMenu, MDBDropdownToggle, Navbar, NavbarBrand, NavbarNav, NavbarToggler, NavItem, NavLink} from "mdbreact";
 import tooth from "../../assets/happytooth.jpg";
 
 class MainNav extends React.Component {
@@ -17,6 +17,7 @@ class MainNav extends React.Component {
     }
 
     render() {
+        const {text} = this.props;
         return (
             <>
                 <Navbar color="unique-color" dark expand="md" fixed="top" scrolling>
@@ -27,19 +28,27 @@ class MainNav extends React.Component {
                     <Collapse isOpen = { this.state.collapse } navbar>
                         <NavbarNav right>
                             <NavItem>
-                                <NavLink to="/about">About</NavLink>
+                                <NavLink to="/about">{text.nav.nav1}</NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink to="/services">General Services</NavLink>
+                                <NavLink to="/services">{text.nav.nav2}</NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink to="/services">Cosmetic Services</NavLink>
+                                <NavLink to="/forms">{text.nav.nav3}</NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink to="/forms">Forms</NavLink>
+                                <NavLink to="/contact">{text.nav.nav4}</NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink to="/contact">Contact</NavLink>
+                                <MDBDropdown size="sm">
+                                    <MDBDropdownToggle nav caret color="primary">
+                                        {text.nav.nav5}
+                                    </MDBDropdownToggle>
+                                    <MDBDropdownMenu basic>
+                                        <MDBDropdownItem onClick={this.props.langSwitchEN}>{text.nav.nav6}</MDBDropdownItem>
+                                        <MDBDropdownItem onClick={this.props.langSwitchES}>{text.nav.nav7}</MDBDropdownItem>
+                                    </MDBDropdownMenu>
+                                </MDBDropdown>
                             </NavItem>
                         </NavbarNav>
                     </Collapse>

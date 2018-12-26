@@ -1,13 +1,22 @@
 import React from 'react';
 import FooterPage from "../footer/footer";
 import MainNav from "../navbars/main-nav";
+import ServiceList from "./service-list";
 
-const Services = () => {
+const Services = (props) => {
+    const {lang, text} = props;
+    const langSwitchEN = (e) => {
+        props.langSwitchEN(e);
+    };
+    const langSwitchES = (e) => {
+        props.langSwitchES(e);
+    };
     return (
         <div className="services">
-            <MainNav/>
-            <h1>Welcome to the services page.</h1>
-            <FooterPage/>
+            <MainNav lang={lang} text={text} langSwitchEN={langSwitchEN} langSwitchES={langSwitchES}/>
+            <h1>{text.services.header}</h1>
+            <ServiceList/>
+            <FooterPage text={text}/>
         </div>
     )
 };

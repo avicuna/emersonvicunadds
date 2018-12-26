@@ -17,7 +17,7 @@ class HomeNav extends React.Component {
     };
 
     render() {
-        let {text} = this.props;
+        const {text} = this.props;
         return (
             <>
                 <Navbar color="unique-color" dark expand="md" fixed="top" scrolling transparent>
@@ -34,22 +34,19 @@ class HomeNav extends React.Component {
                                 <NavLink to="/services">{text.nav.nav2}</NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink to="/services">{text.nav.nav3}</NavLink>
+                                <NavLink to="/forms">{text.nav.nav3}</NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink to="/forms">{text.nav.nav4}</NavLink>
-                            </NavItem>
-                            <NavItem>
-                                <NavLink to="/contact">{text.nav.nav5}</NavLink>
+                                <NavLink to="/contact">{text.nav.nav4}</NavLink>
                             </NavItem>
                             <NavItem>
                                 <MDBDropdown size="sm">
                                     <MDBDropdownToggle nav caret color="primary">
-                                        {text.nav.nav6}
+                                        {text.nav.nav5}
                                     </MDBDropdownToggle>
                                     <MDBDropdownMenu basic>
-                                        <MDBDropdownItem onClick={this.props.langSwitchEN}>{text.nav.nav7}</MDBDropdownItem>
-                                        <MDBDropdownItem onClick={this.props.langSwitchES}>{text.nav.nav8}</MDBDropdownItem>
+                                        <MDBDropdownItem onClick={this.props.langSwitchEN}>{text.nav.nav6}</MDBDropdownItem>
+                                        <MDBDropdownItem onClick={this.props.langSwitchES}>{text.nav.nav7}</MDBDropdownItem>
                                     </MDBDropdownMenu>
                                 </MDBDropdown>
                             </NavItem>

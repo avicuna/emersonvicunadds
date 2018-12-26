@@ -20,10 +20,10 @@ const Home = (props) => {
             <Header/>
             <Intro lang={lang} text={text}/>
             <MapContainer/>
-            <FooterPage/>
-            <p>{"Current language is " + props.lang}</p>
-            <Button value="English" type="button" onClick={langSwitchEN}>Click Me for English</Button>
-            <Button value="Spanish" type="button" onClick={langSwitchES}>Click Me for Spanish</Button>
+            <FooterPage text={text}/>
+            {/*<p>{"Current language is " + props.lang}</p>*/}
+            {/*<Button value="English" type="button" onClick={langSwitchEN}>Click Me for English</Button>*/}
+            {/*<Button value="Spanish" type="button" onClick={langSwitchES}>Click Me for Spanish</Button>*/}
         </div>
     );
 };

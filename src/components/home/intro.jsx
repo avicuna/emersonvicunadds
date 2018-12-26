@@ -7,7 +7,7 @@ import { Jumbotron } from 'reactstrap';
          <div className="intro">
              <Jumbotron>
                  <h1 className="intro-header display-3">{text.home.intro.header}</h1>
-                 <p className="lead">This is a simple hero unit, a simple Jumbotron-style component for calling extra attention to featured content or information.</p>
+                 <p className="lead">{text.home.intro.p1}</p>
              </Jumbotron>
          </div>
      );

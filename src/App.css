@@ -100,6 +100,11 @@
     padding-top: 100px;
 }
 
+.services .service {
+    margin: 40px;
+    text-align: center;
+}
+
 .services .footer {
     /*min-height: 100vh; !* will cover the 100% of viewport *!*/
     overflow: hidden;
