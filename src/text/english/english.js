@@ -41,18 +41,66 @@ export const about = {
 
 export const services = {
     header: 'What we offer',
-    service1: '',
-    service2: '',
-    service3: '',
-    service4: '',
-    service5: '',
-    service6: '',
-    service7: '',
-    service8: '',
-    service9: '',
-    service10: '',
-    service11: '',
-    service12: '',
+    button1: 'Learn More',
+    button2: 'Close',
+    service1: {
+        name: 'Extractions',
+        description: 'A severely damaged tooth may need to be extracted. ' +
+                     'Permanent teeth may also need to be removed for orthodontic treatment.'
+    },
+    service2: {
+        name: 'Fillings',
+        description: 'Dental fillings and repairs use restorative materials ' +
+                     'used to repair teeth which have been compromised due to cavities or trauma.'
+    },
+    service3: {
+        name: 'Crowns',
+        description: 'Crowns are dental restorations that protect damaged, ' +
+                     'cracked or broken teeth. Dental crowns, often referred to as caps, ' +
+                     'sit over the entire part of the tooth that lies above the gum line. '
+    },
+    service4: {
+        name: 'Root Canals',
+        description: 'Root canals treat diseases or absessed teeth. Once a tooth is injured, ' +
+                     'cracked or decayed, it is necessary to open the tooth and clean out the infected ' +
+                     'tissue in the centre. This space is then filled and the opening sealed.'
+    },
+    service5: {
+        name: 'Wisdom Teeth',
+        description: ''
+    },
+    service6: {
+        name: 'Bleaching',
+        description: ''
+    },
+    service7: {
+        name: 'Dentures',
+        description: 'Dentures are prosthetic devices replacing lost teeth. There are two types of dentures' +
+            ' – partial and full. Full dentures are often referred to as “false teeth”.'
+    },
+    service8: {
+        name: 'Partials',
+        description: 'A Partial Denture is a removable'
+    },
+    service9: {
+        name: 'Denture Repair',
+        description: ''
+    },
+    service10: {
+        name: 'Bridges',
+        description: 'Bridges are false teeth anchored in place by neighbouring teeth. ' +
+                     'The bridge consists of two crowns on the anchoring teeth along with the false tooth in the centre.'
+    },
+    service11: {
+        name: 'Veneers',
+        description: 'Veneers are strong, thin pieces of ceramic or resin material that ' +
+                     'are bonded to the teeth. Veneers are used to repair chipped, decayed ' +
+                     'or stained teeth and may help in closing gaps between teeth.'
+    },
+    service12: {
+        name: 'Implants',
+        description: 'Dental implants are artificial roots used to support replacement teeth.',
+    },
 };
 
 export const forms = {

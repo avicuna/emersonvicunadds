@@ -32,7 +32,57 @@ export const about = {
 };
 
 export const services = {
-    header: 'Servicios'
+    header: 'Servicios',
+    button: '',
+    service1: {
+        name: '',
+        description: ''
+    },
+    service2: {
+        name: '',
+        description: ''
+    },
+    service3: {
+        name: '',
+        description: ''
+    },
+    service4: {
+        name: '',
+        description: ''
+    },
+    service5: {
+        name: '',
+        description: ''
+    },
+    service6: {
+        name: '',
+        description: ''
+    },
+    service7: {
+        name: '',
+        description: ''
+    },
+    service8: {
+        name: '',
+        description: ''
+    },
+    service9: {
+        name: '',
+        description: ''
+    },
+    service10: {
+        name: '',
+        description: ''
+    },
+    service11: {
+        name: '',
+        description: ''
+    },
+    service12: {
+        name: '',
+        description: '',
+    },
+
 };
 
 export const forms = {

@@ -4,7 +4,6 @@ import FooterPage from "../footer/footer";
 import Header from "./header";
 import HomeNav from "../navbars/home-nav";
 import Intro from "../home/intro";
-import {Button} from "mdbreact";
 
 const Home = (props) => {
     const {lang, text} = props;
@@ -21,9 +20,6 @@ const Home = (props) => {
             <Intro lang={lang} text={text}/>
             <MapContainer/>
             <FooterPage text={text}/>
-            {/*<p>{"Current language is " + props.lang}</p>*/}
-            {/*<Button value="English" type="button" onClick={langSwitchEN}>Click Me for English</Button>*/}
-            {/*<Button value="Spanish" type="button" onClick={langSwitchES}>Click Me for Spanish</Button>*/}
         </div>
     );
 };
