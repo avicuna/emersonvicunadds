@@ -5,8 +5,17 @@ import {
 } from 'mdbreact';
 import {Animation} from 'mdbreact';
 import extraction from '../../assets/extraction.png';
-import filling from '../../assets/filling.png'
-import crown from '../../assets/027-molar-crown.png'
+import filling from '../../assets/filling.png';
+import crown from '../../assets/027-molar-crown.png';
+import rootCanal from '../../assets/root-canal.png';
+import wisdomTooth from '../../assets/029-wisdom-tooth.png';
+import smile from '../../assets/009-smile.png';
+import denture from '../../assets/004-denture.png';
+import partials from '../../assets/partial-denture.jpeg';
+import dentureRepair from '../../assets/repair.png';
+import bridge from '../../assets/030-bridge.png';
+import veneers from '../../assets/010-protection.png';
+import implants from '../../assets/034-implants.png';
 
 
 class ServiceList extends React.Component {
@@ -108,7 +117,7 @@ class ServiceList extends React.Component {
                     <Card className="service" style={{ width: "22rem" }}>
                         <CardImage
                             className="dental-icon img-fluid"
-                            // src="https://mdbootstrap.com/img/Photos/Others/images/43.jpg"
+                            src={rootCanal}
                             waves
                         />
                         <CardBody>
@@ -118,7 +127,7 @@ class ServiceList extends React.Component {
                                 <Modal isOpen={this.state.modal4} toggle={() => this.toggle(4)} centered>
                                     <ModalHeader toggle={() => this.toggle(4)}>{text.services.service4.name}</ModalHeader>
                                     <ModalBody>
-                                        (...)
+                                        {text.services.service4.description}
                                     </ModalBody>
                                     <ModalFooter>
                                         <Button color="primary" onClick={() => this.toggle(4)}>{text.services.button2}</Button>
@@ -129,8 +138,8 @@ class ServiceList extends React.Component {
                     </Card>
                     <Card className="service" style={{ width: "22rem" }}>
                         <CardImage
-                            className="img-fluid"
-                            // src="https://mdbootstrap.com/img/Photos/Others/images/43.jpg"
+                            className="dental-icon img-fluid"
+                            src={wisdomTooth}
                             waves
                         />
                         <CardBody>
@@ -140,7 +149,7 @@ class ServiceList extends React.Component {
                                 <Modal isOpen={this.state.modal5} toggle={() => this.toggle(5)} centered>
                                     <ModalHeader toggle={() => this.toggle(5)}>{text.services.service5.name}</ModalHeader>
                                     <ModalBody>
-                                        (...)
+                                        {text.services.service5.description}
                                     </ModalBody>
                                     <ModalFooter>
                                         <Button color="primary" onClick={() => this.toggle(5)}>{text.services.button2}</Button>
@@ -151,8 +160,8 @@ class ServiceList extends React.Component {
                     </Card>
                     <Card className="service" style={{ width: "22rem" }}>
                         <CardImage
-                            className="img-fluid"
-                            // src="https://mdbootstrap.com/img/Photos/Others/images/43.jpg"
+                            className="dental-icon img-fluid"
+                            src={smile}
                             waves
                         />
                         <CardBody>
@@ -162,7 +171,7 @@ class ServiceList extends React.Component {
                                 <Modal isOpen={this.state.modal6} toggle={() => this.toggle(6)} centered>
                                     <ModalHeader toggle={() => this.toggle(6)}>Bleaching</ModalHeader>
                                     <ModalBody>
-                                        (...)
+                                        {text.services.service6.description}
                                     </ModalBody>
                                     <ModalFooter>
                                         <Button color="primary" onClick={() => this.toggle(6)}>Close</Button>
@@ -173,8 +182,8 @@ class ServiceList extends React.Component {
                     </Card>
                     <Card className="service" style={{ width: "22rem" }}>
                         <CardImage
-                            className="img-fluid"
-                            // src="https://mdbootstrap.com/img/Photos/Others/images/43.jpg"
+                            className="dental-icon img-fluid"
+                            src={denture}
                             waves
                         />
                         <CardBody>
@@ -184,7 +193,7 @@ class ServiceList extends React.Component {
                                 <Modal isOpen={this.state.modal7} toggle={() => this.toggle(7)} centered>
                                     <ModalHeader toggle={() => this.toggle(7)}>Dentures</ModalHeader>
                                     <ModalBody>
-                                        (...)
+                                        {text.services.service7.description}
                                     </ModalBody>
                                     <ModalFooter>
                                         <Button color="primary" onClick={() => this.toggle(7)}>Close</Button>
@@ -195,8 +204,8 @@ class ServiceList extends React.Component {
                     </Card>
                     <Card className="service" style={{ width: "22rem" }}>
                         <CardImage
-                            className="img-fluid"
-                            // src="https://mdbootstrap.com/img/Photos/Others/images/43.jpg"
+                            className="dental-icon img-fluid"
+                            src={partials}
                             waves
                         />
                         <CardBody>
@@ -206,7 +215,7 @@ class ServiceList extends React.Component {
                                 <Modal isOpen={this.state.modal8} toggle={() => this.toggle(8)} centered>
                                     <ModalHeader toggle={() => this.toggle(8)}>Partials</ModalHeader>
                                     <ModalBody>
-                                        (...)
+                                        {text.services.service8.description}
                                     </ModalBody>
                                     <ModalFooter>
                                         <Button color="primary" onClick={() => this.toggle(8)}>Close</Button>
@@ -217,8 +226,8 @@ class ServiceList extends React.Component {
                     </Card>
                     <Card className="service" style={{ width: "22rem" }}>
                         <CardImage
-                            className="img-fluid"
-                            // src="https://mdbootstrap.com/img/Photos/Others/images/43.jpg"
+                            className="dental-icon img-fluid"
+                            src={dentureRepair}
                             waves
                         />
                         <CardBody>
@@ -228,7 +237,7 @@ class ServiceList extends React.Component {
                                 <Modal isOpen={this.state.modal9} toggle={() => this.toggle(9)} centered>
                                     <ModalHeader toggle={() => this.toggle(8)}>Denture Repair</ModalHeader>
                                     <ModalBody>
-                                        (...)
+                                        {text.services.service9.description}
                                     </ModalBody>
                                     <ModalFooter>
                                         <Button color="primary" onClick={() => this.toggle(9)}>Close</Button>
@@ -239,8 +248,8 @@ class ServiceList extends React.Component {
                     </Card>
                     <Card className="service" style={{ width: "22rem" }}>
                         <CardImage
-                            className="img-fluid"
-                            // src="https://mdbootstrap.com/img/Photos/Others/images/43.jpg"
+                            className="dental-icon img-fluid"
+                            src={bridge}
                             waves
                         />
                         <CardBody>
@@ -250,7 +259,7 @@ class ServiceList extends React.Component {
                                 <Modal isOpen={this.state.modal10} toggle={() => this.toggle(10)} centered>
                                     <ModalHeader toggle={() => this.toggle(10)}>Bridges</ModalHeader>
                                     <ModalBody>
-                                        (...)
+                                        {text.services.service10.description}
                                     </ModalBody>
                                     <ModalFooter>
                                         <Button color="primary" onClick={() => this.toggle(10)}>Close</Button>
@@ -261,8 +270,8 @@ class ServiceList extends React.Component {
                     </Card>
                     <Card className="service" style={{ width: "22rem" }}>
                         <CardImage
-                            className="img-fluid"
-                            // src="https://mdbootstrap.com/img/Photos/Others/images/43.jpg"
+                            className="dental-icon img-fluid"
+                            src={veneers}
                             waves
                         />
                         <CardBody>
@@ -272,7 +281,7 @@ class ServiceList extends React.Component {
                                 <Modal isOpen={this.state.modal11} toggle={() => this.toggle(11)} centered>
                                     <ModalHeader toggle={() => this.toggle(11)}>Veneers</ModalHeader>
                                     <ModalBody>
-                                        (...)
+                                        {text.services.service11.description}
                                     </ModalBody>
                                     <ModalFooter>
                                         <Button color="primary" onClick={() => this.toggle(11)}>Close</Button>
@@ -283,8 +292,8 @@ class ServiceList extends React.Component {
                     </Card>
                     <Card className="service" style={{ width: "22rem" }}>
                         <CardImage
-                            className="img-fluid"
-                            // src="https://mdbootstrap.com/img/Photos/Others/images/43.jpg"
+                            className="dental-icon img-fluid"
+                            src={implants}
                             waves
                         />
                         <CardBody>
@@ -294,7 +303,7 @@ class ServiceList extends React.Component {
                                 <Modal isOpen={this.state.modal12} toggle={() => this.toggle(12)} centered>
                                     <ModalHeader toggle={() => this.toggle(12)}>Implants</ModalHeader>
                                     <ModalBody>
-                                        (...)
+                                        {text.services.service12.description}
                                     </ModalBody>
                                     <ModalFooter>
                                         <Button color="primary" onClick={() => this.toggle(12)}>Close</Button>

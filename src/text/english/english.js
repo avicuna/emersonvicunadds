@@ -67,11 +67,14 @@ export const services = {
     },
     service5: {
         name: 'Wisdom Teeth',
-        description: ''
+        description: 'Wisdom tooth extraction is a surgical procedure to remove one or more wisdom teeth ' +
+                     '- the four permanent adult teeth located at the back corners of your mouth on the top and bottom.'
     },
     service6: {
         name: 'Bleaching',
-        description: ''
+        description: 'Bleaching can get your teeth brighter faster. The bleaching solution is usually much stronger ' +
+                     'than at-home kits. Also heat, light, or a combination of the two may be used to speed and intensify ' +
+                     'the whitening process.'
     },
     service7: {
         name: 'Dentures',
@@ -80,11 +83,13 @@ export const services = {
     },
     service8: {
         name: 'Partials',
-        description: 'A Partial Denture is a removable'
+        description: 'A Partial Denture is a removable, yet natural-looking dental appliance that helps restore ' +
+                     'the form and function of your jaw by replacing one or several missing teeth'
     },
     service9: {
         name: 'Denture Repair',
-        description: ''
+        description: 'Repairs consist of reuniting or replacing broken or worn parts of a denture ' +
+                     'the same day.'
     },
     service10: {
         name: 'Bridges',

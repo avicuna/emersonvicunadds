@@ -101,7 +101,8 @@
 }
 
 .services .service {
-    margin: 40px;
+    margin-left : 50px;
+    margin-top : 30px;
     text-align: center;
 }
 
