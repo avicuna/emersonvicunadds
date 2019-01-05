@@ -4,6 +4,18 @@ import './index.css';
 
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+// import firebase from 'firebase/app';
+// import 'firebase/storage';
+// const config = {
+//     apiKey: "AIzaSyAoZWCvUecWs8h9OYRObt71KdWClJi45hQ",
+//     authDomain: "emersonvicunadds-1.firebaseapp.com",
+//     databaseURL: "https://emersonvicunadds-1.firebaseio.com",
+//     projectId: "emersonvicunadds-1",
+//     storageBucket: "emersonvicunadds-1.appspot.com",
+//     messagingSenderId: "696896150536"
+// };
+// firebase.initializeApp(config);
+
 
 ReactDOM.render(<App />, document.getElementById('root'));
 

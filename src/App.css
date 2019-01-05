@@ -128,6 +128,13 @@
 /**********************
  Contact Page
 **********************/
+
+.contact h1 {
+    display: block;
+    text-align: center;
+    padding-top: 100px;
+}
+
 .contact .footer {
     /*min-height: 100vh; !* will cover the 100% of viewport *!*/
     overflow: hidden;
@@ -142,6 +149,12 @@
 /**********************
  Forms Page
 **********************/
+
+.forms h1 {
+    display: block;
+    text-align: center;
+    padding-top: 100px;
+}
 
 .forms .footer {
     /*min-height: 100vh; !* will cover the 100% of viewport *!*/

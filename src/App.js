@@ -75,8 +75,28 @@ class App extends Component {
                               />
                           }
                       />
-                      <Route path="/forms" component={Forms}/>
-                      <Route path="/contact" component={Contact}/>
+                      <Route
+                          path="/forms"
+                          render={(props) =>
+                              <Forms {...props}
+                                     lang={this.state.lang}
+                                     text={this.state.text}
+                                     langSwitchEN={this.langSwitchEN}
+                                     langSwitchES={this.langSwitchES}
+                              />
+                          }
+                      />
+                      <Route
+                          path="/contact"
+                          render={(props) =>
+                              <Contact {...props}
+                                       lang={this.state.lang}
+                                       text={this.state.text}
+                                       langSwitchEN={this.langSwitchEN}
+                                       langSwitchES={this.langSwitchES}
+                              />
+                          }
+                      />
                       <Route
                           render={(props) =>
                               <Home
