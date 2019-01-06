@@ -116,12 +116,12 @@
 
 .services .footer {
     /*min-height: 100vh; !* will cover the 100% of viewport *!*/
-    overflow: hidden;
+    /*overflow: hidden;*/
     display: block;
     position: relative;
-    padding-top: 600px; /* height of your footer */
+    /*padding-top: 600px; !* height of your footer *!*/
     /*background-color: azure;*/
-    bottom: 0;
+    /*bottom: 0;*/
     /*width: 100%;*/
 }
 
@@ -156,12 +156,22 @@
     padding-top: 100px;
 }
 
+.forms .forms-jumbotron {
+    display: flex;
+    width: 100%;
+    padding: 0;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+
+
 .forms .footer {
     /*min-height: 100vh; !* will cover the 100% of viewport *!*/
-    overflow: hidden;
+    /*overflow: hidden;*/
     display: block;
     position: relative;
-    margin-top: 630px; /* height of your footer */
+    /*margin-top: 630px; !* height of your footer *!*/
     /*background-color: azure;*/
     /*bottom: 0;*/
     /*width: 100%;*/

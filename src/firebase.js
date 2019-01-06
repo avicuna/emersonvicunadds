@@ -18,20 +18,52 @@ export const getMedicalHistory = () => {
         .getDownloadURL()
         .then( (url) => {
             const xhr = new XMLHttpRequest();
-            let blob = "";
-            // xhr.responseType = 'blob';
-            console.log("Url is: " + url);
+            xhr.responseType = 'blob';
             xhr.onload = (e) => {
-                blob = xhr.response;
-                console.log(blob);
+                saveAs(xhr.response, "MedicalHistory.pdf");
             };
             xhr.open('GET', url);
             xhr.send();
-            let a = document.getElementById('download');
-            // const myBlob = new Blob([blob], {type: 'application/pdf'});
-            const file = new File([blob], "MedicalHistory.pdf");
-            saveAs(file);
-            a.href = url;
+        }).catch( (error) => {
+        switch (error.code) {
+            case 'storage/object-not-found':
+                // File doesn't exist
+                alert('File does not exist');
+                break;
+
+            case 'storage/unauthorized':
+                // User doesn't have permission to access the object
+                alert('User does not have permission to access the object');
+                break;
+
+            case 'storage/canceled':
+                // User canceled the upload
+                alert('User cancelled the upload');
+                break;
+
+            case 'storage/unknown':
+                // Unknown error occurred, inspect the server response
+                alert('Unknown error occurred, inspect the server response');
+                break;
+
+            default:
+                break;
+        }
+    })
+};
+
+export const getPatientRegistration = () => {
+    storageRef
+        .child('patientregistration.pdf')
+        .getDownloadURL()
+        .then( (url) => {
+            const xhr = new XMLHttpRequest();
+            xhr.responseType = 'blob';
+            xhr.onload = (e) => {
+                saveAs(xhr.response, "PatientRegistration.pdf");
+            };
+            xhr.open('GET', url);
+            xhr.send();
         }).catch( (error) => {
         switch (error.code) {
             case 'storage/object-not-found':

@@ -1,8 +1,7 @@
 import React from 'react';
 import FooterPage from "../footer/footer";
 import MainNav from "../navbars/main-nav";
-import {Button} from 'mdbreact';
-import {getMedicalHistory} from '../../firebase';
+import Cards from "./cards";
 
 const Forms = (props) => {
     const {lang, text} = props;
@@ -12,12 +11,12 @@ const Forms = (props) => {
     const langSwitchES = (e) => {
         props.langSwitchES(e);
     };
+
     return (
         <div className="forms">
             <MainNav lang={lang} text={text} langSwitchEN={langSwitchEN} langSwitchES={langSwitchES}/>
-            <h1>Welcome to the forms page</h1>
-            <Button onClick={getMedicalHistory}>Click me</Button>
-            {/*<a id="download" target="_blank" download="MedicalHistory">Download</a>*/}
+            <h1 className="h2 display-3">Forms</h1>
+            <Cards lang={lang} text={text}/>
             <FooterPage text={text}/>
         </div>
     )
