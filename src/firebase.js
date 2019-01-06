@@ -2,12 +2,8 @@ import firebase from 'firebase/app';
 import 'firebase/storage';
 import saveAs from 'file-saver';
 const config = {
-    apiKey: "AIzaSyAoZWCvUecWs8h9OYRObt71KdWClJi45hQ",
-    authDomain: "emersonvicunadds-1.firebaseapp.com",
-    databaseURL: "https://emersonvicunadds-1.firebaseio.com",
-    projectId: "emersonvicunadds-1",
-    storageBucket: "emersonvicunadds-1.appspot.com",
-    messagingSenderId: "696896150536"
+    apiKey: process.env.REACT_APP_API_KEY,
+    storageBucket: process.env.REACT_APP_STORAGE_BUCKET,
 };
 firebase.initializeApp(config);
 const storage = firebase.storage();
