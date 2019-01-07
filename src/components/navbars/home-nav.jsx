@@ -8,7 +8,6 @@ class HomeNav extends React.Component {
         this.state = {
             collapse: false,
         };
-        // this.onClick = this.onClick.bind(this);
     }
     onClick = () => {
         this.setState({
@@ -35,9 +34,6 @@ class HomeNav extends React.Component {
                             </NavItem>
                             <NavItem>
                                 <NavLink to="/forms">{text.nav.nav3}</NavLink>
-                            </NavItem>
-                            <NavItem>
-                                <NavLink to="/contact">{text.nav.nav4}</NavLink>
                             </NavItem>
                             <NavItem>
                                 <MDBDropdown size="sm">

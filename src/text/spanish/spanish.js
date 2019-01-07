@@ -1,5 +1,5 @@
 export const nav = {
-    nav1: 'Informacion',
+    nav1: 'Información',
     nav2: 'Servicios',
     nav3: 'Formas',
     nav4: 'Contacto',
@@ -19,15 +19,15 @@ export const footer = {
 export const home = {
     intro: {
         header: 'Bienvenidos a Emerson Vicuña, DDS Family Dentistry',
-        p1: 'We the best and fuck the rest'
+        p1: ''
     }
 };
 
 export const about = {
-    header: 'Pocho',
-    p1: 'Dog barking in spanish',
-    p2: 'Cat farting in spanish',
-    p3: 'Fish sneezing in spanish',
+    header: '',
+    p1: '',
+    p2: '',
+    p3: '',
 
 };
 
