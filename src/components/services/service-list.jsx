@@ -165,16 +165,16 @@ class ServiceList extends React.Component {
                             waves
                         />
                         <CardBody>
-                            <CardTitle className="card-title">Bleaching</CardTitle>
+                            <CardTitle className="card-title">{text.services.service6.name}</CardTitle>
                             <Container>
-                                <Button size="sm" onClick={() => this.toggle(6)}>Learn More</Button>
+                                <Button size="sm" onClick={() => this.toggle(6)}>{text.services.button1}</Button>
                                 <Modal isOpen={this.state.modal6} toggle={() => this.toggle(6)} centered>
-                                    <ModalHeader toggle={() => this.toggle(6)}>Bleaching</ModalHeader>
+                                    <ModalHeader toggle={() => this.toggle(6)}>{text.services.service6.name}</ModalHeader>
                                     <ModalBody>
                                         {text.services.service6.description}
                                     </ModalBody>
                                     <ModalFooter>
-                                        <Button color="primary" onClick={() => this.toggle(6)}>Close</Button>
+                                        <Button color="primary" onClick={() => this.toggle(6)}>{text.services.button2}</Button>
                                     </ModalFooter>
                                 </Modal>
                             </Container>
@@ -187,16 +187,16 @@ class ServiceList extends React.Component {
                             waves
                         />
                         <CardBody>
-                            <CardTitle className="card-title">Dentures</CardTitle>
+                            <CardTitle className="card-title">{text.services.service7.name}</CardTitle>
                             <Container>
-                                <Button size="sm" onClick={() => this.toggle(7)}>Learn More</Button>
+                                <Button size="sm" onClick={() => this.toggle(7)}>{text.services.button1}</Button>
                                 <Modal isOpen={this.state.modal7} toggle={() => this.toggle(7)} centered>
-                                    <ModalHeader toggle={() => this.toggle(7)}>Dentures</ModalHeader>
+                                    <ModalHeader toggle={() => this.toggle(7)}>{text.services.service7.name}</ModalHeader>
                                     <ModalBody>
                                         {text.services.service7.description}
                                     </ModalBody>
                                     <ModalFooter>
-                                        <Button color="primary" onClick={() => this.toggle(7)}>Close</Button>
+                                        <Button color="primary" onClick={() => this.toggle(7)}>{text.services.button2}</Button>
                                     </ModalFooter>
                                 </Modal>
                             </Container>
@@ -209,16 +209,16 @@ class ServiceList extends React.Component {
                             waves
                         />
                         <CardBody>
-                            <CardTitle className="card-title">Partials</CardTitle>
+                            <CardTitle className="card-title">{text.services.service8.name}</CardTitle>
                             <Container>
-                                <Button size="sm" onClick={() => this.toggle(8)}>Learn More</Button>
+                                <Button size="sm" onClick={() => this.toggle(8)}>{text.services.button1}</Button>
                                 <Modal isOpen={this.state.modal8} toggle={() => this.toggle(8)} centered>
-                                    <ModalHeader toggle={() => this.toggle(8)}>Partials</ModalHeader>
+                                    <ModalHeader toggle={() => this.toggle(8)}>{text.services.service8.name}</ModalHeader>
                                     <ModalBody>
                                         {text.services.service8.description}
                                     </ModalBody>
                                     <ModalFooter>
-                                        <Button color="primary" onClick={() => this.toggle(8)}>Close</Button>
+                                        <Button color="primary" onClick={() => this.toggle(8)}>{text.services.button2}</Button>
                                     </ModalFooter>
                                 </Modal>
                             </Container>
@@ -231,16 +231,16 @@ class ServiceList extends React.Component {
                             waves
                         />
                         <CardBody>
-                            <CardTitle className="card-title">Denture Repair</CardTitle>
+                            <CardTitle className="card-title">{text.services.service9.name}</CardTitle>
                             <Container>
-                                <Button size="sm" onClick={() => this.toggle(9)}>Learn More</Button>
+                                <Button size="sm" onClick={() => this.toggle(9)}>{text.services.button1}</Button>
                                 <Modal isOpen={this.state.modal9} toggle={() => this.toggle(9)} centered>
-                                    <ModalHeader toggle={() => this.toggle(8)}>Denture Repair</ModalHeader>
+                                    <ModalHeader toggle={() => this.toggle(8)}>{text.services.service9.name}</ModalHeader>
                                     <ModalBody>
                                         {text.services.service9.description}
                                     </ModalBody>
                                     <ModalFooter>
-                                        <Button color="primary" onClick={() => this.toggle(9)}>Close</Button>
+                                        <Button color="primary" onClick={() => this.toggle(9)}>{text.services.button2}</Button>
                                     </ModalFooter>
                                 </Modal>
                             </Container>
@@ -253,16 +253,16 @@ class ServiceList extends React.Component {
                             waves
                         />
                         <CardBody>
-                            <CardTitle className="card-title">Bridges</CardTitle>
+                            <CardTitle className="card-title">{text.services.service10.name}</CardTitle>
                             <Container>
-                                <Button size="sm" onClick={() => this.toggle(10)}>Learn More</Button>
+                                <Button size="sm" onClick={() => this.toggle(10)}>{text.services.button1}</Button>
                                 <Modal isOpen={this.state.modal10} toggle={() => this.toggle(10)} centered>
-                                    <ModalHeader toggle={() => this.toggle(10)}>Bridges</ModalHeader>
+                                    <ModalHeader toggle={() => this.toggle(10)}>{text.services.service10.name}</ModalHeader>
                                     <ModalBody>
                                         {text.services.service10.description}
                                     </ModalBody>
                                     <ModalFooter>
-                                        <Button color="primary" onClick={() => this.toggle(10)}>Close</Button>
+                                        <Button color="primary" onClick={() => this.toggle(10)}>{text.services.button2}</Button>
                                     </ModalFooter>
                                 </Modal>
                             </Container>
@@ -275,16 +275,16 @@ class ServiceList extends React.Component {
                             waves
                         />
                         <CardBody>
-                            <CardTitle className="card-title">Veneers</CardTitle>
+                            <CardTitle className="card-title">{text.services.service11.name}</CardTitle>
                             <Container>
-                                <Button size="sm" onClick={() => this.toggle(11)}>Learn More</Button>
+                                <Button size="sm" onClick={() => this.toggle(11)}>{text.services.button1}</Button>
                                 <Modal isOpen={this.state.modal11} toggle={() => this.toggle(11)} centered>
-                                    <ModalHeader toggle={() => this.toggle(11)}>Veneers</ModalHeader>
+                                    <ModalHeader toggle={() => this.toggle(11)}>{text.services.service11.name}</ModalHeader>
                                     <ModalBody>
                                         {text.services.service11.description}
                                     </ModalBody>
                                     <ModalFooter>
-                                        <Button color="primary" onClick={() => this.toggle(11)}>Close</Button>
+                                        <Button color="primary" onClick={() => this.toggle(11)}>{text.services.button2}</Button>
                                     </ModalFooter>
                                 </Modal>
                             </Container>
@@ -297,23 +297,23 @@ class ServiceList extends React.Component {
                             waves
                         />
                         <CardBody>
-                            <CardTitle className="card-title">Implants</CardTitle>
+                            <CardTitle className="card-title">{text.services.service12.name}</CardTitle>
                             <Container>
-                                <Button size="sm" onClick={() => this.toggle(12)}>Learn More</Button>
+                                <Button size="sm" onClick={() => this.toggle(12)}>{text.services.button1}</Button>
                                 <Modal isOpen={this.state.modal12} toggle={() => this.toggle(12)} centered>
-                                    <ModalHeader toggle={() => this.toggle(12)}>Implants</ModalHeader>
+                                    <ModalHeader toggle={() => this.toggle(12)}>{text.services.service12.name}</ModalHeader>
                                     <ModalBody>
                                         {text.services.service12.description}
                                     </ModalBody>
                                     <ModalFooter>
-                                        <Button color="primary" onClick={() => this.toggle(12)}>Close</Button>
+                                        <Button color="primary" onClick={() => this.toggle(12)}>{text.services.button2}</Button>
                                     </ModalFooter>
                                 </Modal>
                             </Container>
                         </CardBody>
                     </Card>
                 </Row>
-                <div id="icons-credit">Icons made by <a href="http://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank" rel="noopener noreferrer">CC 3.0 BY</a></div>
+                <div id="icons-credit">{text.services.credit1} <a href="http://www.freepik.com/" title="Freepik">Freepik</a> {text.services.credit2} <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> {text.services.credit3} <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank" rel="noopener noreferrer">CC 3.0 BY</a></div>
             </Animation>
         )
     }

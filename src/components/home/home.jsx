@@ -4,6 +4,7 @@ import FooterPage from "../footer/footer";
 import Header from "./header";
 import HomeNav from "../navbars/home-nav";
 import Intro from "../home/intro";
+import Insurance from "../home/insurance";
 
 const Home = (props) => {
     const {lang, text} = props;
@@ -18,6 +19,7 @@ const Home = (props) => {
             <HomeNav lang={lang} text={text} langSwitchEN={langSwitchEN} langSwitchES={langSwitchES}/>
             <Header/>
             <Intro lang={lang} text={text}/>
+            <Insurance text={text}/>
             <MapContainer/>
             <FooterPage text={text}/>
         </div>

@@ -18,11 +18,14 @@ export const footer = {
 export const home = {
     intro: {
         header: 'Welcome to Emerson Vicuña, DDS Family Dentistry',
-        p1: 'Dr. Vicuña and his team provide exceptional dental care to keep your smile healthy and strong for life.\n' +
+        p: 'Dr. Vicuña and his team provide exceptional dental care to keep your smile healthy and strong for life.\n' +
             'For over 10 years we have established trusting relationships with our patients where we can contribute to\n' +
             ' the overall well-being of all our patients. Using proven techniques for general, cosmetic, and restorative\n' +
             ' dentistry, we’ll personalize a treatment plan that meets your unique goals. From checkups, to aesthetic\n' +
             ' enhancements, to comprehensive restorations, Dr. Vicuna will perform your dental work with skill and precision.'
+    },
+    insurance: {
+        header: 'Insurance Providers'
     }
 
 };
@@ -43,6 +46,9 @@ export const services = {
     header: 'What we offer',
     button1: 'Learn More',
     button2: 'Close',
+    credit1: 'Icons made by',
+    credit2: 'from',
+    credit3: 'is licensed by',
     service1: {
         name: 'Extractions',
         description: 'A severely damaged tooth may need to be extracted. ' +
@@ -113,9 +119,4 @@ export const forms = {
     cardHeader: 'Download and fill these out before your next visit!',
     doc1: 'Medical History',
     doc2: 'Patient Registration'
-
-};
-
-export const contact = {
-
 };

@@ -11,6 +11,11 @@
     /*background-color: azure;*/
 }
 
+.custom-jumbotron {
+    text-align: center;
+    padding: 15px;
+}
+
 /*.footer {*/
     /*bottom: 0;*/
     /*padding-top: 630px;*/
@@ -40,11 +45,6 @@
  **********************/
 .abq {
     height: 100vh;
-}
-
-.home .intro {
-    text-align: center;
-    padding: 15px;
 }
 
 .home .footer {
