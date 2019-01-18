@@ -17,6 +17,7 @@ export const footer = {
 };
 
 export const home = {
+    header: '¡Llama ahora!',
     intro: {
         header: 'Bienvenidos a Emerson Vicuña, DDS Family Dentistry',
         p: `El doctor Vicuña y su personal le ofrecen atención dental excepcional 
@@ -122,9 +123,9 @@ export const services = {
     },
     service11: {
         name: 'Carillas',
-        description: `Veneers are strong, thin pieces of ceramic or resin material that are bonded to the teeth. 
-                      Veneers are used to repair chipped, decayed or stained teeth and may help in closing gaps 
-                      between teeth.`
+        description: `Las carillas son piezas fuertes y delgadas de material cerámico o de resina que se adhieren 
+                      a los dientes. Las carillas se utilizan para reparar dientes astillados, cariados o manchados 
+                      y pueden ayudar a cerrar las brechas entre los dientes.`
     },
     service12: {
         name: 'Implantes',

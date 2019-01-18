@@ -16,6 +16,7 @@
     padding: 15px;
 }
 
+
 /*.footer {*/
     /*bottom: 0;*/
     /*padding-top: 630px;*/
@@ -45,6 +46,7 @@
  **********************/
 .abq {
     height: 100vh;
+    width: 100%;
 }
 
 .home .footer {
@@ -94,6 +96,9 @@
 /**********************
  Services Page
 **********************/
+.services {
+    display: block;
+}
 .services h1 {
     display: block;
     text-align: center;
@@ -101,9 +106,8 @@
 }
 
 .services .service {
-    margin-left : 50px;
-    margin-top : 30px;
     text-align: center;
+    margin: 25px;
 }
 
 .dental-icon {

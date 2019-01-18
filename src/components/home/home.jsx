@@ -17,7 +17,7 @@ const Home = (props) => {
     return (
         <div className="home">
             <HomeNav lang={lang} text={text} langSwitchEN={langSwitchEN} langSwitchES={langSwitchES}/>
-            <Header/>
+            <Header text={text}/>
             <Intro lang={lang} text={text}/>
             <Insurance text={text}/>
             <MapContainer/>

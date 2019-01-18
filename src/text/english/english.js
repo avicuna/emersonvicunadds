@@ -16,6 +16,7 @@ export const footer = {
 };
 
 export const home = {
+    header: 'Call Now!',
     intro: {
         header: 'Welcome to Emerson Vicuña, DDS Family Dentistry',
         p: 'Dr. Vicuña and his team provide exceptional dental care to keep your smile healthy and strong for life.\n' +

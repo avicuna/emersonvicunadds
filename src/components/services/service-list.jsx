@@ -47,7 +47,7 @@ class ServiceList extends React.Component {
         const {text} = this.props;
         return (
             <Animation type="fadeIn" duration="2s">
-                <Row>
+                <Row className="justify-content-center">
                     <Card className="service" style={{ width: "22rem" }}>
                         <CardImage
                             className="dental-icon img-fluid"
