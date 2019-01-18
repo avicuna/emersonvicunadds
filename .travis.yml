@@ -1,23 +1,17 @@
 language: node_js
 node_js:
   - "11.2.0"
-#branches:
-#  only:
-#    - master
+
+branches:
+  only:
+    - master
 
 jobs:
   include:
     - stage: install
-      script: npm i
+      script: echo "Installing Dependencies" && npm i && npm i -g firebase-tools
     - stage: build
-      script: npm run build
-#script:
-#  - echo "Starting!"
-#install:
-#  - echo "Installing!"
-#  - npm i
-#build:
-#  - echo "Building!"
-#  - npm run build
+      script: echo "Building Application" && npm run build
+
 after_success:
-  - echo "Finished!"
+  - firebase deploy --token $FIREBASE_TOKEN && echo "Application Deployed!"
