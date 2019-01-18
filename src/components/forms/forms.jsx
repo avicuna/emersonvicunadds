@@ -15,7 +15,7 @@ const Forms = (props) => {
     return (
         <div className="forms">
             <MainNav lang={lang} text={text} langSwitchEN={langSwitchEN} langSwitchES={langSwitchES}/>
-            <h1 className="h2 display-3">Forms</h1>
+            <h1 className="h2 display-3">{text.forms.header}</h1>
             <Cards lang={lang} text={text}/>
             <FooterPage text={text}/>
         </div>

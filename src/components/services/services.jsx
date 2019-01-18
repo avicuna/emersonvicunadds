@@ -14,7 +14,7 @@ const Services = (props) => {
     return (
         <div className="services">
             <MainNav lang={lang} text={text} langSwitchEN={langSwitchEN} langSwitchES={langSwitchES}/>
-            <h1>{text.services.header}</h1>
+            <h1 className="display-4">{text.services.header}</h1>
             <ServiceList text={text}/>
             <FooterPage text={text}/>
         </div>

@@ -19,7 +19,14 @@ export const footer = {
 export const home = {
     intro: {
         header: 'Bienvenidos a Emerson Vicuña, DDS Family Dentistry',
-        p1: ''
+        p1: `El doctor Vicuña y su personal le ofrecen atención dental excepcional 
+            para mantener una sonrisa sana y fuerte durante toda la vida.
+            Por más de 10 años hemos establecido relaciones de confianza con nuestros 
+            pacientes que han contribuído a su bienestar general. 
+            Utilizando métodos comprobados de odontología general, cosmética y de restauración, 
+            le podremos personalizar un plan de tratamiento que cumpla sus metas exclusivas.
+            Desde la evaluación hasta un mejoramiento estético o restauración completa, el doctor 
+            Vicuña realizará cada procedimiento con habilidad y precisión.`
     }
 };
 

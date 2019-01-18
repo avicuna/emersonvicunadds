@@ -79,7 +79,6 @@ class App extends Component {
                           path="/forms"
                           render={(props) =>
                               <Forms {...props}
-                                     lang={this.state.lang}
                                      text={this.state.text}
                                      langSwitchEN={this.langSwitchEN}
                                      langSwitchES={this.langSwitchES}
@@ -90,7 +89,6 @@ class App extends Component {
                           path="/contact"
                           render={(props) =>
                               <Contact {...props}
-                                       lang={this.state.lang}
                                        text={this.state.text}
                                        langSwitchEN={this.langSwitchEN}
                                        langSwitchES={this.langSwitchES}

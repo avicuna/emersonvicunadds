@@ -114,12 +114,18 @@
     width: 25%;
 }
 
+#icons-credit {
+    text-align: center;
+    margin-top: 10px;
+    font-size: small;
+}
+
 .services .footer {
     /*min-height: 100vh; !* will cover the 100% of viewport *!*/
     /*overflow: hidden;*/
     display: block;
     position: relative;
-    /*padding-top: 600px; !* height of your footer *!*/
+    margin-top: 9%; /* height of your footer */
     /*background-color: azure;*/
     /*bottom: 0;*/
     /*width: 100%;*/
@@ -171,8 +177,8 @@
     /*overflow: hidden;*/
     display: block;
     position: relative;
-    /*margin-top: 630px; !* height of your footer *!*/
+    margin-top: 18%; /* height of your footer */
     /*background-color: azure;*/
     /*bottom: 0;*/
-    /*width: 100%;*/
+    /*width: 1 00%;*/
 }

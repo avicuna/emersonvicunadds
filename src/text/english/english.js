@@ -109,6 +109,10 @@ export const services = {
 };
 
 export const forms = {
+    header: 'Forms',
+    cardHeader: 'Download and fill these out before your next visit!',
+    doc1: 'Medical History',
+    doc2: 'Patient Registration'
 
 };
 
