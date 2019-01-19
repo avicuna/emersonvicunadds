@@ -3,7 +3,7 @@ export const nav = {
     nav2: 'Servicios',
     nav3: 'Formas',
     nav4: 'Contacto',
-    nav5: 'Seleccione el idioma',
+    nav5: 'Seleccione idioma',
     nav6: 'Ingles',
     nav7: 'Espanol'
 };
