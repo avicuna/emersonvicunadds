@@ -3,7 +3,7 @@ import 'firebase/storage';
 import saveAs from 'file-saver';
 const config = {
     apiKey: process.env.REACT_APP_API_KEY,
-    storageBucket: process.env.REACT_APP_STORAGE_BUCKET
+    storageBucket: "emersonvicunadds-1.appspot.com"
 };
 firebase.initializeApp(config);
 const storage = firebase.storage();
