@@ -6,12 +6,11 @@ export const nav = {
     nav5: 'Seleccione el idioma',
     nav6: 'Ingles',
     nav7: 'Espanol'
-
 };
 
 export const footer = {
     item1: 'Contactanos',
-    item2: 'Horas',
+    item2: 'Horario',
     item3: 'Lunes - Viernes: 9AM - 5PM',
     item4: 'HECHO A MANO PARA EMERSON VICUÑA, DDS DE ALEJANDRO VICUÑA'
 };
@@ -30,7 +29,7 @@ export const home = {
             Vicuña realizará cada procedimiento con habilidad y precisión.`
     },
     insurance: {
-        header: 'Proveedores de seguros'
+        header: 'Proveedores de Seguros'
     }
 };
 
@@ -136,7 +135,7 @@ export const services = {
 
 export const forms = {
     header: 'Formas',
-    cardHeader: 'Descárgalos y rellénalos antes de tu próxima visita!',
+    cardHeader: 'Descárgalos y llénalos antes de tu próxima visita!',
     doc1: 'Historial médico',
     doc2: 'Registro de pacientes'
 };
