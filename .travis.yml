@@ -7,14 +7,9 @@ branches:
     - master
 
 scripts:
-  - npm i
-  - npm i -g firebase-tools
-  - npm run build
-
-deploy:
-  skip_cleanup: true
-  provider: firebase
-  token: $FIREBASE TOKEN
+  - echo "Installing dependencies" && npm i
+  - echo "Installing firebase-tools" && npm i -g firebase-tools
+  - echo "Building app" npm run build
 
 
 
