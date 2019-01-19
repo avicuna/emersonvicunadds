@@ -2,7 +2,7 @@ import React from 'react';
 import abq from "../../assets/albuquerque-skyline.jpg";
 import { Mask, View } from 'mdbreact';
 
-const Header = (props) => {
+const Header = () => {
     return (
         <>
             <header>

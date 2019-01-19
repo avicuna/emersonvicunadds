@@ -12,7 +12,7 @@ export const footer = {
     item1: 'Contactanos',
     item2: 'Horario',
     item3: 'Lunes - Viernes: 9AM - 5PM',
-    item4: 'HECHO A MANO PARA EMERSON VICUÑA, DDS DE ALEJANDRO VICUÑA'
+    item4: 'DISEÑADO ESPECIALMENTE PARA EMERSON VICUÑA, DDS POR ALEJANDRO VICUÑA'
 };
 
 export const home = {
@@ -92,7 +92,7 @@ export const services = {
                       la boca en la parte superior e inferior.`
     },
     service6: {
-        name: 'Blanqueo',
+        name: 'Blanqueamiento',
         description: `El blanqueo puede hacer que sus dientes se vuelvan más brillantes más 
                       rápido. La solución de blanqueo suele ser mucho más fuerte que los kits 
                       para el hogar. También se puede usar calor, luz o una combinación de los 
