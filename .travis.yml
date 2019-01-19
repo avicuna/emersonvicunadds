@@ -6,10 +6,15 @@ branches:
   only:
     - master
 
-scripts:
-  - echo "Installing dependencies" && npm i
-  - echo "Installing firebase-tools" && npm i -g firebase-tools
-  - echo "Building app" && npm run build
+install:
+  - npm i && npm i -g firebase-tools
+
+build:
+  - npm run build
+
+after_success:
+  - firebase deploy --token $FIREBASE_TOKEN
+
 
 
 
