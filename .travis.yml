@@ -9,7 +9,7 @@ branches:
 scripts:
   - echo "Installing dependencies" && npm i
   - echo "Installing firebase-tools" && npm i -g firebase-tools
-  - echo "Building app" npm run build
+  - echo "Building app" && npm run build
 
 
 
