@@ -6,12 +6,24 @@ branches:
   only:
     - master
 
-jobs:
-  include:
-    - stage: install
-      script: echo "Installing Dependencies" && npm i && npm i -g firebase-tools
-    - stage: build
-      script: echo "Building Application" && npm run build
+scripts:
+  - npm i
+  - npm i -g firebase-tools
+  - npm run build
 
-after_success:
-  - firebase deploy --token $FIREBASE_TOKEN && echo "Application Deployed!"
+deploy:
+  skip_cleanup: true
+  provider: firebase
+  token: $FIREBASE TOKEN
+
+
+
+#jobs:
+#  include:
+#    - stage: install
+#      script: echo "Installing Dependencies" && npm i && npm i -g firebase-tools
+#    - stage: build
+#      script: echo "Building Application" && npm run build
+#
+#after_success:
+#  - firebase deploy --token $FIREBASE_TOKEN && echo "Application Deployed!"
