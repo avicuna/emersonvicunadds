@@ -6,14 +6,17 @@ branches:
   only:
     - master
 
-install:
-  - npm i && npm i -g firebase-tools
+cache:
+  directories:
+  - node_modules
 
-build:
+script:
   - npm run build
 
-after_success:
-  - firebase deploy --token $FIREBASE_TOKEN
+deploy:
+  provider: firebase
+  skip_cleanup: true
+  token: $FIREBASE_TOKEN
 
 
 
