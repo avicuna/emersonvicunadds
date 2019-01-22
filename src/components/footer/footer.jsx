@@ -18,10 +18,14 @@ class FooterPage extends React.Component {
                                     Albuquerque, NM
                                 </p>
                                 <p>
+                                    <a href="tel:+1-505-877-1113">
                                     <i className="fa fa-phone" aria-hidden="true"></i> +1 (505)-877-1113
+                                    </a>
                                 </p>
                                 <p>
+                                    <a href="mailto:emersonvicunadds@gmail.com">
                                     <i className="fa fa-envelope" aria-hidden="true"></i> emersonvicunadds@gmail.com
+                                    </a>
                                 </p>
                             </Col>
                             <Col md="6">
@@ -32,9 +36,6 @@ class FooterPage extends React.Component {
                                             <li className="list-unstyled">
                                                 <p>{text.footer.item3}</p>
                                             </li>
-                                            {/*<li className="list-unstyled">*/}
-                                                {/*<p>*Hours may vary</p>*/}
-                                            {/*</li>*/}
                                         </ul>
                                     </Col>
                             </Col>
