@@ -40,7 +40,7 @@ export const home = {
             },
             answers: {
                 1: `If you haven't filled out our online downloadable medical history and patient registration forms
-                    please arrive 10-15 minutes early to do so. Download our forms by the forms button on the navbar.`,
+                    please arrive 10-15 minutes early to do so. Download our forms by going to the forms page.`,
                 2: `Please be sure to request a prescription prior to your appointment, or if you are unsure, contact us 
                     and we can help.`,
                 3: `Please bring the following items with you to your appointment:`,

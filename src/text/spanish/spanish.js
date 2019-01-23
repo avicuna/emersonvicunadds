@@ -43,8 +43,7 @@ export const home = {
             },
             answers: {
                 1: `Si no ha completado nuestro historial médico descargable en línea y los formularios de registro de pacientes, 
-                    llegue 10-15 minutos antes para hacerlo. Descargue nuestros formularios con el botón de formularios en la barra 
-                    de navegación.`,
+                    llegue con 10-15 minutos de anticipación para hacerlo. Descargue nuestros formularios yendo a la página de formularios.`,
                 2: `Asegúrese de preguntar por una receta antes de su cita o, si no estás seguro, contáctenos y podemos ayudarte.`,
                 3: `Por favor traiga los siguientes artículos a su cita: `,
                 list: {
