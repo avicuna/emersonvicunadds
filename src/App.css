@@ -20,6 +20,7 @@
     border: 2px solid #2196F3;
     border-radius: 32px;
     font-size: 16px;
+    padding: 10px;
     margin: 0;
     cursor: pointer;
     color: white;
@@ -62,6 +63,31 @@
 .abq {
     height: 100vh;
     width: 100%;
+}
+
+.accordion {
+    background-color: white;
+    cursor: pointer;
+    padding: 13px;
+    width: 100%;
+    border: 1px solid #EEEEEE;
+    border-radius: 6px;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: .3s;
+}
+
+.accordion:hover {
+    background-color: #EEEEEE;
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height .4s linear;
 }
 
 .home .footer {

@@ -5,6 +5,7 @@ import Header from "./header";
 import HomeNav from "../navbars/home-nav";
 import Intro from "../home/intro";
 import Insurance from "../home/insurance";
+import Faq from "../faq/faq";
 
 const Home = (props) => {
     const {lang, text} = props;
@@ -20,6 +21,7 @@ const Home = (props) => {
             <Header text={text}/>
             <Intro lang={lang} text={text}/>
             <Insurance text={text}/>
+            <Faq text={text}/>
             <MapContainer/>
             <FooterPage text={text}/>
         </div>
