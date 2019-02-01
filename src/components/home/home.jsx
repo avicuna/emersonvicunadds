@@ -1,10 +1,10 @@
 import React from 'react';
 import MapContainer from "../map/map-container";
 import FooterPage from "../footer/footer";
-import Header from "./header";
+import Header from "./header/header";
 import HomeNav from "../navbars/home-nav";
-import Intro from "../home/intro";
-import Insurance from "../home/insurance";
+import Intro from "./intro/intro";
+import Insurance from "./insurance/insurance";
 import Faq from "../faq/faq";
 
 const Home = (props) => {

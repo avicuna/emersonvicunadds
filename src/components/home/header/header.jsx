@@ -1,5 +1,5 @@
 import React from 'react';
-import abq from "../../assets/albuquerque-skyline.jpg";
+import abq from "../../../assets/albuquerque-skyline.jpg";
 import { Mask, View } from 'mdbreact';
 
 const Header = () => {

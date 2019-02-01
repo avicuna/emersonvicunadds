@@ -1,0 +1,4189 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer renders english correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <FooterPage
+    text={
+      Object {
+        "about": Object {
+          "header": "Meet Doctor Vicuña",
+          "p1": "With over 15 years of experience, Dr. Emerson Vicuña, DDS is a general
+dentist that loves helping people who are in need of his dental expertise. His patients adore his
+friendly personality, work ethic, and outstanding results.",
+          "p2": "Hailing from Lima, Peru, Dr. Vicuña earned his Doctor of
+Dental Surgery degree from The Ohio State University after receiving his BS in Biology and Chemistry from
+the University of New Mexico. He is also a member of the American Dental Association and Academy of
+General Dentistry.",
+          "p3": "Since starting his own practice in 2005, Dr. Vicuña has been the only dentist at his practice, which allows patients to get to know him personally and receive personalized care.",
+        },
+        "footer": Object {
+          "item1": "Get In Touch",
+          "item2": "Hours",
+          "item3": "Monday - Friday: 9AM - 5PM",
+          "item4": "HANDMADE FOR EMERSON VICUÑA, DDS BY ALEJANDRO VICUÑA",
+        },
+        "forms": Object {
+          "cardHeader": "Download and fill these out before your next visit!",
+          "doc1": "Medical History",
+          "doc2": "Patient Registration",
+          "header": "Forms",
+        },
+        "home": Object {
+          "faq": Object {
+            "cosmetic": Object {
+              "answers": Object {
+                "1": "There are several different options available to change the shape of your teeth. 
+                    You can choose to make your teeth look longer, close spaces between your teeth 
+                    or repair a chipped or cracked tooth. Among the options are bonding, crowns, 
+                    veneers, and re-contouring.",
+                "2": "If your tooth is broken, chipped, or fractured, see your dentist as soon as possible. 
+                    Otherwise, your tooth could be damaged further or become infected, possibly causing 
+                    you to end up losing the tooth.",
+                "3": "Tooth discoloration may result from drinking coffee, tea, cola and red wine; or from smoking. 
+                    The aging process also can stain and darken your teeth. Some options to consider when 
+                    looking for whiter teeth include whitening toothpastes and in-office bleaching. Before deciding 
+                    whether in-office bleaching is right for you, we conduct a comprehensive examination of your 
+                    teeth and gums to ensure proper health, and talk with you about your oral hygiene and lifestyle 
+                    habits to determine if you will benefit from whitening. This helps us agree on the whitening 
+                    product or technique that’s best for you.",
+              },
+              "questions": Object {
+                "1": "I'm interested in changing the shape of my teeth. What options are available?",
+                "2": "My tooth is cracked, how should I proceed?",
+                "3": "What are my options for whitening my teeth?",
+              },
+              "title": "Cosmetic Dentistry",
+            },
+            "emergencies": Object {
+              "answers": Object {
+                "1": Object {
+                  "1": "Time is your enemy when an accident or any trauma dislodges a tooth. First locate the tooth, 
+                        or teeth, and determine if the tooth broke or if the entire tooth and root came out in one piece. 
+                        Gather together the pieces you’ve found, and with warm water gently rinse off obvious dirt or 
+                        debris. Avoid touching the root as much as possible. Place and transport the tooth in milk or in 
+                        some of the person’s own saliva.",
+                  "2": "Rush the injured person and tooth to the dental office. Ideally the tooth will be re-implanted. 
+                        The tooth may also be splinted with a wire to the adjacent teeth for a period of time.",
+                  "3": "If you cannot contact a dentist your nearest Urgent Care or Emergency Room may be able to help.",
+                },
+                "2": Object {
+                  "1": "If you’re unable to reach your dentist, check the internet or yellow pages listings for a 
+                        dentist or urgent care nearby. If you can’t reach any dentist, here are some helpful tips: ",
+                  "2": "If you have a toothache rinse your mouth with warm salt water. Gently brush and floss the area to remove any trapped food 
+                        or debris. If you can take over the counter pain medications (such as Ibuprofen) they may help in 
+                        soothing the pain. Topical gels (such as Orajel) can sometimes help, but usually only a little bit 
+                        and for a minimal amount of time. Make arrangements to see your dentist even if the pain goes. Without 
+                        proper care your condition could return or even worsen. (To make salt water rinse: mix 1 teaspoon table 
+                        salt with 1 cup warm water).",
+                  "3": "If your permanent (or temporary) crown comes off keep the area clean by rinsing with warm salt water rinses 
+                        and by gently brushing the area if it is not too sensitive. Avoid leaving the crown out for more than a few 
+                        days as teeth can shift, making it difficult or impossible to re-cement it at a later date. If the tooth is 
+                        painful, denture cream or toothpaste can be placed inside the crown and it can be gently fit back into place.",
+                },
+                "3": Object {
+                  "1": "When a tooth is lost, a whole series of events can begin to occur. Chewing on the affected side becomes more 
+                        difficult and over time the remaining teeth can actually tilt and erupt into the open space.",
+                  "2": "Depending on the location of the missing tooth, we would most likely recommend either a dental implant, a bridge, 
+                        or a partial denture. All of these options have their benefits and drawbacks. If you would like more information 
+                        we can schedule a consultation to go over the specifics of your case.",
+                },
+              },
+              "questions": Object {
+                "1": "What if my tooth gets knocked out in an accident?",
+                "2": "What should I do if I have a dental emergency and can't get a hold of my dentist?",
+                "3": "What are my options for replacing a missing tooth?",
+              },
+              "title": "Emergencies",
+            },
+            "family": Object {
+              "answers": Object {
+                "1": "The period when early hard teeth are growing is a major event in the life of an infant,
+                    and it can be difficult. The eruption of teeth causes inflammation, which leads to congestion,
+                    drooling, and discomfort. While the average time for the appearance of the first teeth is
+                    between five and seven months of age, there is a wide range before and after this that can
+                    still be considered “normal”. The teeth might come in as early as one month of age, or they
+                    may erupt when the child is one-and-a-half years old. Generally the lower front teeth come
+                    in first, and girls’ teeth typically erupt earlier than boys.",
+                "2": "In order to prevent dental problems, your child should see a pediatric dentist between 6-9 months for a visual examination,
+                    or no later their first birthday.",
+                "3": "If baby teeth become diseased or decayed it can lead to pain and infection. It can also be difficult for children
+                    to eat a well-balanced meal with a mouth full of cavities. Untreated cavities also increase the amount of decay
+                    causing bacteria in the mouth. As permanent teeth erupt, they are at increased risk for developing cavities because
+                    of the higher bacteria count. Baby teeth also hold space in the mouth for the erupting permanent teeth. If the baby
+                    teeth become decayed or are taken out too early, the permanent teeth often become crowded and will likely need braces
+                    to straighten in the future.",
+                "4": "The American Dental Association recommends that kids receive dental sealants as soon as their adult teeth
+                    erupt. Dental sealants are a quick, easy, and relatively cheap solution for preventing cavities. They are
+                    thin coatings applied to the biting surfaces that help prevent bacteria and other debris from getting into
+                    the deep crevices on the teeth. Young children are great candidates for preventative measures like sealants
+                    because in many cases, decay has not set in. Children’s teeth tend to benefit more from sealants because
+                    these pits and groves tend to be deeper and less calcified then they are in adults. Kids are notoriously
+                    bad brushers and tend to ignore the problem areas in the back of the mouth that lead to cavities and decay.",
+                "5": "Pregnancy and dental work questions are common for expecting moms. Preventive dental cleanings and annual exams during
+                    pregnancy are not only safe, but are recommended. The rise in hormone levels during pregnancy causes the gums to swell,
+                    bleed, and trap food causing increased irritation to your gums. Preventive dental work while pregnant is essential to
+                    avoid oral infections such as gum disease, which has been linked to preterm birth.",
+              },
+              "questions": Object {
+                "1": "When will my child get their first tooth?",
+                "2": "When should I take my child to the dentist for their first check-up?",
+                "3": "My child's baby teeth have cavities. Should they be filled?",
+                "4": "What are dental sealants and why do my kids need them?",
+                "5": "What happens if a woman has a dental problem when she is pregnant?",
+              },
+              "title": "Family Dentistry",
+            },
+            "firstAppointment": Object {
+              "answers": Object {
+                "1": "If you haven't filled out our online downloadable medical history and patient registration forms
+                    please arrive 10-15 minutes early to do so. Download our forms by going to the forms page.",
+                "2": "Please be sure to request a prescription prior to your appointment, or if you are unsure, contact us 
+                    and we can help.",
+                "3": "Please bring the following items with you to your appointment:",
+                "4": "It varies, but please plan on spending 30 minutes to an hour for your first visit.
+                    As family dentists we can eliminate the need for additional office visits saving
+                    busy families time. We make it a point to clearly explain the benefits and fees for each
+                    treatment beforehand during our initial meeting. We help with forms and insurance and believe
+                    an oral education is an important part of preventive dentistry. We honor this in everything we do.",
+                "list": Object {
+                  "1": "Medical History Form",
+                  "2": "Patient Registration Form",
+                  "3": "Dental Insurance Card (if applicable)",
+                  "4": "Identification such as Driver's License, Military ID or State ID",
+                },
+              },
+              "questions": Object {
+                "1": "Do I need to arrive early for my first appointment?",
+                "2": "What should I do if I require pre-medication?",
+                "3": "What should I bring to my first appointment?",
+                "4": "How long will my first appointment last?",
+              },
+              "title": "First Appointment",
+            },
+            "general": Object {
+              "answers": Object {
+                "1": "Most people need to visit their dentist for a regular hygiene visit twice a year, or
+                    once every six months. There are exceptions to this rule, however. If you have gum disease,
+                    or a history of gum disease, your dentist may recommend more frequent visits. Another
+                    reason you may need to see the dentist more frequently is if you are undergoing orthodontic
+                    treatment. The bottom line is that you need to at least see the dentist twice a year and
+                    you need to comply if it is recommended that you make those visits more frequent.",
+                "10": Object {
+                  "1": "Yes, if diabetes is left untreated, it can take a toll on your mouth. Here’s how: ",
+                  "2": "Regular dental visits are important. Research suggests that treating gum disease can help 
+                        improve blood sugar control in patients living with diabetes, decreasing the progression of 
+                        the disease. Practicing good oral hygiene and having professional deep cleanings done by your 
+                        dentist can help immensely.",
+                  "list": Object {
+                    "1": "You may have less saliva, causing your mouth to feel dry (dry mouth is discussed above)",
+                    "2": "Because saliva protects your teeth, you’re also at a higher risk of cavities",
+                    "3": "Gums may become inflamed and bleed often (gingivitis)",
+                    "4": "You may have problems tasting food",
+                    "5": "You may experience delayed wound healing",
+                    "6": "You may be susceptible to infections inside of your mouth",
+                    "7": "For children with diabetes, teeth may erupt at an age earlier than is typical",
+                  },
+                },
+                "2": "Dental x-rays are very safe. The amount of radiation that a dental x-ray produces
+                    is about the same as you would receive from a cross country airplane ride.
+                    Radiation is measured in millirems and one dental x-ray has only .5 millirems.",
+                "3": "A common misconception is that dental restorations last forever but unfortunately this is
+                    rarely true. With time dental restorations may break down or become loose, allowing decay
+                    to enter the area around the restoration and become problematic. Although you can’t expect
+                    your fillings, bridges, and crowns to last forever, you can do your part to make them last
+                    as long as possible. Maintain great oral hygiene and visit your dentist regularly to keep
+                    those restorations in great condition for as long as possible.",
+                "4": "Sensitivity toothpaste, which contains strontium chloride or potassium nitrate are very effective 
+                    in treating sensitive teeth. After a few weeks of use, you may notice a decrease in sensitivity. 
+                    Highly acidic foods such as oranges, grapefruits and lemons, as well as tea and soda can increase 
+                    tooth sensitivity, and work against sensitivity toothpaste. If you do not get relief by brushing 
+                    gently and using desensitizing toothpaste, see your dentist. There are special compounds that can 
+                    be applied in-office to the roots of your tooth to reduce - if not eliminate - the sensitivity. 
+                    High-fluoride containing home care products can also be recommended to help reduce tooth sensitivity.",
+                "5": "The main cause of bleeding gums is the buildup of plaque at the gum line. This will lead to a condition 
+                    called gingivitis, or inflamed gums. Plaque that is not removed will harden into tartar. This will lead 
+                    to increased bleeding and a more advanced form of gum and bone disease known as periodontitis. Bleeding 
+                    gums can happen for a number of reasons, from gingivitis to a side effect of pregnancy. Changing your 
+                    oral care routine can also make your gums bleed. We recommend brushing and flossing regularly and getting 
+                    your semiannual dental visit in to stop your gums from bleeding. Certain medicines also increase the likelihood 
+                    that your gums will bleed. If changing your oral care habits, adjusting your medications, and maintaining a healthy 
+                    diet doesn’t help your gums stop bleeding, your next step should be to make a dental appointment.",
+                "6": "Chemotherapy and Radiation can cause a number of problems in the mouth, some of which might include: mouth sores, 
+                    infections, dry mouth, bleeding of the gums and lining of the mouth and general soreness and pain of the mouth. It 
+                    can be harder to control these things while undergoing treatment as the immune system is generally compromised as a 
+                    result of the treatment. There are some special mouth rinses that can be prescribed to help with discomfort during 
+                    treatment. It is very important to see your dentist before treatment begins and then to continue with recommended 
+                    follow-up care. These treatments can cause dry mouth, and recommendations might be made for additional care both 
+                    in-office and at home.",
+                "7": "Visits to the dentist include more than just \\"checking teeth.\\" While patients who wear dentures no longer have to 
+                    worry about dental decay, they may have concerns with ill fitting appliances or mouth sores to name a few. Annual 
+                    visits to the dentist (or sooner if soreness is present) is recommended. During these visits, an oral cancer screening 
+                    and head and neck exam will be performed as well as an evaluation of the fit or need for replacement of the existing 
+                    appliances. Regular visits can help you to avoid more complicated problems down the road.",
+                "8": Object {
+                  "1": "Tooth decay, also known as a cavity, occurs when bacteria living in your mouth make acid that begins to eat away at 
+                        your teeth. Untreated tooth decay may cause infection, extreme pain and the loss of tooth. The decay process begins 
+                        with the unnoticeable damage to the enamel of your teeth and then steadily progresses to deeper layers of the tooth, 
+                        eventually leading to the pulp. The pulp of your teeth contains highly-sensitive blood vessels and nerves. Proper oral 
+                        hygiene includes brushing your teeth regularly, flossing regularly and brushing your tongue. If possible brush your 
+                        teeth twice a day – morning and night.",
+                  "2": "The top causes of tooth decay include: Poor Oral Hygiene, Improper Nutrition, Sugary Foods, Acidic Foods and Drinks, 
+                        Dry Mouth Issues, Tooth Grinding, Genetics, Age and Avoiding the Dentist.",
+                },
+                "9": Object {
+                  "1": "To relieve your dry mouth try chewing sugar-free gum or suck on sugar-free hard candies to stimulate the flow of saliva. 
+                        For some people sugar-free gum or sugar-free candies may cause diarrhea or cramps if consumed in large amounts.",
+                  "2": "You can also try limiting your caffeine intake because caffeine can make your mouth drier. Also don’t 
+                        use mouthwashes that contain alcohol because they can be drying. You could stop all tobacco use if you smoke or chew tobacco. 
+                        Sipping water regularly can help (and that’s a healthy thing to do) to keep the saliva flowing and has shown to relieve the 
+                        symptom. There are also some over the counter products made by Biotene that have helped many of our patients with their dry 
+                        mouth symptoms.",
+                },
+              },
+              "questions": Object {
+                "1": "How often do I need to visit the dentist?",
+                "10": "Are there any dental problems associated with diabetes?",
+                "2": "How safe are dental x-rays?",
+                "3": "How long will my dental restoration last?",
+                "4": "What can I do about sensitive teeth?",
+                "5": "Why are my gums bleeding?",
+                "6": "I am undergoing chemotherapy and/or radiation 
+                    for cancer treatment, how can this affect my mouth?",
+                "7": "I have dentures. Is it necessary for me to still see my dentist?",
+                "8": "What causes teeth to decay?",
+                "9": "What can I do if I have dry mouth?",
+              },
+              "title": "General Dentistry",
+            },
+            "preventive": Object {
+              "answers": Object {
+                "1": "Dental radiograph, dental cleaning plan, plan to restore the health of the gums:
+                    regular/deep cleaning, evaluate for dental cavities, replace any missing teeth.",
+                "2": "The most important ingredient to look for when choosing toothpaste is fluoride. 
+                    Fluoride is a naturally occurring mineral. Its use has been instrumental in the 
+                    dramatic drop in tooth decay and cavity occurrence that has taken place over the 
+                    past 50 years. Bacteria in your mouth feed on sugars and starches that remain on 
+                    your teeth after eating. Fluoride helps protect your teeth from the acid that is 
+                    released when this happens. It does this in two ways. First, fluoride makes your 
+                    tooth enamel stronger and less likely to suffer acid damage. Second, it can 
+                    reverse the early stages of acid damage by solidifying areas that have started to 
+                    decay.",
+                "3": "Plaque develops when foods containing carbohydrates (sugars and starches), such as 
+                    milk, soft drinks, raisins, cakes, or candy are frequently left on the teeth. 
+                    Bacteria that live in the mouth thrive on these foods, producing acids as a result. 
+                    Over a period of time, these acids destroy tooth enamel, resulting in tooth decay. 
+                    Plaque can also develop on the tooth roots under the gum and cause breakdown of the 
+                    bone supporting the tooth.",
+                "4": "Flossing reduces the number of bacteria in your mouth. There are millions of these 
+                    microscopic creatures feeding on food particles left on your teeth. These bacteria 
+                    live in plaque which can be removed by flossing. Brushing your teeth gets rid of 
+                    some of the bacteria in your mouth. Flossing gets rid of the bacteria the toothbrush 
+                    can't get to. That's the bacteria hiding in the tiny spaces between your teeth. If 
+                    you do not floss, you allow plaque to remain between your teeth. Eventually it 
+                    hardens into tartar. Plaque can be removed by brushing. Only the dentist can remove 
+                    tartar.",
+                "5": "Make it fun! If you are enthusiastic about brushing your teeth, your children will also 
+                    be enthusiastic. Children want to do the things their parents do. If your children see 
+                    you brushing your teeth and displaying good dental habits, they will follow. Getting your 
+                    children to brush starts with taking them to the dentist at an early age.",
+                "6": Object {
+                  "1": "Always spend two to three minutes brushing your teeth. It takes that long to get rid of the 
+                        bacteria that destroy tooth enamel. Do not brush too hard. It takes very little pressure to 
+                        remove bacteria and plaque. Floss at least once a day. Flossing is the only way to get bacteria 
+                        from between your teeth.",
+                  "2": "Watch the sugar you eat. There is sugar in candy, fruits, crackers and chips. These are the 
+                        foods that the bacteria in your mouth like best. Be mindful of foods like raisins and peanut 
+                        butter that stick to your teeth. They can provide a constant supply for the bacteria eating 
+                        into your teeth. Try to minimize the times during the day when sweet items are eaten and brush 
+                        your teeth afterwards.",
+                  "3": "If you cannot brush after a meal, rinse your mouth with water - which can help to remove food 
+                        from your teeth. Chewing sugarless gum after a meal can also help. Chewing deskulates the flow 
+                        of your saliva which acts as a natural plaque-fighting substance. And do not forget your regular 
+                        dental visits. Good dental habits will go a long way toward a no-cavity visit.",
+                },
+                "7": "If a manual toothbrush is used for the appropriate amount of time, and done with proper technique, 
+                    it can perform just as well as a powered toothbrush. But many people don’t brush for the recommended 
+                    two to three minutes. Children are also good candidates for powered brushes as their brushing habits 
+                    tend to be less than optimal. While everyone certainly does not need an electric toothbrush, in many 
+                    instances they can be beneficial. Ask your dentist if you have any questions about which brush is best 
+                    for you.",
+                "8": "While bad breath (or “halitosis”) can be linked to numerous systemic diseases, the majority of bad breath 
+                    originates in the mouth. A dry mouth or a low salivary flow can also influence bad odor. There are two main 
+                    goals in the management of bad breath. First, controlling the bacteria that produce the sulfur compounds and 
+                    second, to neutralize the sulfur compounds that are produced.",
+              },
+              "questions": Object {
+                "1": "What can I do to keep my teeth healthy?",
+                "2": "What tooth paste should I use?",
+                "3": "What is plaque?",
+                "4": "Why should I floss, isn't brushing enough?",
+                "5": "How can I get my kids to brush their teeth?",
+                "6": "How can I prevent cavities?",
+                "7": "Are electric toothbrushes better than manual brushes?",
+                "8": "What causes bad breath?",
+              },
+              "title": "Preventive Dentistry",
+            },
+            "title": "Frequently Asked Questions",
+          },
+          "header": "Call Now!",
+          "insurance": Object {
+            "header": "Insurance Providers",
+          },
+          "intro": Object {
+            "header": "Welcome to Emerson Vicuña, DDS Family Dentistry",
+            "p": "Dr. Vicuña and his team provide exceptional dental care to keep your smile healthy and strong for life.
+For over 10 years we have established trusting relationships with our patients where we can contribute to
+ the overall well-being of all our patients. Using proven techniques for general, cosmetic, and restorative
+ dentistry, we’ll personalize a treatment plan that meets your unique goals. From checkups, to aesthetic
+ enhancements, to comprehensive restorations, Dr. Vicuna will perform your dental work with skill and precision.",
+          },
+        },
+        "nav": Object {
+          "nav1": "About",
+          "nav2": "Services",
+          "nav3": "Forms",
+          "nav4": "Contact",
+          "nav5": "Select Language",
+          "nav6": "English",
+          "nav7": "Spanish",
+        },
+        "services": Object {
+          "button1": "Learn More",
+          "button2": "Close",
+          "credit1": "Icons made by",
+          "credit2": "from",
+          "credit3": "is licensed by",
+          "header": "What we offer",
+          "service1": Object {
+            "description": "A severely damaged tooth may need to be extracted. Permanent teeth may also need to be removed for orthodontic treatment.",
+            "name": "Extractions",
+          },
+          "service10": Object {
+            "description": "Bridges are false teeth anchored in place by neighbouring teeth. The bridge consists of two crowns on the anchoring teeth along with the false tooth in the centre.",
+            "name": "Bridges",
+          },
+          "service11": Object {
+            "description": "Veneers are strong, thin pieces of ceramic or resin material that are bonded to the teeth. Veneers are used to repair chipped, decayed or stained teeth and may help in closing gaps between teeth.",
+            "name": "Veneers",
+          },
+          "service12": Object {
+            "description": "Dental implants are artificial roots used to support replacement teeth.",
+            "name": "Implants",
+          },
+          "service2": Object {
+            "description": "Dental fillings and repairs use restorative materials used to repair teeth which have been compromised due to cavities or trauma.",
+            "name": "Fillings",
+          },
+          "service3": Object {
+            "description": "Crowns are dental restorations that protect damaged, cracked or broken teeth. Dental crowns, often referred to as caps, sit over the entire part of the tooth that lies above the gum line. ",
+            "name": "Crowns",
+          },
+          "service4": Object {
+            "description": "Root canals treat diseases or absessed teeth. Once a tooth is injured, cracked or decayed, it is necessary to open the tooth and clean out the infected tissue in the centre. This space is then filled and the opening sealed.",
+            "name": "Root Canals",
+          },
+          "service5": Object {
+            "description": "Wisdom tooth extraction is a surgical procedure to remove one or more wisdom teeth - the four permanent adult teeth located at the back corners of your mouth on the top and bottom.",
+            "name": "Wisdom Teeth",
+          },
+          "service6": Object {
+            "description": "Bleaching can get your teeth brighter faster. The bleaching solution is usually much stronger than at-home kits. Also heat, light, or a combination of the two may be used to speed and intensify the whitening process.",
+            "name": "Bleaching",
+          },
+          "service7": Object {
+            "description": "Dentures are prosthetic devices replacing lost teeth. There are two types of dentures – partial and full. Full dentures are often referred to as “false teeth”.",
+            "name": "Dentures",
+          },
+          "service8": Object {
+            "description": "A Partial Denture is a removable, yet natural-looking dental appliance that helps restore the form and function of your jaw by replacing one or several missing teeth",
+            "name": "Partials",
+          },
+          "service9": Object {
+            "description": "Repairs consist of reuniting or replacing broken or worn parts of a denture the same day.",
+            "name": "Denture Repair",
+          },
+        },
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <t
+        className="page-footer font-small"
+        color="unique-color"
+        tag="footer"
+      >
+        <t
+          className="text-center text-md-left"
+          fluid={true}
+          tag="div"
+        >
+          <t
+            tag="div"
+          >
+            <t
+              lg={null}
+              md="6"
+              sm={null}
+              tag="div"
+              xl={null}
+              xs={null}
+            >
+              <br />
+              <h5
+                className="title"
+              >
+                Get In Touch
+              </h5>
+              <br />
+              <p>
+                <i
+                  aria-hidden="true"
+                  className="fa fa-map-marker"
+                />
+                 1010 Bridge Blvd SW, Suite F Albuquerque, NM
+              </p>
+              <p>
+                <a
+                  href="tel:+1-505-877-1113"
+                >
+                  <i
+                    aria-hidden="true"
+                    className="fa fa-phone"
+                  />
+                   +1 (505)-877-1113
+                </a>
+              </p>
+              <p>
+                <a
+                  href="mailto:emersonvicunadds@gmail.com"
+                >
+                  <i
+                    aria-hidden="true"
+                    className="fa fa-envelope"
+                  />
+                   emersonvicunadds@gmail.com
+                </a>
+              </p>
+            </t>
+            <t
+              lg={null}
+              md="6"
+              sm={null}
+              tag="div"
+              xl={null}
+              xs={null}
+            >
+              <br />
+              <h5
+                className="title"
+              >
+                Hours
+              </h5>
+              <t
+                lg={null}
+                md={null}
+                sm={null}
+                tag="div"
+                xl={null}
+                xs={null}
+              >
+                <ul>
+                  <li
+                    className="list-unstyled"
+                  >
+                    <p>
+                      Monday - Friday: 9AM - 5PM
+                    </p>
+                  </li>
+                </ul>
+              </t>
+            </t>
+          </t>
+        </t>
+        <div
+          className="footer-copyright text-center py-3"
+        >
+          <t
+            fluid={true}
+            tag="div"
+          >
+            <p>
+               
+              HANDMADE FOR EMERSON VICUÑA, DDS BY ALEJANDRO VICUÑA
+               
+            </p>
+          </t>
+        </div>
+      </t>,
+      "className": "footer",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <t
+            className="text-center text-md-left"
+            fluid={true}
+            tag="div"
+          >
+            <t
+              tag="div"
+            >
+              <t
+                lg={null}
+                md="6"
+                sm={null}
+                tag="div"
+                xl={null}
+                xs={null}
+              >
+                <br />
+                <h5
+                  className="title"
+                >
+                  Get In Touch
+                </h5>
+                <br />
+                <p>
+                  <i
+                    aria-hidden="true"
+                    className="fa fa-map-marker"
+                  />
+                   1010 Bridge Blvd SW, Suite F Albuquerque, NM
+                </p>
+                <p>
+                  <a
+                    href="tel:+1-505-877-1113"
+                  >
+                    <i
+                      aria-hidden="true"
+                      className="fa fa-phone"
+                    />
+                     +1 (505)-877-1113
+                  </a>
+                </p>
+                <p>
+                  <a
+                    href="mailto:emersonvicunadds@gmail.com"
+                  >
+                    <i
+                      aria-hidden="true"
+                      className="fa fa-envelope"
+                    />
+                     emersonvicunadds@gmail.com
+                  </a>
+                </p>
+              </t>
+              <t
+                lg={null}
+                md="6"
+                sm={null}
+                tag="div"
+                xl={null}
+                xs={null}
+              >
+                <br />
+                <h5
+                  className="title"
+                >
+                  Hours
+                </h5>
+                <t
+                  lg={null}
+                  md={null}
+                  sm={null}
+                  tag="div"
+                  xl={null}
+                  xs={null}
+                >
+                  <ul>
+                    <li
+                      className="list-unstyled"
+                    >
+                      <p>
+                        Monday - Friday: 9AM - 5PM
+                      </p>
+                    </li>
+                  </ul>
+                </t>
+              </t>
+            </t>
+          </t>,
+          <div
+            className="footer-copyright text-center py-3"
+          >
+            <t
+              fluid={true}
+              tag="div"
+            >
+              <p>
+                 
+                HANDMADE FOR EMERSON VICUÑA, DDS BY ALEJANDRO VICUÑA
+                 
+              </p>
+            </t>
+          </div>,
+        ],
+        "className": "page-footer font-small",
+        "color": "unique-color",
+        "tag": "footer",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": <t
+              tag="div"
+            >
+              <t
+                lg={null}
+                md="6"
+                sm={null}
+                tag="div"
+                xl={null}
+                xs={null}
+              >
+                <br />
+                <h5
+                  className="title"
+                >
+                  Get In Touch
+                </h5>
+                <br />
+                <p>
+                  <i
+                    aria-hidden="true"
+                    className="fa fa-map-marker"
+                  />
+                   1010 Bridge Blvd SW, Suite F Albuquerque, NM
+                </p>
+                <p>
+                  <a
+                    href="tel:+1-505-877-1113"
+                  >
+                    <i
+                      aria-hidden="true"
+                      className="fa fa-phone"
+                    />
+                     +1 (505)-877-1113
+                  </a>
+                </p>
+                <p>
+                  <a
+                    href="mailto:emersonvicunadds@gmail.com"
+                  >
+                    <i
+                      aria-hidden="true"
+                      className="fa fa-envelope"
+                    />
+                     emersonvicunadds@gmail.com
+                  </a>
+                </p>
+              </t>
+              <t
+                lg={null}
+                md="6"
+                sm={null}
+                tag="div"
+                xl={null}
+                xs={null}
+              >
+                <br />
+                <h5
+                  className="title"
+                >
+                  Hours
+                </h5>
+                <t
+                  lg={null}
+                  md={null}
+                  sm={null}
+                  tag="div"
+                  xl={null}
+                  xs={null}
+                >
+                  <ul>
+                    <li
+                      className="list-unstyled"
+                    >
+                      <p>
+                        Monday - Friday: 9AM - 5PM
+                      </p>
+                    </li>
+                  </ul>
+                </t>
+              </t>
+            </t>,
+            "className": "text-center text-md-left",
+            "fluid": true,
+            "tag": "div",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                <t
+                  lg={null}
+                  md="6"
+                  sm={null}
+                  tag="div"
+                  xl={null}
+                  xs={null}
+                >
+                  <br />
+                  <h5
+                    className="title"
+                  >
+                    Get In Touch
+                  </h5>
+                  <br />
+                  <p>
+                    <i
+                      aria-hidden="true"
+                      className="fa fa-map-marker"
+                    />
+                     1010 Bridge Blvd SW, Suite F Albuquerque, NM
+                  </p>
+                  <p>
+                    <a
+                      href="tel:+1-505-877-1113"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="fa fa-phone"
+                      />
+                       +1 (505)-877-1113
+                    </a>
+                  </p>
+                  <p>
+                    <a
+                      href="mailto:emersonvicunadds@gmail.com"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="fa fa-envelope"
+                      />
+                       emersonvicunadds@gmail.com
+                    </a>
+                  </p>
+                </t>,
+                <t
+                  lg={null}
+                  md="6"
+                  sm={null}
+                  tag="div"
+                  xl={null}
+                  xs={null}
+                >
+                  <br />
+                  <h5
+                    className="title"
+                  >
+                    Hours
+                  </h5>
+                  <t
+                    lg={null}
+                    md={null}
+                    sm={null}
+                    tag="div"
+                    xl={null}
+                    xs={null}
+                  >
+                    <ul>
+                      <li
+                        className="list-unstyled"
+                      >
+                        <p>
+                          Monday - Friday: 9AM - 5PM
+                        </p>
+                      </li>
+                    </ul>
+                  </t>
+                </t>,
+              ],
+              "tag": "div",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": Array [
+                    <br />,
+                    <h5
+                      className="title"
+                    >
+                      Get In Touch
+                    </h5>,
+                    <br />,
+                    <p>
+                      <i
+                        aria-hidden="true"
+                        className="fa fa-map-marker"
+                      />
+                       1010 Bridge Blvd SW, Suite F Albuquerque, NM
+                    </p>,
+                    <p>
+                      <a
+                        href="tel:+1-505-877-1113"
+                      >
+                        <i
+                          aria-hidden="true"
+                          className="fa fa-phone"
+                        />
+                         +1 (505)-877-1113
+                      </a>
+                    </p>,
+                    <p>
+                      <a
+                        href="mailto:emersonvicunadds@gmail.com"
+                      >
+                        <i
+                          aria-hidden="true"
+                          className="fa fa-envelope"
+                        />
+                         emersonvicunadds@gmail.com
+                      </a>
+                    </p>,
+                  ],
+                  "lg": null,
+                  "md": "6",
+                  "sm": null,
+                  "tag": "div",
+                  "xl": null,
+                  "xs": null,
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {},
+                    "ref": null,
+                    "rendered": null,
+                    "type": "br",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Get In Touch",
+                      "className": "title",
+                    },
+                    "ref": null,
+                    "rendered": "Get In Touch",
+                    "type": "h5",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {},
+                    "ref": null,
+                    "rendered": null,
+                    "type": "br",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <i
+                          aria-hidden="true"
+                          className="fa fa-map-marker"
+                        />,
+                        " 1010 Bridge Blvd SW, Suite F Albuquerque, NM",
+                      ],
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "aria-hidden": "true",
+                          "className": "fa fa-map-marker",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "i",
+                      },
+                      " 1010 Bridge Blvd SW, Suite F Albuquerque, NM",
+                    ],
+                    "type": "p",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <a
+                        href="tel:+1-505-877-1113"
+                      >
+                        <i
+                          aria-hidden="true"
+                          className="fa fa-phone"
+                        />
+                         +1 (505)-877-1113
+                      </a>,
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <i
+                            aria-hidden="true"
+                            className="fa fa-phone"
+                          />,
+                          " +1 (505)-877-1113",
+                        ],
+                        "href": "tel:+1-505-877-1113",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "aria-hidden": "true",
+                            "className": "fa fa-phone",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": "i",
+                        },
+                        " +1 (505)-877-1113",
+                      ],
+                      "type": "a",
+                    },
+                    "type": "p",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <a
+                        href="mailto:emersonvicunadds@gmail.com"
+                      >
+                        <i
+                          aria-hidden="true"
+                          className="fa fa-envelope"
+                        />
+                         emersonvicunadds@gmail.com
+                      </a>,
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <i
+                            aria-hidden="true"
+                            className="fa fa-envelope"
+                          />,
+                          " emersonvicunadds@gmail.com",
+                        ],
+                        "href": "mailto:emersonvicunadds@gmail.com",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "aria-hidden": "true",
+                            "className": "fa fa-envelope",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": "i",
+                        },
+                        " emersonvicunadds@gmail.com",
+                      ],
+                      "type": "a",
+                    },
+                    "type": "p",
+                  },
+                ],
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": Array [
+                    <br />,
+                    <h5
+                      className="title"
+                    >
+                      Hours
+                    </h5>,
+                    <t
+                      lg={null}
+                      md={null}
+                      sm={null}
+                      tag="div"
+                      xl={null}
+                      xs={null}
+                    >
+                      <ul>
+                        <li
+                          className="list-unstyled"
+                        >
+                          <p>
+                            Monday - Friday: 9AM - 5PM
+                          </p>
+                        </li>
+                      </ul>
+                    </t>,
+                  ],
+                  "lg": null,
+                  "md": "6",
+                  "sm": null,
+                  "tag": "div",
+                  "xl": null,
+                  "xs": null,
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {},
+                    "ref": null,
+                    "rendered": null,
+                    "type": "br",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Hours",
+                      "className": "title",
+                    },
+                    "ref": null,
+                    "rendered": "Hours",
+                    "type": "h5",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": <ul>
+                        <li
+                          className="list-unstyled"
+                        >
+                          <p>
+                            Monday - Friday: 9AM - 5PM
+                          </p>
+                        </li>
+                      </ul>,
+                      "lg": null,
+                      "md": null,
+                      "sm": null,
+                      "tag": "div",
+                      "xl": null,
+                      "xs": null,
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <li
+                          className="list-unstyled"
+                        >
+                          <p>
+                            Monday - Friday: 9AM - 5PM
+                          </p>
+                        </li>,
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": <p>
+                            Monday - Friday: 9AM - 5PM
+                          </p>,
+                          "className": "list-unstyled",
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "Monday - Friday: 9AM - 5PM",
+                          },
+                          "ref": null,
+                          "rendered": "Monday - Friday: 9AM - 5PM",
+                          "type": "p",
+                        },
+                        "type": "li",
+                      },
+                      "type": "ul",
+                    },
+                    "type": [Function],
+                  },
+                ],
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <t
+              fluid={true}
+              tag="div"
+            >
+              <p>
+                 
+                HANDMADE FOR EMERSON VICUÑA, DDS BY ALEJANDRO VICUÑA
+                 
+              </p>
+            </t>,
+            "className": "footer-copyright text-center py-3",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <p>
+                 
+                HANDMADE FOR EMERSON VICUÑA, DDS BY ALEJANDRO VICUÑA
+                 
+              </p>,
+              "fluid": true,
+              "tag": "div",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  " ",
+                  "HANDMADE FOR EMERSON VICUÑA, DDS BY ALEJANDRO VICUÑA",
+                  " ",
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                " ",
+                "HANDMADE FOR EMERSON VICUÑA, DDS BY ALEJANDRO VICUÑA",
+                " ",
+              ],
+              "type": "p",
+            },
+            "type": [Function],
+          },
+          "type": "div",
+        },
+      ],
+      "type": [Function],
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <t
+          className="page-footer font-small"
+          color="unique-color"
+          tag="footer"
+        >
+          <t
+            className="text-center text-md-left"
+            fluid={true}
+            tag="div"
+          >
+            <t
+              tag="div"
+            >
+              <t
+                lg={null}
+                md="6"
+                sm={null}
+                tag="div"
+                xl={null}
+                xs={null}
+              >
+                <br />
+                <h5
+                  className="title"
+                >
+                  Get In Touch
+                </h5>
+                <br />
+                <p>
+                  <i
+                    aria-hidden="true"
+                    className="fa fa-map-marker"
+                  />
+                   1010 Bridge Blvd SW, Suite F Albuquerque, NM
+                </p>
+                <p>
+                  <a
+                    href="tel:+1-505-877-1113"
+                  >
+                    <i
+                      aria-hidden="true"
+                      className="fa fa-phone"
+                    />
+                     +1 (505)-877-1113
+                  </a>
+                </p>
+                <p>
+                  <a
+                    href="mailto:emersonvicunadds@gmail.com"
+                  >
+                    <i
+                      aria-hidden="true"
+                      className="fa fa-envelope"
+                    />
+                     emersonvicunadds@gmail.com
+                  </a>
+                </p>
+              </t>
+              <t
+                lg={null}
+                md="6"
+                sm={null}
+                tag="div"
+                xl={null}
+                xs={null}
+              >
+                <br />
+                <h5
+                  className="title"
+                >
+                  Hours
+                </h5>
+                <t
+                  lg={null}
+                  md={null}
+                  sm={null}
+                  tag="div"
+                  xl={null}
+                  xs={null}
+                >
+                  <ul>
+                    <li
+                      className="list-unstyled"
+                    >
+                      <p>
+                        Monday - Friday: 9AM - 5PM
+                      </p>
+                    </li>
+                  </ul>
+                </t>
+              </t>
+            </t>
+          </t>
+          <div
+            className="footer-copyright text-center py-3"
+          >
+            <t
+              fluid={true}
+              tag="div"
+            >
+              <p>
+                 
+                HANDMADE FOR EMERSON VICUÑA, DDS BY ALEJANDRO VICUÑA
+                 
+              </p>
+            </t>
+          </div>
+        </t>,
+        "className": "footer",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <t
+              className="text-center text-md-left"
+              fluid={true}
+              tag="div"
+            >
+              <t
+                tag="div"
+              >
+                <t
+                  lg={null}
+                  md="6"
+                  sm={null}
+                  tag="div"
+                  xl={null}
+                  xs={null}
+                >
+                  <br />
+                  <h5
+                    className="title"
+                  >
+                    Get In Touch
+                  </h5>
+                  <br />
+                  <p>
+                    <i
+                      aria-hidden="true"
+                      className="fa fa-map-marker"
+                    />
+                     1010 Bridge Blvd SW, Suite F Albuquerque, NM
+                  </p>
+                  <p>
+                    <a
+                      href="tel:+1-505-877-1113"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="fa fa-phone"
+                      />
+                       +1 (505)-877-1113
+                    </a>
+                  </p>
+                  <p>
+                    <a
+                      href="mailto:emersonvicunadds@gmail.com"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="fa fa-envelope"
+                      />
+                       emersonvicunadds@gmail.com
+                    </a>
+                  </p>
+                </t>
+                <t
+                  lg={null}
+                  md="6"
+                  sm={null}
+                  tag="div"
+                  xl={null}
+                  xs={null}
+                >
+                  <br />
+                  <h5
+                    className="title"
+                  >
+                    Hours
+                  </h5>
+                  <t
+                    lg={null}
+                    md={null}
+                    sm={null}
+                    tag="div"
+                    xl={null}
+                    xs={null}
+                  >
+                    <ul>
+                      <li
+                        className="list-unstyled"
+                      >
+                        <p>
+                          Monday - Friday: 9AM - 5PM
+                        </p>
+                      </li>
+                    </ul>
+                  </t>
+                </t>
+              </t>
+            </t>,
+            <div
+              className="footer-copyright text-center py-3"
+            >
+              <t
+                fluid={true}
+                tag="div"
+              >
+                <p>
+                   
+                  HANDMADE FOR EMERSON VICUÑA, DDS BY ALEJANDRO VICUÑA
+                   
+                </p>
+              </t>
+            </div>,
+          ],
+          "className": "page-footer font-small",
+          "color": "unique-color",
+          "tag": "footer",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <t
+                tag="div"
+              >
+                <t
+                  lg={null}
+                  md="6"
+                  sm={null}
+                  tag="div"
+                  xl={null}
+                  xs={null}
+                >
+                  <br />
+                  <h5
+                    className="title"
+                  >
+                    Get In Touch
+                  </h5>
+                  <br />
+                  <p>
+                    <i
+                      aria-hidden="true"
+                      className="fa fa-map-marker"
+                    />
+                     1010 Bridge Blvd SW, Suite F Albuquerque, NM
+                  </p>
+                  <p>
+                    <a
+                      href="tel:+1-505-877-1113"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="fa fa-phone"
+                      />
+                       +1 (505)-877-1113
+                    </a>
+                  </p>
+                  <p>
+                    <a
+                      href="mailto:emersonvicunadds@gmail.com"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="fa fa-envelope"
+                      />
+                       emersonvicunadds@gmail.com
+                    </a>
+                  </p>
+                </t>
+                <t
+                  lg={null}
+                  md="6"
+                  sm={null}
+                  tag="div"
+                  xl={null}
+                  xs={null}
+                >
+                  <br />
+                  <h5
+                    className="title"
+                  >
+                    Hours
+                  </h5>
+                  <t
+                    lg={null}
+                    md={null}
+                    sm={null}
+                    tag="div"
+                    xl={null}
+                    xs={null}
+                  >
+                    <ul>
+                      <li
+                        className="list-unstyled"
+                      >
+                        <p>
+                          Monday - Friday: 9AM - 5PM
+                        </p>
+                      </li>
+                    </ul>
+                  </t>
+                </t>
+              </t>,
+              "className": "text-center text-md-left",
+              "fluid": true,
+              "tag": "div",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <t
+                    lg={null}
+                    md="6"
+                    sm={null}
+                    tag="div"
+                    xl={null}
+                    xs={null}
+                  >
+                    <br />
+                    <h5
+                      className="title"
+                    >
+                      Get In Touch
+                    </h5>
+                    <br />
+                    <p>
+                      <i
+                        aria-hidden="true"
+                        className="fa fa-map-marker"
+                      />
+                       1010 Bridge Blvd SW, Suite F Albuquerque, NM
+                    </p>
+                    <p>
+                      <a
+                        href="tel:+1-505-877-1113"
+                      >
+                        <i
+                          aria-hidden="true"
+                          className="fa fa-phone"
+                        />
+                         +1 (505)-877-1113
+                      </a>
+                    </p>
+                    <p>
+                      <a
+                        href="mailto:emersonvicunadds@gmail.com"
+                      >
+                        <i
+                          aria-hidden="true"
+                          className="fa fa-envelope"
+                        />
+                         emersonvicunadds@gmail.com
+                      </a>
+                    </p>
+                  </t>,
+                  <t
+                    lg={null}
+                    md="6"
+                    sm={null}
+                    tag="div"
+                    xl={null}
+                    xs={null}
+                  >
+                    <br />
+                    <h5
+                      className="title"
+                    >
+                      Hours
+                    </h5>
+                    <t
+                      lg={null}
+                      md={null}
+                      sm={null}
+                      tag="div"
+                      xl={null}
+                      xs={null}
+                    >
+                      <ul>
+                        <li
+                          className="list-unstyled"
+                        >
+                          <p>
+                            Monday - Friday: 9AM - 5PM
+                          </p>
+                        </li>
+                      </ul>
+                    </t>
+                  </t>,
+                ],
+                "tag": "div",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": Array [
+                      <br />,
+                      <h5
+                        className="title"
+                      >
+                        Get In Touch
+                      </h5>,
+                      <br />,
+                      <p>
+                        <i
+                          aria-hidden="true"
+                          className="fa fa-map-marker"
+                        />
+                         1010 Bridge Blvd SW, Suite F Albuquerque, NM
+                      </p>,
+                      <p>
+                        <a
+                          href="tel:+1-505-877-1113"
+                        >
+                          <i
+                            aria-hidden="true"
+                            className="fa fa-phone"
+                          />
+                           +1 (505)-877-1113
+                        </a>
+                      </p>,
+                      <p>
+                        <a
+                          href="mailto:emersonvicunadds@gmail.com"
+                        >
+                          <i
+                            aria-hidden="true"
+                            className="fa fa-envelope"
+                          />
+                           emersonvicunadds@gmail.com
+                        </a>
+                      </p>,
+                    ],
+                    "lg": null,
+                    "md": "6",
+                    "sm": null,
+                    "tag": "div",
+                    "xl": null,
+                    "xs": null,
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {},
+                      "ref": null,
+                      "rendered": null,
+                      "type": "br",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Get In Touch",
+                        "className": "title",
+                      },
+                      "ref": null,
+                      "rendered": "Get In Touch",
+                      "type": "h5",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {},
+                      "ref": null,
+                      "rendered": null,
+                      "type": "br",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <i
+                            aria-hidden="true"
+                            className="fa fa-map-marker"
+                          />,
+                          " 1010 Bridge Blvd SW, Suite F Albuquerque, NM",
+                        ],
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "aria-hidden": "true",
+                            "className": "fa fa-map-marker",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": "i",
+                        },
+                        " 1010 Bridge Blvd SW, Suite F Albuquerque, NM",
+                      ],
+                      "type": "p",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <a
+                          href="tel:+1-505-877-1113"
+                        >
+                          <i
+                            aria-hidden="true"
+                            className="fa fa-phone"
+                          />
+                           +1 (505)-877-1113
+                        </a>,
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            <i
+                              aria-hidden="true"
+                              className="fa fa-phone"
+                            />,
+                            " +1 (505)-877-1113",
+                          ],
+                          "href": "tel:+1-505-877-1113",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "aria-hidden": "true",
+                              "className": "fa fa-phone",
+                            },
+                            "ref": null,
+                            "rendered": null,
+                            "type": "i",
+                          },
+                          " +1 (505)-877-1113",
+                        ],
+                        "type": "a",
+                      },
+                      "type": "p",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <a
+                          href="mailto:emersonvicunadds@gmail.com"
+                        >
+                          <i
+                            aria-hidden="true"
+                            className="fa fa-envelope"
+                          />
+                           emersonvicunadds@gmail.com
+                        </a>,
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            <i
+                              aria-hidden="true"
+                              className="fa fa-envelope"
+                            />,
+                            " emersonvicunadds@gmail.com",
+                          ],
+                          "href": "mailto:emersonvicunadds@gmail.com",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "aria-hidden": "true",
+                              "className": "fa fa-envelope",
+                            },
+                            "ref": null,
+                            "rendered": null,
+                            "type": "i",
+                          },
+                          " emersonvicunadds@gmail.com",
+                        ],
+                        "type": "a",
+                      },
+                      "type": "p",
+                    },
+                  ],
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": Array [
+                      <br />,
+                      <h5
+                        className="title"
+                      >
+                        Hours
+                      </h5>,
+                      <t
+                        lg={null}
+                        md={null}
+                        sm={null}
+                        tag="div"
+                        xl={null}
+                        xs={null}
+                      >
+                        <ul>
+                          <li
+                            className="list-unstyled"
+                          >
+                            <p>
+                              Monday - Friday: 9AM - 5PM
+                            </p>
+                          </li>
+                        </ul>
+                      </t>,
+                    ],
+                    "lg": null,
+                    "md": "6",
+                    "sm": null,
+                    "tag": "div",
+                    "xl": null,
+                    "xs": null,
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {},
+                      "ref": null,
+                      "rendered": null,
+                      "type": "br",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Hours",
+                        "className": "title",
+                      },
+                      "ref": null,
+                      "rendered": "Hours",
+                      "type": "h5",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": <ul>
+                          <li
+                            className="list-unstyled"
+                          >
+                            <p>
+                              Monday - Friday: 9AM - 5PM
+                            </p>
+                          </li>
+                        </ul>,
+                        "lg": null,
+                        "md": null,
+                        "sm": null,
+                        "tag": "div",
+                        "xl": null,
+                        "xs": null,
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": <li
+                            className="list-unstyled"
+                          >
+                            <p>
+                              Monday - Friday: 9AM - 5PM
+                            </p>
+                          </li>,
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": <p>
+                              Monday - Friday: 9AM - 5PM
+                            </p>,
+                            "className": "list-unstyled",
+                          },
+                          "ref": null,
+                          "rendered": Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "Monday - Friday: 9AM - 5PM",
+                            },
+                            "ref": null,
+                            "rendered": "Monday - Friday: 9AM - 5PM",
+                            "type": "p",
+                          },
+                          "type": "li",
+                        },
+                        "type": "ul",
+                      },
+                      "type": [Function],
+                    },
+                  ],
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <t
+                fluid={true}
+                tag="div"
+              >
+                <p>
+                   
+                  HANDMADE FOR EMERSON VICUÑA, DDS BY ALEJANDRO VICUÑA
+                   
+                </p>
+              </t>,
+              "className": "footer-copyright text-center py-3",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <p>
+                   
+                  HANDMADE FOR EMERSON VICUÑA, DDS BY ALEJANDRO VICUÑA
+                   
+                </p>,
+                "fluid": true,
+                "tag": "div",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    " ",
+                    "HANDMADE FOR EMERSON VICUÑA, DDS BY ALEJANDRO VICUÑA",
+                    " ",
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  " ",
+                  "HANDMADE FOR EMERSON VICUÑA, DDS BY ALEJANDRO VICUÑA",
+                  " ",
+                ],
+                "type": "p",
+              },
+              "type": [Function],
+            },
+            "type": "div",
+          },
+        ],
+        "type": [Function],
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`Footer renders spanish correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <FooterPage
+    text={
+      Object {
+        "about": Object {
+          "header": "Conoce al Dr. Vicuña",
+          "p1": "Con más de 15 años de experiencia, el Dr. Emerson Vicuña, 
+         DDS es un dentista general que ama ayudar a las personas 
+         que necesitan su experiencia dental. Sus pacientes adoran 
+         su personalidad amistosa, ética de trabajo y resultados 
+         sobresalientes.",
+          "p2": "Procedente de Lima, Perú, el Dr. Vicuña obtuvo su título 
+         de Doctor en Cirugía Dental de la Universidad Estatal de 
+         Ohio después de obtener su Licenciatura en Biología y Química 
+         de la Universidad de Nuevo México. También es miembro de la 
+         Asociación Dental Americana y de la Academia de Odontología General.",
+          "p3": "Desde que comenzó su práctica en 2005, el Dr. Vicuña ha sido el único 
+         dentista en su práctica, lo que permite a los pacientes conocerlo 
+         personalmente y recibir atención personalizada.",
+        },
+        "footer": Object {
+          "item1": "Contactanos",
+          "item2": "Horario",
+          "item3": "Lunes - Viernes: 9AM - 5PM",
+          "item4": "DISEÑADO ESPECIALMENTE PARA EMERSON VICUÑA, DDS POR ALEJANDRO VICUÑA",
+        },
+        "forms": Object {
+          "cardHeader": "Descárgalos y llénalos antes de tu próxima visita!",
+          "doc1": "Historial médico",
+          "doc2": "Registro de pacientes",
+          "header": "Formas",
+        },
+        "home": Object {
+          "faq": Object {
+            "cosmetic": Object {
+              "answers": Object {
+                "1": "Hay varias opciones diferentes disponibles para cambiar la forma de sus dientes. Puede elegir que 
+                    sus dientes se vean más largos, cerrar espacios entre los dientes o reparar un diente astillado o 
+                    agrietado. Entre las opciones están la unión, las coronas, las carillas y el re-contorno.",
+                "2": "Si su diente está roto, astillado o fracturado, consulte a su dentista lo antes posible. De lo contrario, 
+                    su diente podría dañarse aún más o infectarse, posiblemente causando que pierda el diente.",
+                "3": "La decoloración de los dientes puede resultar del consumo de café, té, cola y vino tinto; o de fumar. 
+                    El proceso de envejecimiento también puede manchar y oscurecer los dientes. Algunas opciones a considerar 
+                    cuando se buscan dientes más blancos incluyen blanquear las pastas de dientes y la decoloración en la oficina. 
+                    Antes de decidir si la decoloración en el consultorio es adecuada para usted, realizamos un examen exhaustivo 
+                    de sus dientes y encías para garantizar una salud adecuada, y conversamos con usted sobre su higiene bucal y 
+                    sus hábitos de vida para determinar si se beneficiará con el blanqueamiento. Esto nos ayuda a acordar el producto 
+                    o la técnica de blanqueamiento que sea mejor para usted.",
+              },
+              "questions": Object {
+                "1": "Me interesa cambiar la forma de mis dientes. ¿Qué opciones están disponibles?",
+                "2": "Mi diente está roto, ¿qué hago?",
+                "3": "¿Cuáles son mis opciones para blanquear mis dientes?",
+              },
+              "title": "Odontología Cosmetica",
+            },
+            "emergencies": Object {
+              "answers": Object {
+                "1": Object {
+                  "1": "El tiempo es su enemigo cuando un accidente o cualquier trauma desaloja un diente. Primero, localice el 
+                        diente o los dientes y determine si el diente se rompió o si el diente y la raíz enteros salieron de una 
+                        pieza. Reúna las piezas que ha encontrado y, con agua tibia, enjuague suavemente la suciedad o los residuos 
+                        evidentes. Evite tocar la raíz tanto como sea posible. Coloque y transporte el diente en la leche o en la 
+                        saliva de la persona.",
+                  "2": "Acelerar a la persona lesionada y el diente a la oficina dental. Idealmente el diente será reimplantado. 
+                        El diente también se puede entablillar con un alambre a los dientes adyacentes durante un período de tiempo.",
+                  "3": "Si no puede comunicarse con un dentista, su sala de urgencias o atención de urgencias más cercana puede ayudarlo.",
+                },
+                "2": Object {
+                  "1": "Si no puede comunicarse con su dentista, consulte la lista de páginas amarillas o de Internet para buscar un dentista o atención 
+                        de urgencia cercana. Si no puedes contactar a un dentista, aquí hay algunos consejos útiles: ",
+                  "2": "Si tiene dolor de muelas, enjuague su boca con agua tibia con sal. Cepille suavemente y use hilo dental en el área para 
+                        eliminar cualquier alimento o residuos atrapados. Si puede tomar medicamentos de venta libre contra el dolor (como el ibuprofeno), 
+                        pueden ayudar a calmar el dolor. Los geles tópicos (como Orajel) a veces pueden ayudar, pero generalmente solo un poco y por un 
+                        tiempo mínimo. Haga arreglos para ver a su dentista incluso si el dolor desaparece. Sin el cuidado adecuado, su condición podría 
+                        regresar o incluso empeorar. (Para hacer un enjuague con agua salada: mezcle 1 cucharadita de sal de mesa con 1 taza de agua tibia).",
+                  "3": "Si tu corona permanente (o temporal) se desprende, mantenga el área limpia enjuagando con enjuagues con agua salada tibia y cepillando 
+                        suavemente el área si no es demasiado sensible. Evite dejar la corona por más de unos pocos días, ya que los dientes pueden cambiar, 
+                        lo que dificulta o imposibilita volver a cimentarla más adelante. Si el diente es doloroso, se puede colocar una crema dental o una pasta 
+                        de dientes dentro de la corona y se puede colocar suavemente en su lugar.",
+                },
+                "3": Object {
+                  "1": "Cuando se pierde un diente, puede comenzar una serie de eventos. Masticar el lado afectado se vuelve más difícil y con el tiempo los dientes 
+                        restantes pueden inclinarse y erupcionar en el espacio abierto.",
+                  "2": "Dependiendo de la ubicación del diente faltante, lo más probable es que recomendemos un implante dental, un puente o una dentadura parcial. 
+                        Todas estas opciones tienen sus ventajas e inconvenientes. Si desea más información, podemos programar una consulta para revisar los detalles 
+                        de tu caso.",
+                },
+              },
+              "questions": Object {
+                "1": "¿Qué pasa si mi diente se cae en un accidente?",
+                "2": "¿Qué debo hacer si tengo una emergencia dental y no puedo contactar mi dentista?",
+                "3": "¿Cuáles son mis opciones para reemplazar un diente perdido?",
+              },
+              "title": "Emergencias",
+            },
+            "family": Object {
+              "answers": Object {
+                "1": "El período en el que crecen los primeros dientes duros es un evento importante en la vida de un bebé, y puede ser difícil. 
+                    La erupción de los dientes causa inflamación, lo que provoca congestión, babeo y malestar. Si bien el tiempo promedio para 
+                    la aparición de los primeros dientes es entre los cinco y los siete meses de edad, existe un amplio rango antes y después de 
+                    esto que aún puede considerarse \\"normal\\". Los dientes pueden llegar tan pronto como un mes de edad, o pueden erupcionar cuando 
+                    el niño tiene un año y medio. Por lo general, los dientes frontales inferiores aparecen primero y los dientes de las niñas suelen 
+                    erupcionar antes que los niños.",
+                "2": "Para prevenir problemas dentales, su hijo debe ver a un dentista pediátrico entre los 6 y los 9 meses para un examen visual, 
+                    o no más tarde de su primer cumpleaños.",
+                "3": "Si los dientes de leche se enferman o se deterioran, puede provocar dolor e infección. También puede ser difícil para los niños 
+                    comer una comida bien balanceada con la boca llena de caries. Las caries no tratadas también aumentan la cantidad de bacterias 
+                    que causan la descomposición en la boca. A medida que los dientes permanentes entran en erupción, tienen un mayor riesgo de 
+                    desarrollar caries debido a la mayor cantidad de bacterias. Los dientes de leche también tienen espacio en la boca para los dientes 
+                    permanentes en erupción. Si los dientes de leche se descomponen o se extraen demasiado pronto, los dientes permanentes a menudo se 
+                    llenan y es probable que se necesiten aparatos para enderezarlos en el futuro.",
+                "4": "La Asociación Dental Americana recomienda que los niños reciban selladores dentales tan pronto como sus dientes adultos entren en 
+                    erupción. Los selladores dentales son una solución rápida, fácil y relativamente barata para prevenir las caries. Son recubrimientos 
+                    delgados aplicados a las superficies de mordedura que ayudan a evitar que las bacterias y otros residuos entren en las grietas 
+                    profundas de los dientes. Los niños pequeños son excelentes candidatos para medidas preventivas, como los selladores, porque en 
+                    muchos casos no se ha establecido la caries. Los dientes de los niños tienden a beneficiarse más de los selladores porque estos hoyos 
+                    y arboledas tienden a ser más profundos y menos calcificados que los adultos. Los niños son muy malos cepilladores y tienden a ignorar 
+                    las áreas problemáticas en la parte posterior de la boca que conducen a caries y caries.",
+                "5": "Las preguntas sobre el embarazo y el trabajo dental son comunes para las madres embarazadas. Las limpiezas dentales preventivas y los 
+                    exámenes anuales durante el embarazo no solo son seguros, sino que también se recomiendan. El aumento de los niveles hormonales durante 
+                    el embarazo hace que las encías se inflamen, sangren y atrapen los alimentos, lo que provoca un aumento de la irritación de las encías. 
+                    El trabajo dental preventivo durante el embarazo es esencial para evitar infecciones orales como la enfermedad de las encías, que se ha 
+                    relacionado con el parto prematuro.",
+              },
+              "questions": Object {
+                "1": "¿Cuándo recibirá mi hijo/hija su primer diente?",
+                "2": "¿Cuándo debo llevar a mi hijo al dentista para su primer chequeo?",
+                "3": "Los dientes de leche de mi hijo tienen caries. ¿Deberían estar llenos?",
+                "4": "¿Qué son los selladores dentales y por qué los necesitan mis hijos?",
+                "5": "¿Qué sucede si una mujer tiene un problema dental cuando está embarazada?",
+              },
+              "title": "Odontologia Familiar",
+            },
+            "firstAppointment": Object {
+              "answers": Object {
+                "1": "Si no ha completado nuestro historial médico descargable en línea y los formularios de registro de pacientes, 
+                    llegue con 10-15 minutos de anticipación para hacerlo. Descargue nuestros formularios yendo a la página de formularios.",
+                "2": "Asegúrese de preguntar por una receta antes de su cita o, si no estás seguro, contáctenos y podemos ayudarte.",
+                "3": "Por favor traiga los siguientes artículos a su cita: ",
+                "4": "Esto varía, pero planifique pasar de 30 minutos a una hora en su primera visita. Como dentistas 
+                    familiares podemos eliminar la necesidad de visitas adicionales al consultorio para ahorrar tiempo 
+                    a las familias ocupadas. Nos proponemos explicar claramente los beneficios y tarifas de cada tratamiento 
+                    de antemano durante nuestra reunión inicial. Ayudamos con formularios y seguros y creemos que una educación 
+                    oral es una parte importante de la odontología preventiva. Honramos esto en todo lo que hacemos.",
+                "list": Object {
+                  "1": "Formulario de Historial Médico",
+                  "2": "Formulario de Registro del Paciente",
+                  "3": "Tarjeta de seguro dental (si corresponde) ",
+                  "4": "Identificación como licencia de conducir, identificación militar o identificación estatal",
+                },
+              },
+              "questions": Object {
+                "1": "¿Necesito llegar temprano para mi primera cita?",
+                "2": "¿Qué debo hacer si necesito premedicación?",
+                "3": "¿Qué debo llevar a mi primera cita?",
+                "4": "¿Cuánto tiempo durará mi primera cita?",
+              },
+              "title": "Primera Cita",
+            },
+            "general": Object {
+              "answers": Object {
+                "1": "La mayoría de las personas necesitan visitar a su dentista para una visita regular de higiene 
+                    dos veces al año o una vez cada seis meses. Sin embargo, hay excepciones a esta regla. Si tiene 
+                    una enfermedad de las encías o un historial de esta enfermedad, es posible que su dentista le 
+                    recomiende visitas más frecuentes. Otra razón por la que puede necesitar ver al dentista con más 
+                    frecuencia es si se está sometiendo a un tratamiento de ortodoncia. La conclusión es que necesita 
+                    al menos ver al dentista dos veces al año y debe cumplir si se recomienda que haga esas visitas 
+                    más frecuentes.",
+                "10": Object {
+                  "1": "Sí, si la diabetes no se trata, puede pasar factura en su boca. Así es cómo: ",
+                  "2": "Las visitas dentales regulares son importantes. Las investigaciones sugieren que el tratamiento de la enfermedad de 
+                        las encías puede ayudar a mejorar el control del azúcar en la sangre en pacientes con diabetes, lo que disminuye la 
+                        progresión de la enfermedad. Practicar una buena higiene bucal y recibir una limpieza profunda profesional realizada 
+                        por su dentista puede ayudarlo enormemente.",
+                  "list": Object {
+                    "1": "Es posible que tenga menos saliva, lo que hace que su boca se sienta seca (la boca seca se explica más arriba)",
+                    "2": "Debido a que la saliva protege sus dientes, también corre un mayor riesgo de caries",
+                    "3": "Las encías pueden inflamarse y sangrar con frecuencia (gingivitis)",
+                    "4": "Puedes tener problemas para probar comida",
+                    "5": "Puedes experimentar una curación tardía de la herida",
+                    "6": "Puede ser susceptible a infecciones dentro de su boca",
+                    "7": "Para los niños con diabetes, los dientes pueden erupcionar a una edad más temprana de lo normal",
+                  },
+                },
+                "2": "Las radiografías dentales son muy seguras. La cantidad de radiación que produce una radiografía 
+                    dental es aproximadamente la misma que la que recibiría de un viaje en avión a campo traviesa. 
+                    La radiación se mide en milirems y una radiografía dental tiene solo .5 milirems.",
+                "3": "Un error común es que las restauraciones dentales duran para siempre, pero desafortunadamente esto rara 
+                    vez es cierto. Con el tiempo, las restauraciones dentales pueden romperse o aflojarse, lo que permite 
+                    que las caries entren en el área alrededor de la restauración y se vuelvan problemáticas. Aunque no 
+                    puede esperar que sus rellenos, puentes y coronas duren para siempre, puede hacer su parte para que duren 
+                    lo más posible. Mantenga una excelente higiene bucal y visite a su dentista regularmente para mantener 
+                    esas restauraciones en excelentes condiciones durante el mayor tiempo posible.",
+                "4": "La pasta de dientes de sensibilidad, que contiene cloruro de estroncio o nitrato de potasio, es muy eficaz 
+                    en el tratamiento de dientes sensibles. Después de algunas semanas de uso, es posible que note una disminución 
+                    en la sensibilidad. Los alimentos altamente ácidos como las naranjas, los pomelos y los limones, así como el 
+                    té y los refrescos pueden aumentar la sensibilidad de los dientes y trabajar contra la sensibilidad de la pasta 
+                    dental. Si no obtiene alivio cepillando suavemente y utilizando una pasta dental desensibilizante, consulte a su 
+                    dentista. Existen compuestos especiales que pueden aplicarse en el consultorio a las raíces de su diente para 
+                    reducir, si no eliminar, la sensibilidad. También se pueden recomendar productos para el cuidado del hogar con 
+                    alto contenido de fluoruro para ayudar a reducir la sensibilidad dental.",
+                "5": "La principal causa de sangrado de las encías es la acumulación de placa en la línea de las encías. Esto conducirá a 
+                    una condición llamada gingivitis o encías inflamadas. La placa que no se elimina se endurecerá hasta formar sarro. 
+                    Esto conducirá a un aumento del sangrado y una forma más avanzada de enfermedad de las encías y los huesos conocida 
+                    como periodontitis. Las encías sangrantes pueden ocurrir por varias razones, desde la gingivitis hasta un efecto 
+                    secundario del embarazo. Cambiar su rutina de cuidado oral también puede hacer que sus encías sangren. Recomendamos 
+                    el cepillado y el uso de hilo dental con regularidad y su visita semestral al dentista para detener el sangrado de las 
+                    encías. Ciertos medicamentos también aumentan la probabilidad de que sus encías sangren. Si cambiar sus hábitos de 
+                    cuidado oral, ajustar sus medicamentos y mantener una dieta saludable no ayuda a que sus encías dejen de sangrar, su 
+                    próximo paso debería ser hacer una cita dental.",
+                "6": "La quimioterapia y la radiación pueden causar varios problemas en la boca, algunos de los cuales pueden incluir: llagas en 
+                    la boca, infecciones, boca seca, sangrado de las encías y el recubrimiento de la boca y dolor general y dolor en la boca. 
+                    Puede ser más difícil controlar estas cosas mientras se realiza un tratamiento, ya que el sistema inmunológico generalmente 
+                    se ve comprometido como resultado del tratamiento. Hay algunos enjuagues bucales especiales que se pueden prescribir para 
+                    ayudar con el malestar durante el tratamiento. Es muy importante consultar a su dentista antes de comenzar el tratamiento y 
+                    luego continuar con la atención de seguimiento recomendada. Estos tratamientos pueden causar sequedad en la boca, y se pueden 
+                    hacer recomendaciones para cuidados adicionales tanto en el consultorio como en el hogar.",
+                "7": "Las visitas al dentista incluyen más que simplemente \\"revisar los dientes\\". Si bien los pacientes que usan dentaduras postizas 
+                    ya no tienen que preocuparse por las caries dentales, pueden tener inquietudes con aparatos que se ajustan mal o llagas en la 
+                    boca, por nombrar algunos. Se recomiendan las visitas anuales al dentista (o antes si hay dolor). Durante estas visitas, se 
+                    realizará un examen de detección de cáncer oral y la cabeza y el cuello, así como una evaluación del ajuste o la necesidad de 
+                    reemplazo de los aparatos existentes. Las visitas regulares pueden ayudarlo a evitar problemas más complicados en el futuro.",
+                "8": Object {
+                  "1": "La caries dental, también conocida como cavidad, ocurre cuando las bacterias que viven en su boca producen ácido que comienza 
+                        a devorar sus dientes. La caries dental no tratada puede causar infección, dolor extremo y la pérdida del diente. El proceso de 
+                        descomposición comienza con un daño imperceptible en el esmalte de los dientes y luego progresa constantemente hacia las capas 
+                        más profundas del diente, lo que finalmente lleva a la pulpa. La pulpa de sus dientes contiene vasos sanguíneos y nervios altamente 
+                        sensibles. La higiene bucal adecuada incluye cepillarse los dientes regularmente, usar hilo dental con regularidad y cepillarse la 
+                        lengua. Si es posible, cepille sus dientes dos veces al día, mañana y noche.",
+                  "2": "Las principales causas de la caries dental son: mala higiene bucal, nutrición inadecuada, alimentos azucarados, alimentos y bebidas 
+                        ácidos, problemas con la boca seca, rechinamiento de los dientes, genética, edad y evitación del dentista.",
+                },
+                "9": Object {
+                  "1": "Para aliviar la sequedad de la boca, intente masticar chicle sin azúcar o chupar caramelos duros sin azúcar para estimular el flujo de 
+                        saliva. Para algunas personas, la goma de mascar sin azúcar o los caramelos sin azúcar pueden causar diarrea o calambres si se consumen 
+                        en grandes cantidades.",
+                  "2": "También puede intentar limitar su consumo de cafeína porque la cafeína puede hacer que su boca se vuelva más seca. Tampoco use enjuagues 
+                        bucales que contengan alcohol porque se pueden secar. Podría dejar de usar tabaco si fuma o mastica tabaco. Beber agua regularmente puede 
+                        ayudar (y eso es algo saludable) para que la saliva fluya y ha demostrado aliviar los síntomas. También hay algunos productos de venta 
+                        libre fabricados por Biotene que han ayudado a muchos de nuestros pacientes con sus síntomas de boca seca.",
+                },
+              },
+              "questions": Object {
+                "1": "¿Con qué frecuencia debo visitar al dentista?",
+                "10": "¿Hay algún problema dental asociado con la diabetes?",
+                "2": "¿Qué tan seguras son las radiografías dentales?",
+                "3": "¿Cuánto tiempo durará mi restauración dental?",
+                "4": "¿Qué puedo hacer con los dientes sensibles?",
+                "5": "¿Por qué están sangrando mis encías?",
+                "6": "Estoy haciendo quimioterapia y/o radiación para el tratamiento 
+                    del cáncer, ¿Cómo puede afectar mi boca?",
+                "7": "Tengo dentaduras postizas. ¿Es necesario que todavía visito mi dentista?",
+                "8": "¿Qué causa la caries dental?",
+                "9": "¿Qué puedo hacer si tengo la boca seca?",
+              },
+              "title": "Odontologia General",
+            },
+            "preventive": Object {
+              "answers": Object {
+                "1": "Dental radiograph, dental cleaning plan, plan to restore the health of the gums:
+                    regular/deep cleaning, evaluate for dental cavities, replace any missing teeth.",
+                "2": "El ingrediente más importante a buscar al elegir la pasta de dientes es el fluoruro. 
+                    El fluoruro es un mineral natural. Su uso ha sido fundamental en la dramática caída 
+                    de la caries dental y la aparición de caries en los últimos 50 años. Las bacterias 
+                    en su boca se alimentan de azúcares y almidones que permanecen en sus dientes después 
+                    de comer. El fluoruro ayuda a proteger sus dientes del ácido que se libera cuando esto 
+                    sucede. Lo hace de dos maneras. Primero, el fluoruro hace que su esmalte dental sea más 
+                    fuerte y menos propenso a sufrir daños por ácido. Segundo, puede revertir las etapas 
+                    tempranas del daño por ácido al solidificar las áreas que han comenzado a decaer.",
+                "3": "La placa se desarrolla cuando los alimentos que contienen carbohidratos (azúcares y almidones), 
+                    como la leche, los refrescos, las pasas, los pasteles o los dulces, se dejan con frecuencia en 
+                    los dientes. Las bacterias que viven en la boca crecen en estos alimentos y, como resultado, 
+                    producen ácidos. Durante un período de tiempo, estos ácidos destruyen el esmalte dental, lo que 
+                    produce caries en los dientes. La placa también puede desarrollarse en las raíces del diente 
+                    debajo de la encía y causar la descomposición del hueso que soporta el diente.",
+                "4": "El hilo dental reduce la cantidad de bacterias en su boca. Hay millones de estas criaturas 
+                    microscópicas que se alimentan de partículas de comida que quedan en tus dientes. Estas bacterias 
+                    viven en la placa que se puede eliminar con el hilo dental. El cepillarse los dientes elimina algunas 
+                    de las bacterias en la boca. El hilo dental elimina las bacterias a las que el cepillo de dientes no 
+                    puede llegar. Esas son las bacterias que se esconden en los pequeños espacios entre los dientes. Si 
+                    no usa el hilo dental, permite que la placa permanezca entre sus dientes. Eventualmente se endurece 
+                    hasta convertirse en sarro. La placa se puede quitar con un cepillo. Sólo el dentista puede eliminar 
+                    el sarro.",
+                "5": "¡Hazlo divertido! Si está entusiasmado con el lavado de dientes, sus hijos también estarán entusiasmados. 
+                    Los niños quieren hacer lo que hacen sus padres. Si sus hijos lo ven cepillarse los dientes y mostrar 
+                    buenos hábitos dentales, los seguirán. Hacer que sus hijos se cepillen comienza con llevarlos al dentista 
+                    a una edad temprana.",
+                "6": Object {
+                  "1": "Siempre pasa dos o tres minutos cepillando tus dientes. Se tarda tanto en deshacerse de las bacterias que 
+                        destruyen el esmalte dental. No cepille demasiado fuerte. Se necesita muy poca presión para eliminar las 
+                        bacterias y la placa. Floss al menos una vez al día. El hilo dental es la única forma de eliminar las bacterias 
+                        entre los dientes.",
+                  "2": "Presta atención al azúcar que comes. Hay azúcar en dulces, frutas, galletas y papas fritas. Estos son los alimentos 
+                        que más te gustan las bacterias en tu boca. Tenga en cuenta los alimentos como las pasas y la mantequilla de maní 
+                        que se adhieren a los dientes. Pueden proporcionar un suministro constante de bacterias que se alimentan de sus dientes. 
+                        Trate de minimizar los momentos durante el día en que se comen artículos dulces y luego cepille sus dientes.",
+                  "3": "Si no puede cepillarse después de una comida, enjuáguese la boca con agua, lo que puede ayudar a eliminar los alimentos 
+                        de tus dientes. Masticar chicle sin azúcar después de una comida también puede ayudar. La masticación estimula el flujo d
+                        e la saliva que actúa como una sustancia natural que combate la placa. Y no olvides tus visitas regulares al dentista. Los 
+                        buenos hábitos dentales recorrerán un largo camino hacia una visita sin caries.",
+                },
+                "7": "Si no usa un cepillo de dientes manual durante el tiempo adecuado y se realiza con la técnica adecuada, puede funcionar tan bien 
+                    como un cepillo de dientes eléctrico. Pero muchas personas no se cepillan durante los dos o tres minutos recomendados. Los niños 
+                    también son buenos candidatos para los cepillos eléctricos, ya que sus hábitos de cepillado tienden a ser menos que óptimos. Si 
+                    bien no todos necesitan un cepillo de dientes eléctrico, en muchos casos pueden ser beneficiosos. Pregúntele a su dentista si 
+                    tiene alguna pregunta sobre qué cepillo es mejor para usted.",
+                "8": "Mientras que el mal aliento (o \\"halitosis\\") puede estar vinculado a numerosas enfermedades sistémicas, la mayoría del mal aliento se 
+                    origina en la boca. Una boca seca o un flujo salival bajo también pueden influir en el mal olor. Hay dos objetivos principales en la 
+                    gestión del mal aliento. Primero, controlar las bacterias que producen los compuestos de azufre y, segundo, neutralizar los compuestos 
+                    de azufre que se producen.",
+              },
+              "questions": Object {
+                "1": "¿Qué puedo hacer para mantener mis dientes?",
+                "2": "¿Qué pasta de dientes debo usar?",
+                "3": "¿Qué es la placa?",
+                "4": "¿Por qué debería usar el hilo dental, no es suficiente cepillarme?",
+                "5": "¿Cómo puedo convencer a mis hijos a cepillarse los dientes?",
+                "6": "¿Cómo puedo prevenir las caries?",
+                "7": "¿Son los cepillos de dientes eléctricos mejores que los cepillos manuales?",
+                "8": "¿Qué causa el mal aliento?",
+              },
+              "title": "Odontologia Preventiva",
+            },
+            "title": "Preguntas Frecuentes",
+          },
+          "header": "¡Llama ahora!",
+          "insurance": Object {
+            "header": "Proveedores de Seguros",
+          },
+          "intro": Object {
+            "header": "Bienvenidos a Emerson Vicuña, DDS Family Dentistry",
+            "p": "El doctor Vicuña y su personal le ofrecen atención dental excepcional 
+            para mantener una sonrisa sana y fuerte durante toda la vida.
+            Por más de 10 años hemos establecido relaciones de confianza con nuestros 
+            pacientes que han contribuído a su bienestar general. 
+            Utilizando métodos comprobados de odontología general, cosmética y de restauración, 
+            le podremos personalizar un plan de tratamiento que cumpla sus metas exclusivas.
+            Desde la evaluación hasta un mejoramiento estético o restauración completa, el doctor 
+            Vicuña realizará cada procedimiento con habilidad y precisión.",
+          },
+        },
+        "nav": Object {
+          "nav1": "Información",
+          "nav2": "Servicios",
+          "nav3": "Formas",
+          "nav4": "Contacto",
+          "nav5": "Seleccione idioma",
+          "nav6": "Ingles",
+          "nav7": "Espanol",
+        },
+        "services": Object {
+          "button1": "Aprende más",
+          "button2": "Cerrar",
+          "credit1": "Los iconos hechos por",
+          "credit2": "desde",
+          "credit3": "están autorizados por",
+          "header": "Servicios",
+          "service1": Object {
+            "description": "Un diente severamente dañado puede necesitar ser extraído. 
+                      Los dientes permanentes también pueden necesitar ser removidos 
+                      para el tratamiento de ortodoncia.",
+            "name": "Extracciones",
+          },
+          "service10": Object {
+            "description": "Los puentes son dientes postizos anclados en su lugar por dientes vecinos. El puente 
+                      consta de dos coronas en los dientes de anclaje junto con el diente falso en el centro.",
+            "name": "Puentes",
+          },
+          "service11": Object {
+            "description": "Las carillas son piezas fuertes y delgadas de material cerámico o de resina que se adhieren 
+                      a los dientes. Las carillas se utilizan para reparar dientes astillados, cariados o manchados 
+                      y pueden ayudar a cerrar las brechas entre los dientes.",
+            "name": "Carillas",
+          },
+          "service12": Object {
+            "description": "Los implantes dentales son raíces artificiales que se usan para apoyar los dientes de reemplazo.",
+            "name": "Implantes",
+          },
+          "service2": Object {
+            "description": "Los empastes y reparaciones dentales utilizan materiales de 
+                      restauración utilizados para reparar los dientes que se han 
+                      comprometido debido a caries o traumas.",
+            "name": "Rellenos",
+          },
+          "service3": Object {
+            "description": "Las coronas son restauraciones dentales que protegen los 
+                      dientes dañados, agrietados o rotos. Las coronas dentales, 
+                      a menudo denominadas tapas, se colocan sobre toda la parte 
+                      del diente que se encuentra por encima de la línea de las encías.",
+            "name": "Coronas",
+          },
+          "service4": Object {
+            "description": "Los conductos radiculares tratan enfermedades o dientes ajenos. 
+                      Una vez que un diente se lesiona, se agrieta o se descompone, 
+                      es necesario abrir el diente y limpiar el tejido infectado en 
+                      el centro. Luego se llena este espacio y se sella la abertura.",
+            "name": "Endodoncias",
+          },
+          "service5": Object {
+            "description": "La extracción de muelas del juicio es un procedimiento quirúrgico 
+                      para extraer una o más muelas del juicio: los cuatro dientes 
+                      permanentes para adultos ubicados en las esquinas posteriores de 
+                      la boca en la parte superior e inferior.",
+            "name": "Muelas del juicio",
+          },
+          "service6": Object {
+            "description": "El blanqueo puede hacer que sus dientes se vuelvan más brillantes más 
+                      rápido. La solución de blanqueo suele ser mucho más fuerte que los kits 
+                      para el hogar. También se puede usar calor, luz o una combinación de los 
+                      dos para acelerar e intensificar el proceso de blanqueamiento.",
+            "name": "Blanqueamiento",
+          },
+          "service7": Object {
+            "description": "Las dentaduras son dispositivos protésicos que reemplazan la pérdida de dientes. 
+                      Hay dos tipos de prótesis: parcial y completa. Las dentaduras completas a menudo 
+                      se denominan \\"dientes postizos\\".",
+            "name": "Dentadura postiza",
+          },
+          "service8": Object {
+            "description": "Una dentadura parcial es un dispositivo dental removible y de apariencia natural que 
+                      ayuda a restaurar la forma y función de su mandíbula al reemplazar uno o varios dientes 
+                      perdidos.",
+            "name": "Parciales",
+          },
+          "service9": Object {
+            "description": "Las reparaciones consisten en reunir o reemplazar partes rotas o desgastadas de una 
+                      dentadura el mismo día.",
+            "name": "Reparación de prótesis",
+          },
+        },
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <t
+        className="page-footer font-small"
+        color="unique-color"
+        tag="footer"
+      >
+        <t
+          className="text-center text-md-left"
+          fluid={true}
+          tag="div"
+        >
+          <t
+            tag="div"
+          >
+            <t
+              lg={null}
+              md="6"
+              sm={null}
+              tag="div"
+              xl={null}
+              xs={null}
+            >
+              <br />
+              <h5
+                className="title"
+              >
+                Contactanos
+              </h5>
+              <br />
+              <p>
+                <i
+                  aria-hidden="true"
+                  className="fa fa-map-marker"
+                />
+                 1010 Bridge Blvd SW, Suite F Albuquerque, NM
+              </p>
+              <p>
+                <a
+                  href="tel:+1-505-877-1113"
+                >
+                  <i
+                    aria-hidden="true"
+                    className="fa fa-phone"
+                  />
+                   +1 (505)-877-1113
+                </a>
+              </p>
+              <p>
+                <a
+                  href="mailto:emersonvicunadds@gmail.com"
+                >
+                  <i
+                    aria-hidden="true"
+                    className="fa fa-envelope"
+                  />
+                   emersonvicunadds@gmail.com
+                </a>
+              </p>
+            </t>
+            <t
+              lg={null}
+              md="6"
+              sm={null}
+              tag="div"
+              xl={null}
+              xs={null}
+            >
+              <br />
+              <h5
+                className="title"
+              >
+                Horario
+              </h5>
+              <t
+                lg={null}
+                md={null}
+                sm={null}
+                tag="div"
+                xl={null}
+                xs={null}
+              >
+                <ul>
+                  <li
+                    className="list-unstyled"
+                  >
+                    <p>
+                      Lunes - Viernes: 9AM - 5PM
+                    </p>
+                  </li>
+                </ul>
+              </t>
+            </t>
+          </t>
+        </t>
+        <div
+          className="footer-copyright text-center py-3"
+        >
+          <t
+            fluid={true}
+            tag="div"
+          >
+            <p>
+               
+              DISEÑADO ESPECIALMENTE PARA EMERSON VICUÑA, DDS POR ALEJANDRO VICUÑA
+               
+            </p>
+          </t>
+        </div>
+      </t>,
+      "className": "footer",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <t
+            className="text-center text-md-left"
+            fluid={true}
+            tag="div"
+          >
+            <t
+              tag="div"
+            >
+              <t
+                lg={null}
+                md="6"
+                sm={null}
+                tag="div"
+                xl={null}
+                xs={null}
+              >
+                <br />
+                <h5
+                  className="title"
+                >
+                  Contactanos
+                </h5>
+                <br />
+                <p>
+                  <i
+                    aria-hidden="true"
+                    className="fa fa-map-marker"
+                  />
+                   1010 Bridge Blvd SW, Suite F Albuquerque, NM
+                </p>
+                <p>
+                  <a
+                    href="tel:+1-505-877-1113"
+                  >
+                    <i
+                      aria-hidden="true"
+                      className="fa fa-phone"
+                    />
+                     +1 (505)-877-1113
+                  </a>
+                </p>
+                <p>
+                  <a
+                    href="mailto:emersonvicunadds@gmail.com"
+                  >
+                    <i
+                      aria-hidden="true"
+                      className="fa fa-envelope"
+                    />
+                     emersonvicunadds@gmail.com
+                  </a>
+                </p>
+              </t>
+              <t
+                lg={null}
+                md="6"
+                sm={null}
+                tag="div"
+                xl={null}
+                xs={null}
+              >
+                <br />
+                <h5
+                  className="title"
+                >
+                  Horario
+                </h5>
+                <t
+                  lg={null}
+                  md={null}
+                  sm={null}
+                  tag="div"
+                  xl={null}
+                  xs={null}
+                >
+                  <ul>
+                    <li
+                      className="list-unstyled"
+                    >
+                      <p>
+                        Lunes - Viernes: 9AM - 5PM
+                      </p>
+                    </li>
+                  </ul>
+                </t>
+              </t>
+            </t>
+          </t>,
+          <div
+            className="footer-copyright text-center py-3"
+          >
+            <t
+              fluid={true}
+              tag="div"
+            >
+              <p>
+                 
+                DISEÑADO ESPECIALMENTE PARA EMERSON VICUÑA, DDS POR ALEJANDRO VICUÑA
+                 
+              </p>
+            </t>
+          </div>,
+        ],
+        "className": "page-footer font-small",
+        "color": "unique-color",
+        "tag": "footer",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": <t
+              tag="div"
+            >
+              <t
+                lg={null}
+                md="6"
+                sm={null}
+                tag="div"
+                xl={null}
+                xs={null}
+              >
+                <br />
+                <h5
+                  className="title"
+                >
+                  Contactanos
+                </h5>
+                <br />
+                <p>
+                  <i
+                    aria-hidden="true"
+                    className="fa fa-map-marker"
+                  />
+                   1010 Bridge Blvd SW, Suite F Albuquerque, NM
+                </p>
+                <p>
+                  <a
+                    href="tel:+1-505-877-1113"
+                  >
+                    <i
+                      aria-hidden="true"
+                      className="fa fa-phone"
+                    />
+                     +1 (505)-877-1113
+                  </a>
+                </p>
+                <p>
+                  <a
+                    href="mailto:emersonvicunadds@gmail.com"
+                  >
+                    <i
+                      aria-hidden="true"
+                      className="fa fa-envelope"
+                    />
+                     emersonvicunadds@gmail.com
+                  </a>
+                </p>
+              </t>
+              <t
+                lg={null}
+                md="6"
+                sm={null}
+                tag="div"
+                xl={null}
+                xs={null}
+              >
+                <br />
+                <h5
+                  className="title"
+                >
+                  Horario
+                </h5>
+                <t
+                  lg={null}
+                  md={null}
+                  sm={null}
+                  tag="div"
+                  xl={null}
+                  xs={null}
+                >
+                  <ul>
+                    <li
+                      className="list-unstyled"
+                    >
+                      <p>
+                        Lunes - Viernes: 9AM - 5PM
+                      </p>
+                    </li>
+                  </ul>
+                </t>
+              </t>
+            </t>,
+            "className": "text-center text-md-left",
+            "fluid": true,
+            "tag": "div",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                <t
+                  lg={null}
+                  md="6"
+                  sm={null}
+                  tag="div"
+                  xl={null}
+                  xs={null}
+                >
+                  <br />
+                  <h5
+                    className="title"
+                  >
+                    Contactanos
+                  </h5>
+                  <br />
+                  <p>
+                    <i
+                      aria-hidden="true"
+                      className="fa fa-map-marker"
+                    />
+                     1010 Bridge Blvd SW, Suite F Albuquerque, NM
+                  </p>
+                  <p>
+                    <a
+                      href="tel:+1-505-877-1113"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="fa fa-phone"
+                      />
+                       +1 (505)-877-1113
+                    </a>
+                  </p>
+                  <p>
+                    <a
+                      href="mailto:emersonvicunadds@gmail.com"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="fa fa-envelope"
+                      />
+                       emersonvicunadds@gmail.com
+                    </a>
+                  </p>
+                </t>,
+                <t
+                  lg={null}
+                  md="6"
+                  sm={null}
+                  tag="div"
+                  xl={null}
+                  xs={null}
+                >
+                  <br />
+                  <h5
+                    className="title"
+                  >
+                    Horario
+                  </h5>
+                  <t
+                    lg={null}
+                    md={null}
+                    sm={null}
+                    tag="div"
+                    xl={null}
+                    xs={null}
+                  >
+                    <ul>
+                      <li
+                        className="list-unstyled"
+                      >
+                        <p>
+                          Lunes - Viernes: 9AM - 5PM
+                        </p>
+                      </li>
+                    </ul>
+                  </t>
+                </t>,
+              ],
+              "tag": "div",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": Array [
+                    <br />,
+                    <h5
+                      className="title"
+                    >
+                      Contactanos
+                    </h5>,
+                    <br />,
+                    <p>
+                      <i
+                        aria-hidden="true"
+                        className="fa fa-map-marker"
+                      />
+                       1010 Bridge Blvd SW, Suite F Albuquerque, NM
+                    </p>,
+                    <p>
+                      <a
+                        href="tel:+1-505-877-1113"
+                      >
+                        <i
+                          aria-hidden="true"
+                          className="fa fa-phone"
+                        />
+                         +1 (505)-877-1113
+                      </a>
+                    </p>,
+                    <p>
+                      <a
+                        href="mailto:emersonvicunadds@gmail.com"
+                      >
+                        <i
+                          aria-hidden="true"
+                          className="fa fa-envelope"
+                        />
+                         emersonvicunadds@gmail.com
+                      </a>
+                    </p>,
+                  ],
+                  "lg": null,
+                  "md": "6",
+                  "sm": null,
+                  "tag": "div",
+                  "xl": null,
+                  "xs": null,
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {},
+                    "ref": null,
+                    "rendered": null,
+                    "type": "br",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Contactanos",
+                      "className": "title",
+                    },
+                    "ref": null,
+                    "rendered": "Contactanos",
+                    "type": "h5",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {},
+                    "ref": null,
+                    "rendered": null,
+                    "type": "br",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <i
+                          aria-hidden="true"
+                          className="fa fa-map-marker"
+                        />,
+                        " 1010 Bridge Blvd SW, Suite F Albuquerque, NM",
+                      ],
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "aria-hidden": "true",
+                          "className": "fa fa-map-marker",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "i",
+                      },
+                      " 1010 Bridge Blvd SW, Suite F Albuquerque, NM",
+                    ],
+                    "type": "p",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <a
+                        href="tel:+1-505-877-1113"
+                      >
+                        <i
+                          aria-hidden="true"
+                          className="fa fa-phone"
+                        />
+                         +1 (505)-877-1113
+                      </a>,
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <i
+                            aria-hidden="true"
+                            className="fa fa-phone"
+                          />,
+                          " +1 (505)-877-1113",
+                        ],
+                        "href": "tel:+1-505-877-1113",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "aria-hidden": "true",
+                            "className": "fa fa-phone",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": "i",
+                        },
+                        " +1 (505)-877-1113",
+                      ],
+                      "type": "a",
+                    },
+                    "type": "p",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <a
+                        href="mailto:emersonvicunadds@gmail.com"
+                      >
+                        <i
+                          aria-hidden="true"
+                          className="fa fa-envelope"
+                        />
+                         emersonvicunadds@gmail.com
+                      </a>,
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <i
+                            aria-hidden="true"
+                            className="fa fa-envelope"
+                          />,
+                          " emersonvicunadds@gmail.com",
+                        ],
+                        "href": "mailto:emersonvicunadds@gmail.com",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "aria-hidden": "true",
+                            "className": "fa fa-envelope",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": "i",
+                        },
+                        " emersonvicunadds@gmail.com",
+                      ],
+                      "type": "a",
+                    },
+                    "type": "p",
+                  },
+                ],
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": Array [
+                    <br />,
+                    <h5
+                      className="title"
+                    >
+                      Horario
+                    </h5>,
+                    <t
+                      lg={null}
+                      md={null}
+                      sm={null}
+                      tag="div"
+                      xl={null}
+                      xs={null}
+                    >
+                      <ul>
+                        <li
+                          className="list-unstyled"
+                        >
+                          <p>
+                            Lunes - Viernes: 9AM - 5PM
+                          </p>
+                        </li>
+                      </ul>
+                    </t>,
+                  ],
+                  "lg": null,
+                  "md": "6",
+                  "sm": null,
+                  "tag": "div",
+                  "xl": null,
+                  "xs": null,
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {},
+                    "ref": null,
+                    "rendered": null,
+                    "type": "br",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Horario",
+                      "className": "title",
+                    },
+                    "ref": null,
+                    "rendered": "Horario",
+                    "type": "h5",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": <ul>
+                        <li
+                          className="list-unstyled"
+                        >
+                          <p>
+                            Lunes - Viernes: 9AM - 5PM
+                          </p>
+                        </li>
+                      </ul>,
+                      "lg": null,
+                      "md": null,
+                      "sm": null,
+                      "tag": "div",
+                      "xl": null,
+                      "xs": null,
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <li
+                          className="list-unstyled"
+                        >
+                          <p>
+                            Lunes - Viernes: 9AM - 5PM
+                          </p>
+                        </li>,
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": <p>
+                            Lunes - Viernes: 9AM - 5PM
+                          </p>,
+                          "className": "list-unstyled",
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "Lunes - Viernes: 9AM - 5PM",
+                          },
+                          "ref": null,
+                          "rendered": "Lunes - Viernes: 9AM - 5PM",
+                          "type": "p",
+                        },
+                        "type": "li",
+                      },
+                      "type": "ul",
+                    },
+                    "type": [Function],
+                  },
+                ],
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <t
+              fluid={true}
+              tag="div"
+            >
+              <p>
+                 
+                DISEÑADO ESPECIALMENTE PARA EMERSON VICUÑA, DDS POR ALEJANDRO VICUÑA
+                 
+              </p>
+            </t>,
+            "className": "footer-copyright text-center py-3",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <p>
+                 
+                DISEÑADO ESPECIALMENTE PARA EMERSON VICUÑA, DDS POR ALEJANDRO VICUÑA
+                 
+              </p>,
+              "fluid": true,
+              "tag": "div",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  " ",
+                  "DISEÑADO ESPECIALMENTE PARA EMERSON VICUÑA, DDS POR ALEJANDRO VICUÑA",
+                  " ",
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                " ",
+                "DISEÑADO ESPECIALMENTE PARA EMERSON VICUÑA, DDS POR ALEJANDRO VICUÑA",
+                " ",
+              ],
+              "type": "p",
+            },
+            "type": [Function],
+          },
+          "type": "div",
+        },
+      ],
+      "type": [Function],
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <t
+          className="page-footer font-small"
+          color="unique-color"
+          tag="footer"
+        >
+          <t
+            className="text-center text-md-left"
+            fluid={true}
+            tag="div"
+          >
+            <t
+              tag="div"
+            >
+              <t
+                lg={null}
+                md="6"
+                sm={null}
+                tag="div"
+                xl={null}
+                xs={null}
+              >
+                <br />
+                <h5
+                  className="title"
+                >
+                  Contactanos
+                </h5>
+                <br />
+                <p>
+                  <i
+                    aria-hidden="true"
+                    className="fa fa-map-marker"
+                  />
+                   1010 Bridge Blvd SW, Suite F Albuquerque, NM
+                </p>
+                <p>
+                  <a
+                    href="tel:+1-505-877-1113"
+                  >
+                    <i
+                      aria-hidden="true"
+                      className="fa fa-phone"
+                    />
+                     +1 (505)-877-1113
+                  </a>
+                </p>
+                <p>
+                  <a
+                    href="mailto:emersonvicunadds@gmail.com"
+                  >
+                    <i
+                      aria-hidden="true"
+                      className="fa fa-envelope"
+                    />
+                     emersonvicunadds@gmail.com
+                  </a>
+                </p>
+              </t>
+              <t
+                lg={null}
+                md="6"
+                sm={null}
+                tag="div"
+                xl={null}
+                xs={null}
+              >
+                <br />
+                <h5
+                  className="title"
+                >
+                  Horario
+                </h5>
+                <t
+                  lg={null}
+                  md={null}
+                  sm={null}
+                  tag="div"
+                  xl={null}
+                  xs={null}
+                >
+                  <ul>
+                    <li
+                      className="list-unstyled"
+                    >
+                      <p>
+                        Lunes - Viernes: 9AM - 5PM
+                      </p>
+                    </li>
+                  </ul>
+                </t>
+              </t>
+            </t>
+          </t>
+          <div
+            className="footer-copyright text-center py-3"
+          >
+            <t
+              fluid={true}
+              tag="div"
+            >
+              <p>
+                 
+                DISEÑADO ESPECIALMENTE PARA EMERSON VICUÑA, DDS POR ALEJANDRO VICUÑA
+                 
+              </p>
+            </t>
+          </div>
+        </t>,
+        "className": "footer",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <t
+              className="text-center text-md-left"
+              fluid={true}
+              tag="div"
+            >
+              <t
+                tag="div"
+              >
+                <t
+                  lg={null}
+                  md="6"
+                  sm={null}
+                  tag="div"
+                  xl={null}
+                  xs={null}
+                >
+                  <br />
+                  <h5
+                    className="title"
+                  >
+                    Contactanos
+                  </h5>
+                  <br />
+                  <p>
+                    <i
+                      aria-hidden="true"
+                      className="fa fa-map-marker"
+                    />
+                     1010 Bridge Blvd SW, Suite F Albuquerque, NM
+                  </p>
+                  <p>
+                    <a
+                      href="tel:+1-505-877-1113"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="fa fa-phone"
+                      />
+                       +1 (505)-877-1113
+                    </a>
+                  </p>
+                  <p>
+                    <a
+                      href="mailto:emersonvicunadds@gmail.com"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="fa fa-envelope"
+                      />
+                       emersonvicunadds@gmail.com
+                    </a>
+                  </p>
+                </t>
+                <t
+                  lg={null}
+                  md="6"
+                  sm={null}
+                  tag="div"
+                  xl={null}
+                  xs={null}
+                >
+                  <br />
+                  <h5
+                    className="title"
+                  >
+                    Horario
+                  </h5>
+                  <t
+                    lg={null}
+                    md={null}
+                    sm={null}
+                    tag="div"
+                    xl={null}
+                    xs={null}
+                  >
+                    <ul>
+                      <li
+                        className="list-unstyled"
+                      >
+                        <p>
+                          Lunes - Viernes: 9AM - 5PM
+                        </p>
+                      </li>
+                    </ul>
+                  </t>
+                </t>
+              </t>
+            </t>,
+            <div
+              className="footer-copyright text-center py-3"
+            >
+              <t
+                fluid={true}
+                tag="div"
+              >
+                <p>
+                   
+                  DISEÑADO ESPECIALMENTE PARA EMERSON VICUÑA, DDS POR ALEJANDRO VICUÑA
+                   
+                </p>
+              </t>
+            </div>,
+          ],
+          "className": "page-footer font-small",
+          "color": "unique-color",
+          "tag": "footer",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <t
+                tag="div"
+              >
+                <t
+                  lg={null}
+                  md="6"
+                  sm={null}
+                  tag="div"
+                  xl={null}
+                  xs={null}
+                >
+                  <br />
+                  <h5
+                    className="title"
+                  >
+                    Contactanos
+                  </h5>
+                  <br />
+                  <p>
+                    <i
+                      aria-hidden="true"
+                      className="fa fa-map-marker"
+                    />
+                     1010 Bridge Blvd SW, Suite F Albuquerque, NM
+                  </p>
+                  <p>
+                    <a
+                      href="tel:+1-505-877-1113"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="fa fa-phone"
+                      />
+                       +1 (505)-877-1113
+                    </a>
+                  </p>
+                  <p>
+                    <a
+                      href="mailto:emersonvicunadds@gmail.com"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="fa fa-envelope"
+                      />
+                       emersonvicunadds@gmail.com
+                    </a>
+                  </p>
+                </t>
+                <t
+                  lg={null}
+                  md="6"
+                  sm={null}
+                  tag="div"
+                  xl={null}
+                  xs={null}
+                >
+                  <br />
+                  <h5
+                    className="title"
+                  >
+                    Horario
+                  </h5>
+                  <t
+                    lg={null}
+                    md={null}
+                    sm={null}
+                    tag="div"
+                    xl={null}
+                    xs={null}
+                  >
+                    <ul>
+                      <li
+                        className="list-unstyled"
+                      >
+                        <p>
+                          Lunes - Viernes: 9AM - 5PM
+                        </p>
+                      </li>
+                    </ul>
+                  </t>
+                </t>
+              </t>,
+              "className": "text-center text-md-left",
+              "fluid": true,
+              "tag": "div",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <t
+                    lg={null}
+                    md="6"
+                    sm={null}
+                    tag="div"
+                    xl={null}
+                    xs={null}
+                  >
+                    <br />
+                    <h5
+                      className="title"
+                    >
+                      Contactanos
+                    </h5>
+                    <br />
+                    <p>
+                      <i
+                        aria-hidden="true"
+                        className="fa fa-map-marker"
+                      />
+                       1010 Bridge Blvd SW, Suite F Albuquerque, NM
+                    </p>
+                    <p>
+                      <a
+                        href="tel:+1-505-877-1113"
+                      >
+                        <i
+                          aria-hidden="true"
+                          className="fa fa-phone"
+                        />
+                         +1 (505)-877-1113
+                      </a>
+                    </p>
+                    <p>
+                      <a
+                        href="mailto:emersonvicunadds@gmail.com"
+                      >
+                        <i
+                          aria-hidden="true"
+                          className="fa fa-envelope"
+                        />
+                         emersonvicunadds@gmail.com
+                      </a>
+                    </p>
+                  </t>,
+                  <t
+                    lg={null}
+                    md="6"
+                    sm={null}
+                    tag="div"
+                    xl={null}
+                    xs={null}
+                  >
+                    <br />
+                    <h5
+                      className="title"
+                    >
+                      Horario
+                    </h5>
+                    <t
+                      lg={null}
+                      md={null}
+                      sm={null}
+                      tag="div"
+                      xl={null}
+                      xs={null}
+                    >
+                      <ul>
+                        <li
+                          className="list-unstyled"
+                        >
+                          <p>
+                            Lunes - Viernes: 9AM - 5PM
+                          </p>
+                        </li>
+                      </ul>
+                    </t>
+                  </t>,
+                ],
+                "tag": "div",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": Array [
+                      <br />,
+                      <h5
+                        className="title"
+                      >
+                        Contactanos
+                      </h5>,
+                      <br />,
+                      <p>
+                        <i
+                          aria-hidden="true"
+                          className="fa fa-map-marker"
+                        />
+                         1010 Bridge Blvd SW, Suite F Albuquerque, NM
+                      </p>,
+                      <p>
+                        <a
+                          href="tel:+1-505-877-1113"
+                        >
+                          <i
+                            aria-hidden="true"
+                            className="fa fa-phone"
+                          />
+                           +1 (505)-877-1113
+                        </a>
+                      </p>,
+                      <p>
+                        <a
+                          href="mailto:emersonvicunadds@gmail.com"
+                        >
+                          <i
+                            aria-hidden="true"
+                            className="fa fa-envelope"
+                          />
+                           emersonvicunadds@gmail.com
+                        </a>
+                      </p>,
+                    ],
+                    "lg": null,
+                    "md": "6",
+                    "sm": null,
+                    "tag": "div",
+                    "xl": null,
+                    "xs": null,
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {},
+                      "ref": null,
+                      "rendered": null,
+                      "type": "br",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Contactanos",
+                        "className": "title",
+                      },
+                      "ref": null,
+                      "rendered": "Contactanos",
+                      "type": "h5",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {},
+                      "ref": null,
+                      "rendered": null,
+                      "type": "br",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <i
+                            aria-hidden="true"
+                            className="fa fa-map-marker"
+                          />,
+                          " 1010 Bridge Blvd SW, Suite F Albuquerque, NM",
+                        ],
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "aria-hidden": "true",
+                            "className": "fa fa-map-marker",
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": "i",
+                        },
+                        " 1010 Bridge Blvd SW, Suite F Albuquerque, NM",
+                      ],
+                      "type": "p",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <a
+                          href="tel:+1-505-877-1113"
+                        >
+                          <i
+                            aria-hidden="true"
+                            className="fa fa-phone"
+                          />
+                           +1 (505)-877-1113
+                        </a>,
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            <i
+                              aria-hidden="true"
+                              className="fa fa-phone"
+                            />,
+                            " +1 (505)-877-1113",
+                          ],
+                          "href": "tel:+1-505-877-1113",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "aria-hidden": "true",
+                              "className": "fa fa-phone",
+                            },
+                            "ref": null,
+                            "rendered": null,
+                            "type": "i",
+                          },
+                          " +1 (505)-877-1113",
+                        ],
+                        "type": "a",
+                      },
+                      "type": "p",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <a
+                          href="mailto:emersonvicunadds@gmail.com"
+                        >
+                          <i
+                            aria-hidden="true"
+                            className="fa fa-envelope"
+                          />
+                           emersonvicunadds@gmail.com
+                        </a>,
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            <i
+                              aria-hidden="true"
+                              className="fa fa-envelope"
+                            />,
+                            " emersonvicunadds@gmail.com",
+                          ],
+                          "href": "mailto:emersonvicunadds@gmail.com",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "aria-hidden": "true",
+                              "className": "fa fa-envelope",
+                            },
+                            "ref": null,
+                            "rendered": null,
+                            "type": "i",
+                          },
+                          " emersonvicunadds@gmail.com",
+                        ],
+                        "type": "a",
+                      },
+                      "type": "p",
+                    },
+                  ],
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": Array [
+                      <br />,
+                      <h5
+                        className="title"
+                      >
+                        Horario
+                      </h5>,
+                      <t
+                        lg={null}
+                        md={null}
+                        sm={null}
+                        tag="div"
+                        xl={null}
+                        xs={null}
+                      >
+                        <ul>
+                          <li
+                            className="list-unstyled"
+                          >
+                            <p>
+                              Lunes - Viernes: 9AM - 5PM
+                            </p>
+                          </li>
+                        </ul>
+                      </t>,
+                    ],
+                    "lg": null,
+                    "md": "6",
+                    "sm": null,
+                    "tag": "div",
+                    "xl": null,
+                    "xs": null,
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {},
+                      "ref": null,
+                      "rendered": null,
+                      "type": "br",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Horario",
+                        "className": "title",
+                      },
+                      "ref": null,
+                      "rendered": "Horario",
+                      "type": "h5",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": <ul>
+                          <li
+                            className="list-unstyled"
+                          >
+                            <p>
+                              Lunes - Viernes: 9AM - 5PM
+                            </p>
+                          </li>
+                        </ul>,
+                        "lg": null,
+                        "md": null,
+                        "sm": null,
+                        "tag": "div",
+                        "xl": null,
+                        "xs": null,
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": <li
+                            className="list-unstyled"
+                          >
+                            <p>
+                              Lunes - Viernes: 9AM - 5PM
+                            </p>
+                          </li>,
+                        },
+                        "ref": null,
+                        "rendered": Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": <p>
+                              Lunes - Viernes: 9AM - 5PM
+                            </p>,
+                            "className": "list-unstyled",
+                          },
+                          "ref": null,
+                          "rendered": Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "Lunes - Viernes: 9AM - 5PM",
+                            },
+                            "ref": null,
+                            "rendered": "Lunes - Viernes: 9AM - 5PM",
+                            "type": "p",
+                          },
+                          "type": "li",
+                        },
+                        "type": "ul",
+                      },
+                      "type": [Function],
+                    },
+                  ],
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <t
+                fluid={true}
+                tag="div"
+              >
+                <p>
+                   
+                  DISEÑADO ESPECIALMENTE PARA EMERSON VICUÑA, DDS POR ALEJANDRO VICUÑA
+                   
+                </p>
+              </t>,
+              "className": "footer-copyright text-center py-3",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <p>
+                   
+                  DISEÑADO ESPECIALMENTE PARA EMERSON VICUÑA, DDS POR ALEJANDRO VICUÑA
+                   
+                </p>,
+                "fluid": true,
+                "tag": "div",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    " ",
+                    "DISEÑADO ESPECIALMENTE PARA EMERSON VICUÑA, DDS POR ALEJANDRO VICUÑA",
+                    " ",
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  " ",
+                  "DISEÑADO ESPECIALMENTE PARA EMERSON VICUÑA, DDS POR ALEJANDRO VICUÑA",
+                  " ",
+                ],
+                "type": "p",
+              },
+              "type": [Function],
+            },
+            "type": "div",
+          },
+        ],
+        "type": [Function],
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
