@@ -16,8 +16,8 @@ const Header = () => {
                           style={{ flexDirection: "column" }}
                           className="flex-center  text-white text-center"
                     >
-                        <h1 className="display-3">Emerson Vicuña, DDS Family Dentistry</h1>
-                        <h2>Albuquerque, New Mexico</h2>
+                        <p className="home-header-1">Emerson Vicuña, DDS Family Dentistry</p>
+                        <p className="home-header-2">Albuquerque, New Mexico</p>
                     </Mask>
                 </View>
             </header>
