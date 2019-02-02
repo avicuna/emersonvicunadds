@@ -16,6 +16,7 @@
     padding: 15px;
 }
 
+
 .call-button {
     border: 2px solid #2196F3;
     border-radius: 32px;
@@ -28,6 +29,21 @@
 }
 
 .call-button:hover {
+    background: white;
+    color: #2196F3;
+}
+
+.call-small {
+    border-radius: 16px;
+    font-size: 16px;
+    padding: 10px;
+    margin: 0;
+    cursor: pointer;
+    color: white;
+    background: none;
+}
+
+.call-small:hover {
     background: white;
     color: #2196F3;
 }
@@ -50,10 +66,14 @@
     .navbar {
         background-color: #1C2331;
     }
+    .call {
+        display: none;
+    }
 }
-@media (min-width: 768px) {
-    .view {
-        overflow: visible;
+
+@media only screen and (min-width: 769px) {
+    .call-small{
+        display: none;
     }
 }
 

@@ -23,10 +23,13 @@ class HomeNav extends React.Component {
                     <NavbarBrand href="/home">
                         <img src={tooth} alt="happy-tooth" className="logo"/>
                     </NavbarBrand>
-                    <a style={{ marginLeft: '30px'}} href="tel:+1-505-877-1113">
+                    <a className="call" style={{ marginLeft: '30px'}} href="tel:+1-505-877-1113">
                         <button type="button" className="call-button">
                             <i className="fa fa-phone" aria-hidden="true"/> (505)-877-1113
                         </button>
+                    </a>
+                    <a className="call-small" style={{ marginLeft: '30px'}} href="tel:+1-505-877-1113">
+                        <i className="fa fa-phone" aria-hidden="true"/> (505)-877-1113
                     </a>
                     <NavbarToggler onClick = { this.onClick } />
                     <Collapse isOpen = { this.state.collapse } navbar>
