@@ -61,17 +61,22 @@
     border-radius: 5px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 849px) {
+    .abq {
+        width: 100%;
+        height: 50vh;
+        margin-top: 60px;
+    }
     .navbar {
         background-color: #1C2331;
     }
 
     .home-header-1{
-        font-size: 50px;
+        font-size: 30px;
     }
 
     .home-header-2{
-        font-size: 35px;
+        font-size: 20px;
     }
 
     .call {
@@ -79,26 +84,30 @@
     }
 }
 
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 850px) {
+    .abq {
+        max-width: 100%;
+        height: auto;
+    }
     .call-small{
         display: none;
     }
     .home-header-1{
-        font-size: 75px;
+        font-size: 60px;
     }
 
     .home-header-2{
-        font-size: 50px;
+        font-size: 45px;
     }
 }
 
 /**********************
   Home Page
  **********************/
-.abq {
-    height: 100vh;
-    width: 100%;
-}
+/*.abq {*/
+    /*max-width: 100%;*/
+    /*height: auto;*/
+/*}*/
 
 .accordion {
     background-color: white;
