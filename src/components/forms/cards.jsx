@@ -8,20 +8,20 @@ const Cards = (props) => {
         <div className="forms-jumbotron">
             <MDBContainer className="mt-5 text-center">
                 <MDBJumbotron>
-                    <p className="lead">
+                    <p className="forms-card-header">
                         {text.forms.cardHeader}
                     </p>
                     <hr className="my-2" />
                     <br/>
                     <Row>
                         <Col>
-                            <p className="lead">
+                            <p className="forms-text-1">
                                 {text.forms.doc1}
                             </p>
                             <a onClick={getMedicalHistory} href="#click"><Fa icon="download" size="3x"/></a>
                         </Col>
                         <Col>
-                            <p className="lead">
+                            <p className="forms-text-2">
                                 {text.forms.doc2}
                             </p>
                             <a onClick={getPatientRegistration} href="#click"><Fa icon="download" size="3x"/></a>

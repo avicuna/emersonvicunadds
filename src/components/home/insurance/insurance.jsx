@@ -6,36 +6,36 @@ const Insurance = (props) => {
     return (
         <div className="custom-jumbotron">
             <Jumbotron>
-                <h1 className="display-4">{text.home.insurance.header}</h1>
+                <p className="insurance-header">{text.home.insurance.header}</p>
                 <hr className="my-2" />
                 <br/>
                 <Row>
                     <Col>
-                        <h1>United Healthcare</h1>
+                        <p>United Healthcare</p>
                     </Col>
                     <Col>
-                        <h1>Delta Dental</h1>
+                        <p>Delta Dental</p>
                     </Col>
                     <Col>
-                        <h1>MetLife</h1>
+                        <p>MetLife</p>
                     </Col>
                     <Col>
-                        <h1>Guardian</h1>
+                        <p>Guardian</p>
                     </Col>
                     <Col>
-                        <h1>Ameritas Group</h1>
+                        <p>Ameritas Group</p>
                     </Col>
                     <Col>
-                        <h1>Cigna</h1>
+                        <p>Cigna</p>
                     </Col>
                     <Col>
-                        <h1>Medicaid</h1>
+                        <p>Medicaid</p>
                     </Col>
                     <Col>
-                        <h1>Principal</h1>
+                        <p>Principal</p>
                     </Col>
                     <Col>
-                        <h1>United Concordia</h1>
+                        <p>United Concordia</p>
                     </Col>
                 </Row>
             </Jumbotron>

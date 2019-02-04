@@ -6,7 +6,7 @@ const AboutDentist = (props) => {
     const {text} = props;
     return (
         <div className="about-dentist">
-            <h1 className="display-4">{text.about.header}</h1>
+            <p className="about-dentist-header">{text.about.header}</p>
             <Animation type="zoomInDown" duration="1s">
                 <img
                     src={dentist}

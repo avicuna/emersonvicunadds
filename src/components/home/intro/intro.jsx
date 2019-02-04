@@ -6,8 +6,8 @@ import { Jumbotron } from 'reactstrap';
      return (
          <div className="custom-jumbotron">
              <Jumbotron>
-                 <h1 className="intro-header display-4">{text.home.intro.header}</h1>
-                 <p className="lead">{text.home.intro.p}</p>
+                 <p className="home-intro-1">{text.home.intro.header}</p>
+                 <p className="home-intro-2">{text.home.intro.p}</p>
              </Jumbotron>
          </div>
      );

@@ -14,9 +14,9 @@ const Faq = (props) => {
         }
     };
     return (
-        <div style={{textAlign: 'center'}} className="faq custom-jumbotron">
+        <div style={{textAlign: 'center'}} className="custom-jumbotron">
             <Jumbotron>
-                <h1 className="display-4">{text.home.faq.title}</h1>
+                <p className="faq-header">{text.home.faq.title}</p>
                 <button className="accordion" onClick={onClick}>{text.home.faq.firstAppointment.title}</button>
                 <div className="panel">
                     <button className="accordion" onClick={onClick}>{text.home.faq.firstAppointment.questions[1]}</button>

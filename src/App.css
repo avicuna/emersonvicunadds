@@ -48,17 +48,16 @@
     color: #2196F3;
 }
 
-/*.footer {*/
-    /*bottom: 0;*/
-    /*padding-top: 630px;*/
-/*}*/
-
 .logo {
     font-size: 25px;
     height: 40px;
     width: 40px;
     text-align: center;
     border-radius: 5px;
+}
+
+.footer-bottom {
+    color: white;
 }
 
 @media only screen and (max-width: 849px) {
@@ -71,13 +70,15 @@
         background-color: #1C2331;
     }
 
-    .home-header-1{
-        font-size: 30px;
+    .home-header-1, .custom-jumbotron .home-intro-1, .custom-jumbotron .insurance-header,
+    .custom-jumbotron .faq-header, .about-dentist-header, .services-header, .forms-header{
+        font-size: 35px;
     }
 
-    .home-header-2{
+    .home-header-2, .custom-jumbotron .home-intro-2, .custom-jumbotron p, .about-text p, .forms-card-header, .forms-text-1, .forms-text-2{
         font-size: 20px;
     }
+
 
     .call {
         display: none;
@@ -92,22 +93,20 @@
     .call-small{
         display: none;
     }
-    .home-header-1{
-        font-size: 60px;
+    .home-header-1, .custom-jumbotron .home-intro-1, .custom-jumbotron .insurance-header, .custom-jumbotron
+    .faq-header, .about-dentist-header, .services-header, .forms-header{
+        font-size: 45px;
+        /*font-weight: 300;*/
     }
 
-    .home-header-2{
-        font-size: 45px;
+    .home-header-2, .custom-jumbotron .home-intro-2, .custom-jumbotron p, .about-text p, .forms-card-header, .forms-text-1, .forms-text-2{
+        font-size: 25px;
     }
 }
 
 /**********************
   Home Page
  **********************/
-/*.abq {*/
-    /*max-width: 100%;*/
-    /*height: auto;*/
-/*}*/
 
 .accordion {
     background-color: white;
@@ -155,7 +154,7 @@
 /**********************
   About Page
  **********************/
-.about-dentist h1 {
+.about-dentist p {
     display: block;
     text-align: center;
     padding-top: 80px;
@@ -184,7 +183,7 @@
 .services {
     display: block;
 }
-.services h1 {
+.services .services-header {
     display: block;
     text-align: center;
     padding-top: 100px;
@@ -245,7 +244,7 @@
  Forms Page
 **********************/
 
-.forms h1 {
+.forms .forms-header {
     display: block;
     text-align: center;
     padding-top: 100px;
@@ -263,7 +262,7 @@
 
 .forms .footer {
     /*min-height: 100vh; !* will cover the 100% of viewport *!*/
-    /*overflow: hidden;*/
+    overflow: hidden;
     display: block;
     position: relative;
     margin-top: 18%; /* height of your footer */

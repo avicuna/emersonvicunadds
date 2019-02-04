@@ -43,7 +43,7 @@ class FooterPage extends React.Component {
                     </Container>
                     <div className="footer-copyright text-center py-3">
                         <Container fluid>
-                            <p> {text.footer.item4} </p>
+                            <p className="footer-bottom"> {text.footer.item4} </p>
                         </Container>
                     </div>
                 </Footer>
