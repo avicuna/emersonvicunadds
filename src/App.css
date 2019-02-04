@@ -75,7 +75,8 @@
         font-size: 35px;
     }
 
-    .home-header-2, .custom-jumbotron .home-intro-2, .custom-jumbotron p, .about-text p, .forms-card-header, .forms-text-1, .forms-text-2{
+    .home-header-2, .custom-jumbotron .home-intro-2, .custom-jumbotron p, .about-text p,
+    .forms-card-header, .forms-text-1, .forms-text-2{
         font-size: 20px;
     }
 
@@ -88,18 +89,18 @@
 @media only screen and (min-width: 850px) {
     .abq {
         max-width: 100%;
-        height: auto;
+        height: 100vh;
     }
     .call-small{
         display: none;
     }
-    .home-header-1, .custom-jumbotron .home-intro-1, .custom-jumbotron .insurance-header, .custom-jumbotron
-    .faq-header, .about-dentist-header, .services-header, .forms-header{
+    .home-header-1, .custom-jumbotron .home-intro-1, .custom-jumbotron .insurance-header,
+    .custom-jumbotron .faq-header, .about-dentist-header, .services-header, .forms-header{
         font-size: 45px;
-        /*font-weight: 300;*/
     }
 
-    .home-header-2, .custom-jumbotron .home-intro-2, .custom-jumbotron p, .about-text p, .forms-card-header, .forms-text-1, .forms-text-2{
+    .home-header-2, .custom-jumbotron .home-intro-2, .custom-jumbotron p, .about-text p,
+    .forms-card-header, .forms-text-1, .forms-text-2{
         font-size: 25px;
     }
 }
