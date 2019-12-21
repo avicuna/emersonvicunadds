@@ -1,19 +1,17 @@
 language: node_js
 node_js:
-  - "11.2.0"
-
+- 11.2.0
 branches:
   only:
-    - master
-
+  - master
 cache:
   directories:
   - node_modules
-
 script:
-  - npm run build
-
+- npm run build
 deploy:
   provider: firebase
   skip_cleanup: true
-  token: $FIREBASE_TOKEN
+  token:
+    secure: SkK3FFZFrqPCGOoOWBwQ6YMvavnTPV+cJDHOp6eURik76akglCunb1GwgwqQV8y9lTlfVu9uBEs3JUckEUjmM3AKqlA0y88X0PeAfnlM45YP6cS75o58pociqNszYuPgMYb7IyjIoxDNjdtk9NlA/x45m98dgUYB2GI6OJbmd8zpFhCtAIV3O4iXEbY8kXf5fV2rTIU2GpWSlQ/eumk+XRloNA1qLIkZ3+mnetVzEgQPaRSdZi2OeoSDL+rEPSvZC6Cp0GDwdGXvL4k51sAE/vU0a8Vc+Hv6GFXMtop8qwjtHG8jYy/EDrkj9w8rWUj0LwN3ftNezUEfkJYnPNgkdyk2h8Zfwg17lfENf3nd7+UXfiuidboyAYYdsd/FU5ncHnBCX1ENqi4+Ydx9ImJIieCkN7ywv+J3bKUavitkl2APbA2BqKl7T+6QqaYNCuEJ/iWoC1z9K07hL4CocO70halc83tO2QKl4pNFpMIYUQMzX6VVD44MeDH0jKbQ4xoL4sCtolDqI7SipTO3Zzv/UcMy0MrZ8KBX3yAP+8Irvq1RPnL4HK02DPMC5jwjElxnA1fJgiCe1Xb1byyLtMKnyA5eAVULn6hPOPUc02xwj3jrXj8BUvIpwy6EPqDQr8jCxIxkHvqVIrsU8f7kIqULMxpGrGoapX8lQ/E/fZNgda8=
+  message: "Deploying Emerson Vicuna DDS website"
