@@ -11,7 +11,7 @@ export const nav = {
 export const footer = {
     item1: 'Contactanos',
     item2: 'Horario',
-    item3: 'Lunes - Viernes: 9AM - 5PM',
+    item3: 'Lunes - Jueves: 9AM - 5PM',
     item4: 'DISEÑADO ESPECIALMENTE PARA EMERSON VICUÑA, DDS POR ALEJANDRO VICUÑA'
 };
 

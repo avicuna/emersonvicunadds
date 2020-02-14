@@ -11,7 +11,7 @@ export const nav = {
 export const footer = {
     item1: 'Get In Touch',
     item2: 'Hours',
-    item3: 'Monday - Friday: 9AM - 5PM',
+    item3: 'Monday - Thursday: 9AM - 5PM',
     item4: 'HANDMADE FOR EMERSON VICUÑA, DDS BY ALEJANDRO VICUÑA'
 };
 
