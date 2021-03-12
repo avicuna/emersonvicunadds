@@ -35,7 +35,7 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "react-dev-utils": "^10.1.0",
+    "react-dev-utils": "^11.0.4",
     "react-scripts": "^3.3.1"
   }
 }
